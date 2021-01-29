@@ -7,9 +7,11 @@
         <e p="Scripts" t="Include">
           <e p="BaseItemController.cs" t="Include" />
           <e p="BaseWeaponController.cs" t="Include" />
+          <e p="CameraFollower.cs" t="Include" />
           <e p="Health.cs" t="Include" />
           <e p="HitboxController.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
+          <e p="StupidAIMovement.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

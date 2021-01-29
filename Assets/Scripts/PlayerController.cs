@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
@@ -14,7 +13,10 @@ public class PlayerController : MonoBehaviour {
 	public KeyCode itemKey = KeyCode.K;
 
 	public Rigidbody2D rigidbody2D;
+	public BaseWeaponController currentWeapon;
+	public BaseItemController currentItem;
 
+	public Direction facing;
 	public Vector2 velocity;
 
 	public void Update() {
@@ -23,9 +25,57 @@ public class PlayerController : MonoBehaviour {
 		if (inControl) {
 			float vertical = (Input.GetKey(upKey) ? 1 : 0) + (Input.GetKey(downKey) ? -1 : 0);
 			float horizontal = (Input.GetKey(rightKey) ? 1 : 0) + (Input.GetKey(leftKey) ? -1 : 0);
+
+			Direction curr = facing;
+			
+			if (vertical > 0) curr = Direction.UP;
+			else if (vertical < 0) curr = Direction.DOWN;
+			
+			if (horizontal > 0) curr = Direction.RIGHT;
+			else if (horizontal < 0) curr = Direction.LEFT;
+			
+			Turn(curr);
+			
 			velocity = new Vector2(horizontal, vertical).normalized * speed;
+
+			if (currentWeapon && currentWeapon.isAttacking) {
+				if (Input.GetKeyUp(attackKey)) {
+					if (currentWeapon != null) currentWeapon.OnRelease();
+				}
+			} else if (currentItem && currentItem.isUsing) {
+				if (Input.GetKeyUp(itemKey)) {
+					if (currentItem != null) currentItem.OnRelease();
+				}
+			} else {
+				if (Input.GetKeyDown(attackKey)) {
+					if (currentWeapon != null) currentWeapon.OnPress();
+				} else if (Input.GetKeyDown(itemKey)) {
+					if (currentItem != null) currentItem.OnPress();
+				}
+			}
 		}
 
 		rigidbody2D.velocity = velocity;
 	}
+
+	public void Turn(Direction direction) {
+		if (direction == facing) return;
+		facing = direction;
+		Vector3 eulerAngle = Vector3.one;
+		switch (direction) {
+			case Direction.UP: eulerAngle = new Vector3(0, 0, 0); break;
+			case Direction.DOWN: eulerAngle = new Vector3(0, 0, 180); break;
+			case Direction.LEFT: eulerAngle = new Vector3(0, 0, 90); break;
+			case Direction.RIGHT: eulerAngle = new Vector3(0, 0, -90); break;
+		}
+		
+		transform.rotation = Quaternion.Euler(eulerAngle);
+	}
+}
+
+public enum Direction {
+	UP,
+	DOWN,
+	LEFT,
+	RIGHT
 }
