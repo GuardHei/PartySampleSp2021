@@ -3,6 +3,8 @@ using UnityEngine.Events;
 
 public class Health : MonoBehaviour {
 
+	public bool invincible;
+	
 	public int maxHealth;
 	public int health;
 
@@ -11,9 +13,11 @@ public class Health : MonoBehaviour {
 	public UnityEvent onDeath;
 
 	public void Hit(int damage) {
+		if (invincible) return;
 		health -= damage;
 		health = Mathf.Max(health, 0);
 		onHit?.Invoke();
+		print(name + " takes " + damage + " dmg");
 		if (health == 0) Die();
 	}
 
@@ -26,4 +30,6 @@ public class Health : MonoBehaviour {
 	public void Die() {
 		onDeath?.Invoke();
 	}
+
+	public void SelfDestroy() => Destroy(gameObject);
 }

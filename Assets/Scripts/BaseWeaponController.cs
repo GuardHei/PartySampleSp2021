@@ -10,13 +10,12 @@ public class BaseWeaponController : MonoBehaviour {
 		isAttacking = true;
 		Debug.Log("Weapon OnPress");
 		GetComponent<SpriteRenderer>().enabled = true;
-		GetComponent<Collider2D>().enabled = true;
+		GetComponent<HitboxController>().Attack();
 	}
 
 	public virtual void OnRelease() {
 		isAttacking = false;
 		Debug.Log("Weapon OnRelease");
 		GetComponent<SpriteRenderer>().enabled = false;
-		GetComponent<Collider2D>().enabled = false;
 	}
 }

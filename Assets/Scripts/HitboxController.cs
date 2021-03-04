@@ -1,20 +1,26 @@
-﻿using UnityEngine;
+﻿using System.Diagnostics;
+using UnityEngine;
 
-[RequireComponent(typeof(Collider2D))]
 public class HitboxController : MonoBehaviour {
 
 	public int damage;
-	public string[] damageTags;
-	
-	public void OnTriggerEnter2D(Collider2D other) {
-		if (damageTags != null) {
-			GameObject go = other.gameObject;
-			foreach (var tag in damageTags) {
-				if (go.CompareTag(tag)) {
-					if (TryGetComponent(out Health health)) health.Hit(damage);
-					return;
-				}
-			}
+	public LayerMask enemyLayers;
+	public Transform attackPoint;
+	public float range;
+
+	public void Attack() {
+		Vector3 position = attackPoint == null ? transform.position : attackPoint.position;
+		Collider2D[] hits = Physics2D.OverlapCircleAll(position, range, enemyLayers);
+		foreach (var hit in hits) {
+			if (hit == null) break;
+			if (hit.TryGetComponent(out Health health)) health.Hit(damage);
 		}
+	}
+
+	[Conditional("UNITY_EDITOR")]
+	public void OnDrawGizmosSelected() {
+		Vector3 position = attackPoint == null ? transform.position : attackPoint.position;
+		Gizmos.color = Color.red;
+		Gizmos.DrawWireSphere(position, range);
 	}
 }
