@@ -3,6 +3,7 @@
 public class PlayerController : MonoBehaviour {
 
 	public bool inControl = true;
+	public bool canWarp = true;
 	public float speed = 5f;
 	
 	public KeyCode upKey = KeyCode.W;
@@ -11,6 +12,7 @@ public class PlayerController : MonoBehaviour {
 	public KeyCode rightKey = KeyCode.D;
 	public KeyCode attackKey = KeyCode.J;
 	public KeyCode itemKey = KeyCode.K;
+	public KeyCode warpKey = KeyCode.Q;
 
 	public Rigidbody2D rigidbody2D;
 	public BaseWeaponController currentWeapon;
@@ -51,6 +53,12 @@ public class PlayerController : MonoBehaviour {
 					if (currentWeapon != null) currentWeapon.OnPress();
 				} else if (Input.GetKeyDown(itemKey)) {
 					if (currentItem != null) currentItem.OnPress();
+				}
+			}
+
+			if (canWarp) {
+				if (Input.GetKeyDown(warpKey)) {
+					WarpComponent.WarpAll();
 				}
 			}
 		}
