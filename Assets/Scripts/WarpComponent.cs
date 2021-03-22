@@ -180,7 +180,7 @@ public class WarpComponent : MonoBehaviour
             
             // Get the Points Corresponding to the Aliases
             Vector2 centeredPos = transform.position;
-            
+                
             Vector2[] cornerPos = new Vector2[4];
             cornerPos[0] = centeredPos - new Vector2(_size.x, _size.y); // (could be simplified)
             cornerPos[1] = centeredPos - new Vector2(_size.x, -_size.y);
