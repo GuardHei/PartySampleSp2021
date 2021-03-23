@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb465b6c-2361-4be5-a108-c3ab29b44a5b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WarpScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WarpScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CullingReferences.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CullingReferences.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraEffectController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraEffectController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +116,7 @@
       <workItem from="1616305247831" duration="4216000" />
       <workItem from="1616471253132" duration="1000" />
       <workItem from="1616480592044" duration="2508000" />
+      <workItem from="1616484422954" duration="194000" />
     </task>
     <servers />
   </component>

@@ -24,14 +24,13 @@ public class CameraEffectController : MonoBehaviour {
 	private int _colorKey = Shader.PropertyToID("_BorderColor");
 
 	public void OnRenderImage(RenderTexture src, RenderTexture dest) {
-		if (mat != null && warpManager != null) {
-			print(warpManager._ScreenPanVC);
+		if (activated && mat != null && warpManager != null) {
 			mat.SetFloat(_activatedKey, activated ? 1f : 0f);
 			mat.SetVector(_scrollKey, autoScroll ? -warpManager._ScreenPanVC : -new Vector2(scrollX, scrollY));
 			mat.SetVector(_conjunctionKey, warpManager._GridOriginVC);
 			mat.SetFloat(_widthKey, borderWidth);
 			mat.SetColor(_colorKey, borderColor);
 			Graphics.Blit(src, dest, mat);
-		}
+		} else Graphics.Blit(src, dest);
 	}
 }
