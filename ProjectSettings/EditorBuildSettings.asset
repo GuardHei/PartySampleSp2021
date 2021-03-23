@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/WarpScene.unity
+    guid: 48d9c020e10284d46942f8c9b061f31c
   m_configObjects: {}
