@@ -7,11 +7,19 @@
         <e p="Scripts" t="Include">
           <e p="BaseItemController.cs" t="Include" />
           <e p="BaseWeaponController.cs" t="Include" />
+          <e p="CameraEffectController.cs" t="Include" />
           <e p="CameraFollower.cs" t="Include" />
+          <e p="CullingReferences.cs" t="Include" />
           <e p="Health.cs" t="Include" />
           <e p="HitboxController.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
+          <e p="PositionalFollow.cs" t="Include" />
           <e p="StupidAIMovement.cs" t="Include" />
+          <e p="WarpComponent.cs" t="Include" />
+          <e p="WarpManager.cs" t="Include" />
+        </e>
+        <e p="Shaders" t="Include">
+          <e p="CameraEffectShader.shader" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

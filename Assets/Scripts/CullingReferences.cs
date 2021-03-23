@@ -56,8 +56,6 @@ public class CullingReferences : MonoBehaviour
     }
 
     // -------------------------------------- CASTING --------------------------------------
-
-    
 }
     
 // * TEMPLATE *
