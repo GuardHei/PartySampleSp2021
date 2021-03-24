@@ -1,27 +1,28 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class WarpManager : MonoBehaviour
 {
-    
-    /*
-     * Note: I name things to indicate complexity of execution.
-     * "_name" / "_Name" --> effectively an attribute. "Name" --> arbitrarily complex.
-     * True attributes start lowercase. Things which are 'really' function calls start uppercase.
-     *
-     * Feel free to rename my variables / methods if you want to!
-     */
-    
+
     // * TEMPLATE *
 
     // ------------------------------------- REFERENCES ------------------------------------
 
-    //[SerializeField] protected PostprocessingEffect _postprocessing;
+    public static WarpManager Instance;
 
-    [SerializeField] protected Camera _mainCamera; // main camera
+    [SerializeField] protected CameraEffectController _cameraEffectController;
+
+    [SerializeField] public Camera _mainCamera; // main camera
 
     [SerializeField] protected Vector2 _centerBegin; // center of the first grid partition
     
+    public List<WarpComponent> _warpComponents = new List<WarpComponent>();
+    
     // ------------------------------------- PROPERTIES ------------------------------------
+
+    protected float _mapOrthographicSize; // the orthographic size in 'map' mode
+    protected float _gameOrthographicSize; // the orthographic size in 'game' mode
     
     [HideInInspector]
     public Vector2 _cameraSizeWC; // camera size in world coordinates
@@ -44,7 +45,8 @@ public class WarpManager : MonoBehaviour
         {
             if (Time.time != _gridOriginCacheTimeWC)
             {
-                _cachedGridOriginWC = ToGridPointWC(CamLLCorner);
+                Vector2 camCorner = CamLLCorner;
+                _cachedGridOriginWC = camCorner + ToGridPointWC(camCorner);
                 _gridOriginCacheTimeWC = Time.time;
             }
             return _cachedGridOriginWC;
@@ -81,10 +83,7 @@ public class WarpManager : MonoBehaviour
             if (Time.time != _screenPanCacheTimeWC)
             {
                 Vector2 camPos = _mainCamera.transform.position;
-                _cachedScreenPanWC = camPos - 
-                                     new Vector2(
-                                         Mathf.Round(camPos.x / _cameraSizeWC.x) * _cameraSizeWC.x,
-                                         Mathf.Round(camPos.y / _cameraSizeWC.y) * _cameraSizeWC.y);
+                _cachedScreenPanWC = camPos - ClosestCenter(camPos);
                 _screenPanCacheTimeWC = Time.time;
             }
             return _cachedScreenPanWC;
@@ -99,7 +98,8 @@ public class WarpManager : MonoBehaviour
         {
             if (Time.time != _screenPanCacheTimeVC)
             {
-                _cachedScreenPanVC = _mainCamera.WorldToViewportPoint(_mainCamera.transform.position + (Vector3) _ScreenPanWC - (Vector3) _cameraSizeWC / 2);
+                Vector3 point = _mainCamera.transform.position + (Vector3) _ScreenPanWC - (Vector3) _cameraSizeWC / 2;
+                _cachedScreenPanVC = _mainCamera.WorldToViewportPoint(point);
                 _screenPanCacheTimeVC = Time.time;
             }
             return _cachedScreenPanVC;
@@ -108,6 +108,22 @@ public class WarpManager : MonoBehaviour
 
     // -------------------------------------- METHODS --------------------------------------
 
+    public void WarpCentricAll()
+    {
+        foreach (WarpComponent warpComponent in _warpComponents)
+        {
+            warpComponent.WarpCentric();
+        }
+    }
+    
+    public void WarpExteriorAll()
+    {
+        foreach (WarpComponent warpComponent in _warpComponents)
+        {
+            warpComponent.WarpExterior();
+        }
+    }
+    
     public void UpdateCameraSettings()
     {
         float height = 2.0f * _mainCamera.orthographicSize;
@@ -115,38 +131,64 @@ public class WarpManager : MonoBehaviour
         _cameraSizeWC = new Vector2(width, height);
         _worldOrigin = _centerBegin - _cameraSizeWC / 2;
     }
-    
-    public Vector2 ToGridPointWC(Vector3 position)
+
+    public Vector2 ClosestCenter(Vector2 position)
     {
-        float gridX = (position.x - _worldOrigin.x) % _cameraSizeWC.x;
-        float gridY = (position.y - _worldOrigin.y) % _cameraSizeWC.y;
+        Vector2 offset = position - _centerBegin;
+        return new Vector2(
+            Mathf.Round(offset.x / _cameraSizeWC.x) * _cameraSizeWC.x,
+            Mathf.Round(offset.y / _cameraSizeWC.y) * _cameraSizeWC.y);
+    }
+
+    public Vector3 ModPos(Vector2 origin, Vector3 position, Vector2 cameraDimensions)
+    {
+        float gridX = (position.x - origin.x) % cameraDimensions.x;
+        float gridY = (position.y - origin.y) % cameraDimensions.y;
         if (gridX < 0)
         {
-            gridX += _cameraSizeWC.x;
+            gridX += cameraDimensions.x;
         }
         if (gridY < 0)
         {
-            gridY += _cameraSizeWC.y;
+            gridY += cameraDimensions.y;
         }
-        Vector2 camLL = CamLLCorner;
-        return new Vector3(camLL.x + gridX, camLL.y + gridY, position.z);
+        return new Vector3(gridX, gridY, position.z);
+    }
+
+    public Vector2 ToGridPointWC(Vector3 position)
+    {
+        return ModPos(_worldOrigin, position, _cameraSizeWC);
+    }
+
+    public void MapView()
+    {
+        _mainCamera.orthographicSize = _mapOrthographicSize;
+        _cameraEffectController.activated = false;
+    }
+
+    public void GameView()
+    {
+        _mainCamera.orthographicSize = _gameOrthographicSize;
+        _cameraEffectController.activated = true;
     }
 
     // ----------------------------------- INITIALIZATION ----------------------------------
 
+    protected void Awake()
+    {
+        Instance = this;
+    }
+
     protected void Start()
     {
         UpdateCameraSettings();
+        _gameOrthographicSize = _mainCamera.orthographicSize;
+        _mapOrthographicSize = _gameOrthographicSize * 5;
+        GameView();
     }
 
     // --------------------------------------- UPDATE --------------------------------------
 
-    public void Update()
-    {
-        // Tell the postprocessing effect what the current _ScreenPanVC is.
-        //Debug.Log("scroll: " + _ScreenPanVC); // --> remove this unless you want to read values
-    }
-    
     // -------------------------------------- CASTING --------------------------------------
     
 }
