@@ -1,63 +1,65 @@
-
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class CullingReferences : MonoBehaviour
+public class UnfocusedTurret : MonoBehaviour
 {
+    
     // * TEMPLATE *
 
     // ------------------------------------- REFERENCES ------------------------------------
     
-    [SerializeField]
-    protected BoxCollider2D _cameraCollider;
-
-    public SpriteMask[] _masks;
+    public GameObject _bulletPrefab;
     
-    private Camera _mainCamera;
-
     // ------------------------------------- PROPERTIES ------------------------------------
-
-    public Vector2 _origin;
-
-    protected Vector2 _cameraSize; // (cached camera vision size)
     
-    protected Vector3[] _offsets; // (cached calculations for offsets of each mask)
-
+    public float _fireCooldown = 0.4f;
+    public float _turnDuration = 1.0f;
+    public float _turnDegrees = 0.0f;
+    
+    private float _timer = 0.0f;
+    private Quaternion _counterClockEndpoint;
+    private Quaternion _clockEndpoint;
+    
     // -------------------------------------- METHODS --------------------------------------
 
+    public void _FireWeapon(Quaternion rotation)
+    {
+        Instantiate(_bulletPrefab);
+        _bulletPrefab.transform.position = transform.position;
+        _bulletPrefab.transform.rotation = rotation;
+    }
+    
     // ----------------------------------- INITIALIZATION ----------------------------------
 
     protected void Start()
     {
-        _mainCamera = Camera.main;
-        _cameraSize = _cameraCollider.size;
-        _offsets = new[]
-        {
-            new Vector3(-_cameraSize.x / 2, -_cameraSize.y / 2, 1.0f),
-            new Vector3(-_cameraSize.x / 2, _cameraSize.y / 2, 1.0f),
-            new Vector3(_cameraSize.x / 2, _cameraSize.y / 2, 1.0f),
-            new Vector3(_cameraSize.x / 2, -_cameraSize.y / 2, 1.0f)
-        };
-        _origin = WarpComponent.toGridPoint(
-            (Vector2) _cameraCollider.transform.position - _cameraSize / 2,
-            _mainCamera.transform.position, _cameraSize);
+        Vector3 angles = transform.rotation.eulerAngles;
+        _counterClockEndpoint = transform.rotation;
+        _clockEndpoint = Quaternion.AngleAxis(angles.z - _turnDegrees, Vector3.forward);
     }
 
     // --------------------------------------- UPDATE --------------------------------------
     
     protected void Update()
     {
-        _origin = WarpComponent.toGridPoint(
-            (Vector2) _cameraCollider.transform.position - _cameraSize / 2,
-            _mainCamera.transform.position, _cameraSize);
-        for (int i = 0; i < _masks.Length; i += 1)
+        if (_timer <= 0)
         {
-            _masks[i].transform.position = (Vector3) _origin + _offsets[i];
+            _FireWeapon(transform.rotation);
+            _timer = _fireCooldown;
         }
+        else
+        {
+            _timer -= Time.deltaTime;
+        }
+        transform.rotation = Quaternion.Lerp(
+            _counterClockEndpoint, _clockEndpoint, (Time.time % _turnDuration) / _turnDuration);
     }
-
+    
     // -------------------------------------- CASTING --------------------------------------
 }
-    
+
 // * TEMPLATE *
 
 // ------------------------------------- REFERENCES ------------------------------------

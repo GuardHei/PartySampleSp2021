@@ -12,7 +12,9 @@ public class PlayerController : MonoBehaviour {
 	public KeyCode rightKey = KeyCode.D;
 	public KeyCode attackKey = KeyCode.J;
 	public KeyCode itemKey = KeyCode.K;
-	public KeyCode warpKey = KeyCode.Q;
+	public KeyCode warpCentricKey = KeyCode.Q;
+	public KeyCode warpExteriorKey = KeyCode.Z;
+	public KeyCode mapViewKey = KeyCode.M;
 
 	public Rigidbody2D rigidbody2D;
 	public BaseWeaponController currentWeapon;
@@ -56,9 +58,23 @@ public class PlayerController : MonoBehaviour {
 				}
 			}
 
-			if (canWarp) {
-				if (Input.GetKeyDown(warpKey)) {
-					WarpComponent.WarpAll();
+			if (WarpManager.Instance != null) // code specific to the warp part of game
+			{
+				if (canWarp) {
+					if (Input.GetKeyDown(warpCentricKey)) {
+						WarpManager.Instance.WarpCentricAll();
+					}
+					if (Input.GetKeyDown(warpExteriorKey)) {
+						WarpManager.Instance.WarpExteriorAll();
+					}
+				}
+				if (Input.GetKey(mapViewKey))
+				{
+					WarpManager.Instance.MapView();
+				}
+				else
+				{
+					WarpManager.Instance.GameView();
 				}
 			}
 		}
