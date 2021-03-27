@@ -10,6 +10,9 @@ public class WarpComponent : MonoBehaviour
     
     // * TEMPLATE *
     
+    // ------------------------------------- STATIC FIELDS ------------------------------------
+    private static WaitForFixedUpdate waitForFixedUpdate = new WaitForFixedUpdate();
+    
     // ------------------------------------- REFERENCES ------------------------------------
     
     [HideInInspector]
@@ -20,6 +23,9 @@ public class WarpComponent : MonoBehaviour
     public const float REMNANT_DURATION = 0.8f;
     
     public bool _warpable = true;
+    
+    private Color _savedColor;
+    private Coroutine _routine;
 
     // -------------------------------------- METHODS --------------------------------------
 
@@ -32,7 +38,7 @@ public class WarpComponent : MonoBehaviour
         Vector2 newPosition = basePos + offset;
         if ((newPosition - (Vector2)transform.position).magnitude > 0.05)
         {
-            StartCoroutine(WarpRemnant(newPosition));
+            StartCoroutineSafely(WarpRemnant(newPosition));
         }
     }
     
@@ -56,29 +62,42 @@ public class WarpComponent : MonoBehaviour
         Vector2 newPosition = wm.CamLLCorner + (Vector2) wm.ModPos(wm.CamLLCorner, pos, wm._cameraSizeWC);
         if ((newPosition - (Vector2)transform.position).magnitude > 0.05)
         {
-            StartCoroutine(WarpRemnant(newPosition));
+            StartCoroutineSafely(WarpRemnant(newPosition));
         }
+    }
+
+    protected void StartCoroutineSafely(IEnumerator routine)
+    {
+        if (_routine != null)
+        {
+            StopCoroutine(_routine);
+            _spriteRenderer.color = _savedColor;
+        }
+
+        _routine = StartCoroutine(routine);
     }
     
     protected IEnumerator WarpRemnant(Vector2 newPosition)
     {
-        Color savedColor = _spriteRenderer.color;
-        Color clearColor = new Color(savedColor.r, savedColor.g, savedColor.b, 0.0f);
+        _savedColor = _spriteRenderer.color;
+        Color clearColor = new Color(_savedColor.r, _savedColor.g, _savedColor.b, 0.0f);
         float timer = 0;
         while (timer < REMNANT_DURATION)
         {
-            _spriteRenderer.color = Color.Lerp(savedColor, clearColor, timer / REMNANT_DURATION);
+            _spriteRenderer.color = Color.Lerp(_savedColor, clearColor, timer / REMNANT_DURATION);
             timer += Time.fixedDeltaTime;
-            yield return new WaitForFixedUpdate();
+            yield return waitForFixedUpdate;
         }
         transform.position = newPosition;
         timer = 0;
         while (timer < REMNANT_DURATION)
         {
-            _spriteRenderer.color = Color.Lerp(clearColor, savedColor, timer / REMNANT_DURATION);
+            _spriteRenderer.color = Color.Lerp(clearColor, _savedColor, timer / REMNANT_DURATION);
             timer += Time.fixedDeltaTime;
-            yield return new WaitForFixedUpdate();
+            yield return waitForFixedUpdate;
         }
+
+        _routine = null;
     }
     
     // ----------------------------------- INITIALIZATION ----------------------------------

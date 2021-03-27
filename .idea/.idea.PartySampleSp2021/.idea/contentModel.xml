@@ -9,14 +9,19 @@
           <e p="BaseWeaponController.cs" t="Include" />
           <e p="CameraEffectController.cs" t="Include" />
           <e p="CameraFollower.cs" t="Include" />
-          <e p="CullingReferences.cs" t="Include" />
           <e p="Health.cs" t="Include" />
           <e p="HitboxController.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
-          <e p="PositionalFollow.cs" t="Include" />
+          <e p="PlayerInventory.cs" t="Include" />
           <e p="StupidAIMovement.cs" t="Include" />
           <e p="WarpComponent.cs" t="Include" />
           <e p="WarpManager.cs" t="Include" />
+          <e p="WarpPuzzle" t="Include">
+            <e p="Door.cs" t="Include" />
+            <e p="Key.cs" t="Include" />
+            <e p="TurretBullet.cs" t="Include" />
+            <e p="UnfocusedTurret.cs" t="Include" />
+          </e>
         </e>
         <e p="Shaders" t="Include">
           <e p="CameraEffectShader.shader" t="Include" />

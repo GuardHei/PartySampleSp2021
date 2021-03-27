@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using UnityEditor;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour {
 
@@ -15,7 +17,9 @@ public class PlayerController : MonoBehaviour {
 	public KeyCode warpCentricKey = KeyCode.Q;
 	public KeyCode warpExteriorKey = KeyCode.Z;
 	public KeyCode mapViewKey = KeyCode.M;
-
+	public KeyCode replayKey = KeyCode.R;
+	public KeyCode quitKey = KeyCode.Q;
+	
 	public Rigidbody2D rigidbody2D;
 	public BaseWeaponController currentWeapon;
 	public BaseItemController currentItem;
@@ -24,6 +28,16 @@ public class PlayerController : MonoBehaviour {
 	public Vector2 velocity;
 
 	public void Update() {
+
+		if (Input.GetKey(replayKey)) SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		if (Input.GetKey(quitKey)) {
+#if UNITY_EDITOR
+			EditorApplication.ExitPlaymode();
+#else
+			Application.Quit();
+#endif
+		}
+		
 		velocity = Vector2.zero;
 		
 		if (inControl) {
