@@ -320,9 +320,11 @@ MonoBehaviour:
   rightKey: 100
   attackKey: 106
   itemKey: 107
-  warpCentricKey: 113
+  warpCentricKey: 120
   warpExteriorKey: 122
   mapViewKey: 109
+  replayKey: 114
+  quitKey: 113
   rigidbody2D: {fileID: 6069560532309513521}
   currentWeapon: {fileID: 6069560531076573406}
   currentItem: {fileID: 6069560531429671329}

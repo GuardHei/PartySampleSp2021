@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour {
 	public KeyCode rightKey = KeyCode.D;
 	public KeyCode attackKey = KeyCode.J;
 	public KeyCode itemKey = KeyCode.K;
-	public KeyCode warpCentricKey = KeyCode.Q;
+	public KeyCode warpCentricKey = KeyCode.X;
 	public KeyCode warpExteriorKey = KeyCode.Z;
 	public KeyCode mapViewKey = KeyCode.M;
 	public KeyCode replayKey = KeyCode.R;
