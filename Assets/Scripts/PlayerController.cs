@@ -97,6 +97,7 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	public void Turn(Direction direction) {
+		return;
 		if (direction == facing) return;
 		facing = direction;
 		Vector3 eulerAngle = Vector3.one;

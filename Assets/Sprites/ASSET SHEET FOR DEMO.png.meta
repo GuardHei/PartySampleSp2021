@@ -1,0 +1,3632 @@
+fileFormatVersion: 2
+guid: a2494384905a94a678630fdf74942cd5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 61878624082329179
+    second: ASSET SHEET FOR DEMO_0
+  - first:
+      213: 3381168365341561075
+    second: ASSET SHEET FOR DEMO_1
+  - first:
+      213: 2394336991090437874
+    second: ASSET SHEET FOR DEMO_2
+  - first:
+      213: -97767457687532919
+    second: ASSET SHEET FOR DEMO_3
+  - first:
+      213: 6860871628036571543
+    second: ASSET SHEET FOR DEMO_4
+  - first:
+      213: -7523394895348733294
+    second: ASSET SHEET FOR DEMO_5
+  - first:
+      213: 1627323351415583948
+    second: ASSET SHEET FOR DEMO_6
+  - first:
+      213: -1091846496924181398
+    second: ASSET SHEET FOR DEMO_7
+  - first:
+      213: 8432731650352887116
+    second: ASSET SHEET FOR DEMO_8
+  - first:
+      213: -1674005147189402675
+    second: ASSET SHEET FOR DEMO_9
+  - first:
+      213: 5641332754708997443
+    second: ASSET SHEET FOR DEMO_10
+  - first:
+      213: -4727358695132692602
+    second: ASSET SHEET FOR DEMO_11
+  - first:
+      213: -718141703059963913
+    second: ASSET SHEET FOR DEMO_12
+  - first:
+      213: 1898312013601693203
+    second: ASSET SHEET FOR DEMO_13
+  - first:
+      213: 5168747126400890804
+    second: ASSET SHEET FOR DEMO_14
+  - first:
+      213: 1528362703490246945
+    second: ASSET SHEET FOR DEMO_15
+  - first:
+      213: 3550392455207070103
+    second: ASSET SHEET FOR DEMO_16
+  - first:
+      213: 2351199894587157416
+    second: ASSET SHEET FOR DEMO_17
+  - first:
+      213: -1571167582742555495
+    second: ASSET SHEET FOR DEMO_18
+  - first:
+      213: 3860831992691631319
+    second: ASSET SHEET FOR DEMO_19
+  - first:
+      213: -5308382534471311521
+    second: ASSET SHEET FOR DEMO_20
+  - first:
+      213: -7673219874441785507
+    second: ASSET SHEET FOR DEMO_21
+  - first:
+      213: 6695068627683545285
+    second: ASSET SHEET FOR DEMO_22
+  - first:
+      213: -7751390642119317824
+    second: ASSET SHEET FOR DEMO_23
+  - first:
+      213: -4174168158007904807
+    second: ASSET SHEET FOR DEMO_24
+  - first:
+      213: -9730964637223889
+    second: ASSET SHEET FOR DEMO_25
+  - first:
+      213: -5083420322023733993
+    second: ASSET SHEET FOR DEMO_26
+  - first:
+      213: 6023728110157069137
+    second: ASSET SHEET FOR DEMO_27
+  - first:
+      213: -3665048558623339902
+    second: ASSET SHEET FOR DEMO_28
+  - first:
+      213: 1471269088078948683
+    second: ASSET SHEET FOR DEMO_29
+  - first:
+      213: 5178450541326326561
+    second: ASSET SHEET FOR DEMO_30
+  - first:
+      213: -2368677873802779581
+    second: ASSET SHEET FOR DEMO_31
+  - first:
+      213: 6638880156113444120
+    second: ASSET SHEET FOR DEMO_32
+  - first:
+      213: -5309081762577381763
+    second: ASSET SHEET FOR DEMO_33
+  - first:
+      213: 6647218261511071455
+    second: ASSET SHEET FOR DEMO_34
+  - first:
+      213: 4601224212374869989
+    second: ASSET SHEET FOR DEMO_35
+  - first:
+      213: 8379049375095302223
+    second: ASSET SHEET FOR DEMO_36
+  - first:
+      213: 6792809184193968791
+    second: ASSET SHEET FOR DEMO_37
+  - first:
+      213: -5685796404986406821
+    second: ASSET SHEET FOR DEMO_38
+  - first:
+      213: 1236710277000651179
+    second: ASSET SHEET FOR DEMO_39
+  - first:
+      213: -7042181548033168090
+    second: ASSET SHEET FOR DEMO_40
+  - first:
+      213: -5519130199094767849
+    second: ASSET SHEET FOR DEMO_41
+  - first:
+      213: 2955865439811994772
+    second: ASSET SHEET FOR DEMO_42
+  - first:
+      213: 844674691706567562
+    second: ASSET SHEET FOR DEMO_43
+  - first:
+      213: 1118534478543892127
+    second: ASSET SHEET FOR DEMO_44
+  - first:
+      213: -8909730383088602680
+    second: ASSET SHEET FOR DEMO_45
+  - first:
+      213: 684689791270030521
+    second: ASSET SHEET FOR DEMO_46
+  - first:
+      213: -7710772678865016009
+    second: ASSET SHEET FOR DEMO_47
+  - first:
+      213: -2851199874119162955
+    second: ASSET SHEET FOR DEMO_48
+  - first:
+      213: 5217083686018618461
+    second: ASSET SHEET FOR DEMO_49
+  - first:
+      213: 8834938787922116193
+    second: ASSET SHEET FOR DEMO_50
+  - first:
+      213: 3453880511893697151
+    second: ASSET SHEET FOR DEMO_51
+  - first:
+      213: -8362373996390857480
+    second: ASSET SHEET FOR DEMO_52
+  - first:
+      213: 1927031626875085199
+    second: ASSET SHEET FOR DEMO_53
+  - first:
+      213: -6892873841100111907
+    second: ASSET SHEET FOR DEMO_54
+  - first:
+      213: -3000341161247997525
+    second: ASSET SHEET FOR DEMO_55
+  - first:
+      213: 323596380334613842
+    second: ASSET SHEET FOR DEMO_56
+  - first:
+      213: -2563904874691059265
+    second: ASSET SHEET FOR DEMO_57
+  - first:
+      213: -9175356140775886603
+    second: ASSET SHEET FOR DEMO_58
+  - first:
+      213: 41628423658117905
+    second: ASSET SHEET FOR DEMO_59
+  - first:
+      213: -5322984798907118187
+    second: ASSET SHEET FOR DEMO_60
+  - first:
+      213: -3644471105009884942
+    second: ASSET SHEET FOR DEMO_61
+  - first:
+      213: -6583600461149040011
+    second: ASSET SHEET FOR DEMO_62
+  - first:
+      213: 7002661733872412902
+    second: ASSET SHEET FOR DEMO_63
+  - first:
+      213: -5239798116885765394
+    second: ASSET SHEET FOR DEMO_64
+  - first:
+      213: -557086237211309976
+    second: ASSET SHEET FOR DEMO_65
+  - first:
+      213: -5950903897035852752
+    second: ASSET SHEET FOR DEMO_66
+  - first:
+      213: 1299288531884550956
+    second: ASSET SHEET FOR DEMO_67
+  - first:
+      213: -3073322111958760283
+    second: ASSET SHEET FOR DEMO_68
+  - first:
+      213: 2413129549914228135
+    second: ASSET SHEET FOR DEMO_69
+  - first:
+      213: 5410926110075449591
+    second: ASSET SHEET FOR DEMO_70
+  - first:
+      213: 6662718271574400751
+    second: ASSET SHEET FOR DEMO_71
+  - first:
+      213: -1806049450468762684
+    second: ASSET SHEET FOR DEMO_72
+  - first:
+      213: -687069689911535430
+    second: ASSET SHEET FOR DEMO_73
+  - first:
+      213: -4731967128941694189
+    second: ASSET SHEET FOR DEMO_74
+  - first:
+      213: -3784492231383414115
+    second: ASSET SHEET FOR DEMO_75
+  - first:
+      213: -5649506278923671908
+    second: ASSET SHEET FOR DEMO_76
+  - first:
+      213: 6815012294263537335
+    second: ASSET SHEET FOR DEMO_77
+  - first:
+      213: 8773496574059852201
+    second: ASSET SHEET FOR DEMO_78
+  - first:
+      213: 2710816796972402737
+    second: ASSET SHEET FOR DEMO_79
+  - first:
+      213: 664781816903809052
+    second: ASSET SHEET FOR DEMO_80
+  - first:
+      213: -2824421090978413986
+    second: ASSET SHEET FOR DEMO_81
+  - first:
+      213: -5590052206838394984
+    second: ASSET SHEET FOR DEMO_82
+  - first:
+      213: -960625303954204303
+    second: ASSET SHEET FOR DEMO_83
+  - first:
+      213: -3138497282585638833
+    second: ASSET SHEET FOR DEMO_84
+  - first:
+      213: -7661157861978985085
+    second: ASSET SHEET FOR DEMO_85
+  - first:
+      213: -2488463529279182229
+    second: ASSET SHEET FOR DEMO_86
+  - first:
+      213: 4242944861739340331
+    second: ASSET SHEET FOR DEMO_87
+  - first:
+      213: 4808876855445092129
+    second: ASSET SHEET FOR DEMO_88
+  - first:
+      213: -8780097284810086976
+    second: ASSET SHEET FOR DEMO_89
+  - first:
+      213: -698442126772351599
+    second: ASSET SHEET FOR DEMO_90
+  - first:
+      213: 362381596376481437
+    second: ASSET SHEET FOR DEMO_91
+  - first:
+      213: -6791580551628014133
+    second: ASSET SHEET FOR DEMO_92
+  - first:
+      213: 7251461007196827218
+    second: ASSET SHEET FOR DEMO_93
+  - first:
+      213: -5720310633359441232
+    second: ASSET SHEET FOR DEMO_94
+  - first:
+      213: -4331456008879507199
+    second: ASSET SHEET FOR DEMO_95
+  - first:
+      213: -4254618917382781609
+    second: ASSET SHEET FOR DEMO_96
+  - first:
+      213: 2676371164536505540
+    second: ASSET SHEET FOR DEMO_97
+  - first:
+      213: -9092005459058587793
+    second: ASSET SHEET FOR DEMO_98
+  - first:
+      213: -9032974753901357829
+    second: ASSET SHEET FOR DEMO_99
+  - first:
+      213: 6760351988078664327
+    second: ASSET SHEET FOR DEMO_100
+  - first:
+      213: -8576985771295088175
+    second: ASSET SHEET FOR DEMO_101
+  - first:
+      213: 5659108815667998278
+    second: ASSET SHEET FOR DEMO_102
+  - first:
+      213: -1992020140929043208
+    second: ASSET SHEET FOR DEMO_103
+  - first:
+      213: -347109002648760875
+    second: ASSET SHEET FOR DEMO_104
+  - first:
+      213: -4688104714087182925
+    second: ASSET SHEET FOR DEMO_105
+  - first:
+      213: 2608861181481747392
+    second: ASSET SHEET FOR DEMO_106
+  - first:
+      213: 649179187372775463
+    second: ASSET SHEET FOR DEMO_107
+  - first:
+      213: 8526814154250646886
+    second: ASSET SHEET FOR DEMO_108
+  - first:
+      213: 4569280136472973613
+    second: ASSET SHEET FOR DEMO_109
+  - first:
+      213: -8463687432351253622
+    second: ASSET SHEET FOR DEMO_110
+  - first:
+      213: 7603051915449716347
+    second: ASSET SHEET FOR DEMO_111
+  - first:
+      213: -8435170223058535813
+    second: ASSET SHEET FOR DEMO_112
+  - first:
+      213: -7815171555904867630
+    second: ASSET SHEET FOR DEMO_113
+  - first:
+      213: 2816550416437306910
+    second: ASSET SHEET FOR DEMO_114
+  - first:
+      213: 5834012580621997519
+    second: ASSET SHEET FOR DEMO_115
+  - first:
+      213: -3462514933069117035
+    second: ASSET SHEET FOR DEMO_116
+  - first:
+      213: -7059041631993165454
+    second: ASSET SHEET FOR DEMO_117
+  - first:
+      213: 2891218406609475008
+    second: ASSET SHEET FOR DEMO_118
+  - first:
+      213: -1289282839926183309
+    second: ASSET SHEET FOR DEMO_119
+  - first:
+      213: -4789000120268102812
+    second: ASSET SHEET FOR DEMO_120
+  - first:
+      213: 8508944636130273763
+    second: ASSET SHEET FOR DEMO_121
+  - first:
+      213: -2331203165341298996
+    second: ASSET SHEET FOR DEMO_122
+  - first:
+      213: 3896929673945620671
+    second: ASSET SHEET FOR DEMO_123
+  - first:
+      213: -1056149146779532066
+    second: ASSET SHEET FOR DEMO_124
+  - first:
+      213: 8843133908994913471
+    second: ASSET SHEET FOR DEMO_125
+  - first:
+      213: 3601740531935219490
+    second: ASSET SHEET FOR DEMO_126
+  - first:
+      213: 6893631567357707852
+    second: ASSET SHEET FOR DEMO_127
+  - first:
+      213: 8769923104111684817
+    second: ASSET SHEET FOR DEMO_128
+  - first:
+      213: 647803748519532150
+    second: ASSET SHEET FOR DEMO_129
+  - first:
+      213: -6891877670238106720
+    second: ASSET SHEET FOR DEMO_130
+  - first:
+      213: -85189154986441658
+    second: ASSET SHEET FOR DEMO_131
+  - first:
+      213: -3504442780229659692
+    second: ASSET SHEET FOR DEMO_132
+  - first:
+      213: 2951440477203083737
+    second: ASSET SHEET FOR DEMO_133
+  - first:
+      213: 4373931363138302602
+    second: ASSET SHEET FOR DEMO_134
+  - first:
+      213: 6030407197630202851
+    second: ASSET SHEET FOR DEMO_135
+  - first:
+      213: 7790601278896522545
+    second: ASSET SHEET FOR DEMO_136
+  - first:
+      213: 8165779749046025695
+    second: ASSET SHEET FOR DEMO_137
+  - first:
+      213: 5278214881534031115
+    second: ASSET SHEET FOR DEMO_138
+  - first:
+      213: -94370138633528160
+    second: ASSET SHEET FOR DEMO_139
+  - first:
+      213: -6981745559924029714
+    second: ASSET SHEET FOR DEMO_140
+  - first:
+      213: -910521251039468891
+    second: ASSET SHEET FOR DEMO_141
+  - first:
+      213: -3344497174974786177
+    second: ASSET SHEET FOR DEMO_142
+  - first:
+      213: -8328276995581999035
+    second: ASSET SHEET FOR DEMO_143
+  - first:
+      213: -5126519749271574581
+    second: ASSET SHEET FOR DEMO_144
+  - first:
+      213: 1585180838974417700
+    second: ASSET SHEET FOR DEMO_145
+  - first:
+      213: 1982785224061452676
+    second: ASSET SHEET FOR DEMO_146
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 395
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5efd9fd746dbd000800000000000000
+      internalID: 61878624082329179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 397
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0d8fdc6b25cee20800000000000000
+      internalID: 3381168365341561075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 396
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fee582cec46a3120800000000000000
+      internalID: 2394336991090437874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 397
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a01f5e309a4aef0800000000000000
+      internalID: -97767457687532919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_4
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 397
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7910dae2566b63f50800000000000000
+      internalID: 6860871628036571543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_5
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 378
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a60cd0438879790800000000000000
+      internalID: -7523394895348733294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_6
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 400
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4f2d757f9659610800000000000000
+      internalID: 1627323351415583948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_7
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 402
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c5499556bf8d0f0800000000000000
+      internalID: -1091846496924181398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_8
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 402
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c453a79e1c4170570800000000000000
+      internalID: 8432731650352887116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_9
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 402
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3a999103db4c8e0800000000000000
+      internalID: -1674005147189402675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_10
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 378
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345a438504a0a4e40800000000000000
+      internalID: 5641332754708997443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_11
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 378
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ff2ca305c056eb0800000000000000
+      internalID: -4727358695132692602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_12
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 382
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff77ba0de5a806f0800000000000000
+      internalID: -718141703059963913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_13
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 378
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ed59bf7b8285a10800000000000000
+      internalID: 1898312013601693203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_14
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 378
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b732f250241bb740800000000000000
+      internalID: 5168747126400890804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_15
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 379
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129ed7df7c5d53510800000000000000
+      internalID: 1528362703490246945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_16
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 379
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79928d19027854130800000000000000
+      internalID: 3550392455207070103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_17
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 380
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abadc0d8d321a020800000000000000
+      internalID: 2351199894587157416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_18
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 379
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994550c6867123ae0800000000000000
+      internalID: -1571167582742555495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_19
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 362
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d429d5ed3e649530800000000000000
+      internalID: 3860831992691631319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_20
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 367
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f13fcb536d456b0800000000000000
+      internalID: -5308382534471311521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_21
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 366
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f0e6cbd2f338590800000000000000
+      internalID: -7673219874441785507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_22
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 368
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c090f3e179a9ec50800000000000000
+      internalID: 6695068627683545285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_23
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 351
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6e03597478d6490800000000000000
+      internalID: -7751390642119317824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_24
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 351
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5313d0d206216c0800000000000000
+      internalID: -4174168158007904807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_25
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 351
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24f97d3dbd6ddff0800000000000000
+      internalID: -9730964637223889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_26
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 338
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71506c576201479b0800000000000000
+      internalID: -5083420322023733993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_27
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 338
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b72751dc4989350800000000000000
+      internalID: 6023728110157069137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_28
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 338
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ac2b211c1232dc0800000000000000
+      internalID: -3665048558623339902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_29
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 338
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4965f3c07ffa6410800000000000000
+      internalID: 1471269088078948683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_30
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 338
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b5faaa45d8dd740800000000000000
+      internalID: 5178450541326326561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_31
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 311
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34468a80604c02fd0800000000000000
+      internalID: -2368677873802779581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_32
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 356
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d1883e35a022c50800000000000000
+      internalID: 6638880156113444120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_33
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 357
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d760212044a5256b0800000000000000
+      internalID: -5309081762577381763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_34
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 356
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd66bd55ac9af3c50800000000000000
+      internalID: 6647218261511071455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_35
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 356
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7d786fa05dadf30800000000000000
+      internalID: 4601224212374869989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 319
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48a306330d584470800000000000000
+      internalID: 8379049375095302223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_37
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 319
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a74e296f7e44e50800000000000000
+      internalID: 6792809184193968791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_38
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 319
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5897975b4ef711b0800000000000000
+      internalID: -5685796404986406821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_39
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 319
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1e2bec17da92110800000000000000
+      internalID: 1236710277000651179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_40
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 321
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d2ca17135254e90800000000000000
+      internalID: -7042181548033168090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_41
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 322
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f43d5535c1863b0800000000000000
+      internalID: -5519130199094767849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_42
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 322
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49409d7e4f7550920800000000000000
+      internalID: 2955865439811994772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_43
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 322
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bbee52823e8bb00800000000000000
+      internalID: 844674691706567562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_44
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 300
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ea2a69e25d58f00800000000000000
+      internalID: 1118534478543892127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_45
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 300
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1bf7f1c674a5480800000000000000
+      internalID: -8909730383088602680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_46
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 303
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc8cfdccb1808900800000000000000
+      internalID: 684689791270030521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_47
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 287
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ba67c1a15ddf490800000000000000
+      internalID: -7710772678865016009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_48
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 287
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b32d7f12d08e68d0800000000000000
+      internalID: -2851199874119162955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_49
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 287
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5410ac98fdc66840800000000000000
+      internalID: 5217083686018618461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_50
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 298
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16efa62a4020c9a70800000000000000
+      internalID: 8834938787922116193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_51
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 299
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f727110b606aeef20800000000000000
+      internalID: 3453880511893697151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_52
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 291
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4c822f721e2fb80800000000000000
+      internalID: -8362373996390857480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_53
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 291
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8125d60e013eba10800000000000000
+      internalID: 1927031626875085199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_54
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 291
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf35a3f2c79750a0800000000000000
+      internalID: -6892873841100111907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_55
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 291
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba184de3c95ac56d0800000000000000
+      internalID: -3000341161247997525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_56
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 291
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25562748135ad7400800000000000000
+      internalID: 323596380334613842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_57
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 246
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1a522c91e2b6cd0800000000000000
+      internalID: -2563904874691059265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_58
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 268
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0ba5df3369aa080800000000000000
+      internalID: -9175356140775886603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 247
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b93bca4d4e39000800000000000000
+      internalID: 41628423658117905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_60
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 269
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d465c1785f026b0800000000000000
+      internalID: -5322984798907118187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_61
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0e5b7d6dc3c6dc0800000000000000
+      internalID: -3644471105009884942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_62
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 270
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5721d12134a52a4a0800000000000000
+      internalID: -6583600461149040011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_63
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 249
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8afa9ceb37e2160800000000000000
+      internalID: 7002661733872412902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_64
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 271
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee26344df5f7847b0800000000000000
+      internalID: -5239798116885765394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_65
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 249
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868c2c1d405d448f0800000000000000
+      internalID: -557086237211309976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_66
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 271
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034b0b45f642a6da0800000000000000
+      internalID: -5950903897035852752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_67
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 246
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ba7bb2900080210800000000000000
+      internalID: 1299288531884550956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_68
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 247
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4485482dd5955d0800000000000000
+      internalID: -3073322111958760283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_69
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 248
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5c2a35a882d7120800000000000000
+      internalID: 2413129549914228135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_70
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 249
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0fee8f0a8771b40800000000000000
+      internalID: 5410926110075449591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_71
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 249
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee52b7a7fab67c50800000000000000
+      internalID: 6662718271574400751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_72
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 206
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb150af79f9fe6e0800000000000000
+      internalID: -1806049450468762684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_73
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 206
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab892ecd1c90776f0800000000000000
+      internalID: -687069689911535430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_74
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 206
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313fa9e97fca45eb0800000000000000
+      internalID: -4731967128941694189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 207
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a8a2ddd58ca7bc0800000000000000
+      internalID: -3784492231383414115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_76
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 207
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c966a60c8fbe891b0800000000000000
+      internalID: -5649506278923671908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_77
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 207
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be7f7bf299c39e50800000000000000
+      internalID: 6815012294263537335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_78
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 208
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1b1fe66a8b1c970800000000000000
+      internalID: 8773496574059852201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_79
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 208
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138c3baa381ce9520800000000000000
+      internalID: 2710816796972402737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_80
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 208
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18b0b15a87c93900800000000000000
+      internalID: 664781816903809052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_81
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 209
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e524c107bf3adc8d0800000000000000
+      internalID: -2824421090978413986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_82
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 209
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f428f92252c62b0800000000000000
+      internalID: -5590052206838394984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_83
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 209
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179de8b206c2ba2f0800000000000000
+      internalID: -960625303954204303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_84
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 209
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4844f69951d174d0800000000000000
+      internalID: -3138497282585638833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_85
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 209
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d2d8cd3891ea590800000000000000
+      internalID: -7661157861978985085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_86
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 209
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6aacc4ca93377dd0800000000000000
+      internalID: -2488463529279182229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_87
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 174
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22da852fd7f1ea30800000000000000
+      internalID: 4242944861739340331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_88
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 168
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127f66185009cb240800000000000000
+      internalID: 4808876855445092129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_89
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 168
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5e585d904d62680800000000000000
+      internalID: -8780097284810086976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_90
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 172
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19dc0911692ae46f0800000000000000
+      internalID: -698442126772351599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_91
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 169
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9eb8255420770500800000000000000
+      internalID: 362381596376481437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_92
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 169
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcdb2ccb8757fb1a0800000000000000
+      internalID: -6791580551628014133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_93
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 173
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e209cbd5d52a460800000000000000
+      internalID: 7251461007196827218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_94
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 170
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b288b559cf5d90b0800000000000000
+      internalID: -5720310633359441232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_95
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 170
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109718e75b393e3c0800000000000000
+      internalID: -4331456008879507199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_96
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 174
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7550eb6f2ae84f4c0800000000000000
+      internalID: -4254618917382781609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_97
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 171
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c40c45e461642520800000000000000
+      internalID: 2676371164536505540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_98
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 171
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6786ecd435b2d180800000000000000
+      internalID: -9092005459058587793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_99
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 174
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf453a0f15d64a280800000000000000
+      internalID: -9032974753901357829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_100
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 171
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ad806b05891dd50800000000000000
+      internalID: 6760351988078664327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_101
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 171
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1606242ec68f880800000000000000
+      internalID: -8576985771295088175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_102
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 125
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e2c2f0c71398e40800000000000000
+      internalID: 5659108815667998278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_103
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 147
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4308a6c3cea54e0800000000000000
+      internalID: -1992020140929043208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_104
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 127
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddc7ce7332de2bf0800000000000000
+      internalID: -347109002648760875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_105
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 149
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdcff6e99180feb0800000000000000
+      internalID: -4688104714087182925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_106
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c386861c69843420800000000000000
+      internalID: 2608861181481747392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_107
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 150
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7285eea0809520900800000000000000
+      internalID: 649179187372775463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_108
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 131
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665f1e9db44555670800000000000000
+      internalID: 8526814154250646886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_109
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 153
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2158b53318596f30800000000000000
+      internalID: 4569280136472973613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_110
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 132
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bf3c07f11fa8a80800000000000000
+      internalID: -8463687432351253622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_111
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 154
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ecb353f67738960800000000000000
+      internalID: 7603051915449716347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_112
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 125
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ab4a2af5140fa80800000000000000
+      internalID: -8435170223058535813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_113
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 127
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2bd8f50eeea8390800000000000000
+      internalID: -7815171555904867630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_114
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 128
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1669b75ea5661720800000000000000
+      internalID: 2816550416437306910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_115
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 131
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5522b388396f050800000000000000
+      internalID: 5834012580621997519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_116
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 132
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5990ee8730da2ffc0800000000000000
+      internalID: -3462514933069117035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_117
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 85
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2798a5e390f390e90800000000000000
+      internalID: -7059041631993165454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_118
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 85
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5570e82dbaf1820800000000000000
+      internalID: 2891218406609475008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_119
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 85
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a6137861c8b1ee0800000000000000
+      internalID: -1289282839926183309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_120
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 87
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463ed1a83cd0a8db0800000000000000
+      internalID: -4789000120268102812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_121
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 87
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9a2027018d51670800000000000000
+      internalID: 8508944636130273763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_122
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 87
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccec0968217e5afd0800000000000000
+      internalID: -2331203165341298996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_123
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 88
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0253244eca41630800000000000000
+      internalID: 3896929673945620671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_124
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 88
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4cf5c52fdc751f0800000000000000
+      internalID: -1056149146779532066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_125
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 88
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb47ad2ff6f19ba70800000000000000
+      internalID: 8843133908994913471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_126
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 91
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f00235ee3fbf130800000000000000
+      internalID: 3601740531935219490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_127
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 91
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4686c0f2691baf50800000000000000
+      internalID: 6893631567357707852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_128
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 91
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc6110299605b970800000000000000
+      internalID: 8769923104111684817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_129
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 92
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6765caab3167df800800000000000000
+      internalID: 647803748519532150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_130
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 92
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abc20e06c12b50a0800000000000000
+      internalID: -6891877670238106720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_131
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 92
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64441563ae851def0800000000000000
+      internalID: -85189154986441658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_132
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 53
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d39ab4dbd7bd5fc0800000000000000
+      internalID: -3504442780229659692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_133
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 47
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d136630a7f95f820800000000000000
+      internalID: 2951440477203083737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_134
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 47
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a827cc3966353bc30800000000000000
+      internalID: 4373931363138302602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_135
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 55
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e305b1556f40b350800000000000000
+      internalID: 6030407197630202851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_136
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 49
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135c4573696cd1c60800000000000000
+      internalID: 7790601278896522545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_137
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 49
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd77f7ea6da25170800000000000000
+      internalID: 8165779749046025695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_138
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 53
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b053406387cff3940800000000000000
+      internalID: 5278214881534031115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_139
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 50
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac1851ebdab0bef0800000000000000
+      internalID: -94370138633528160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_140
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 50
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee64194776bdb1f90800000000000000
+      internalID: -6981745559924029714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_141
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 54
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2295f0fbd2d53f0800000000000000
+      internalID: -910521251039468891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_142
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 53
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75945d0a85f591d0800000000000000
+      internalID: -3344497174974786177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_143
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 53
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548074792340c6c80800000000000000
+      internalID: -8328276995581999035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_144
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 55
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7a4a21371fad8b0800000000000000
+      internalID: -5126519749271574581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_145
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 54
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b63db0391bff510800000000000000
+      internalID: 1585180838974417700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET FOR DEMO_146
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 54
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4818312f7a4448b10800000000000000
+      internalID: 1982785224061452676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

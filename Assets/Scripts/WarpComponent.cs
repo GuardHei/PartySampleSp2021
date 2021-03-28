@@ -105,7 +105,7 @@ public class WarpComponent : MonoBehaviour
     protected void Start()
     {
         WarpManager.Instance._warpComponents.Add(this);
-        _spriteRenderer = GetComponent<SpriteRenderer>();
+        _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
 
     protected void OnDestroy()

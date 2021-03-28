@@ -5,6 +5,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="AudioManager.cs" t="Include" />
           <e p="BaseItemController.cs" t="Include" />
           <e p="BaseWeaponController.cs" t="Include" />
           <e p="CameraEffectController.cs" t="Include" />
@@ -17,6 +18,10 @@
           <e p="WarpComponent.cs" t="Include" />
           <e p="WarpManager.cs" t="Include" />
           <e p="WarpPuzzle" t="Include">
+            <e p="Demo-Specific" t="Include">
+              <e p="LoadDemoScene.cs" t="Include" />
+              <e p="TemporaryText.cs" t="Include" />
+            </e>
             <e p="Door.cs" t="Include" />
             <e p="Key.cs" t="Include" />
             <e p="TurretBullet.cs" t="Include" />

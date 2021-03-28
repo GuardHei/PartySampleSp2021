@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TurretBullet : MonoBehaviour
 {
@@ -20,6 +21,7 @@ public class TurretBullet : MonoBehaviour
             {
                 health.Hit(_damage);
             }
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             Destroy(gameObject);
         }
         else if (!target.gameObject.CompareTag("Enemy"))

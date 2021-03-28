@@ -23,6 +23,10 @@ public class CameraEffectController : MonoBehaviour {
 	private int _widthKey = Shader.PropertyToID("_BorderWidth");
 	private int _colorKey = Shader.PropertyToID("_BorderColor");
 
+	private void Start() {
+		Application.targetFrameRate = 60;
+	}
+
 	public void OnRenderImage(RenderTexture src, RenderTexture dest) {
 		if (activated && mat != null && warpManager != null) {
 			mat.SetFloat(_activatedKey, activated ? 1f : 0f);

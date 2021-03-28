@@ -6,9 +6,17 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/CameraEffectMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/CameraEffectMaterial.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BulletPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BulletPrefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Key.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Key.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo/DemoScene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Demo/DemoScene1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo/DemoScene2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Demo/DemoScene2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo/DemoScene3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Demo/DemoScene3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraEffectController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraEffectController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/WarpComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WarpComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WarpPuzzle/TurretBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WarpPuzzle/TurretBullet.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +28,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WarpPuzzle/UnfocusedTurret.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/83FB2797-B55E-4383-AAE9-E15220A067E6/97/fc88285d/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WarpManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WarpPuzzle/Door.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WarpPuzzle/TurretBullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../SRP/Assets/Scripts/OldSRPAsset.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WarpPuzzle/Key.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HitboxController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F4C8E1C5-291E-4EF9-B18C-5BD800856C80/db/ff64df2f/SpriteMask.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/83FB2797-B55E-4383-AAE9-E15220A067E6/9c/7e238b29/Component.cs" root0="SKIP_HIGHLIGHTING" />
@@ -36,6 +48,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/BulletPrefab.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StupidAIMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WarpComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraEffectController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -49,9 +62,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CullingReferences.cs" />
         <option value="$PROJECT_DIR$/Assets/Shaders/CameraEffectShader.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WarpPuzzle/TurretBullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraEffectController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WarpComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -124,6 +139,7 @@
       <workItem from="1616480592044" duration="2508000" />
       <workItem from="1616484422954" duration="194000" />
       <workItem from="1616850396880" duration="1575000" />
+      <workItem from="1616935945474" duration="3352000" />
     </task>
     <servers />
   </component>
