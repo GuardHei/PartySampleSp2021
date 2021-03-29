@@ -75,10 +75,10 @@ public class PlayerController : MonoBehaviour {
 			if (WarpManager.Instance != null) // code specific to the warp part of game
 			{
 				if (canWarp) {
-					if (Input.GetKeyDown(warpCentricKey)) {
+					if (Input.GetKeyDown(warpCentricKey) && !Input.GetKey(mapViewKey)) {
 						WarpManager.Instance.WarpCentricAll();
 					}
-					if (Input.GetKeyDown(warpExteriorKey)) {
+					if (Input.GetKeyDown(warpExteriorKey) && !Input.GetKey(mapViewKey)) {
 						WarpManager.Instance.WarpExteriorAll();
 					}
 				}
