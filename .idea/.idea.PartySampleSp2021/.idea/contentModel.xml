@@ -31,6 +31,10 @@
         <e p="Shaders" t="Include">
           <e p="CameraEffectShader.shader" t="Include" />
         </e>
+        <e p="Submissions" t="Include">
+          <e p="Detection.cs" t="Include" />
+          <e p="FlipSensor.cs" t="Include" />
+        </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
