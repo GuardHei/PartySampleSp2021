@@ -3,7 +3,6 @@ using UnityEngine.UI;
 
 public class DialogueMonoBehaviour : MonoBehaviour
 {
-    
     public DialogueSettings settings;
     public Text speaker;
     public Text text;
@@ -18,6 +17,7 @@ public class DialogueMonoBehaviour : MonoBehaviour
         lastTextLength = 0;
         settings.setSpeaker(speaker);
         settings.setImage(image);
+        settings.setText(text, currTime);
         Time.timeScale = 0.0f;
         settings.onOpen.Invoke();
     }
@@ -44,6 +44,7 @@ public class DialogueMonoBehaviour : MonoBehaviour
         {
             Time.timeScale = 1.0f; // (would need to cache old value if we ever try to mutate this elsewhere)
             settings.onClose.Invoke();
+            if (settings.nextDialogue) DialogueManager.Instance.Open(settings.nextDialogue);
             GameObject o = gameObject;
             o.SetActive(false); // unsure if needed (I know destroy can be delayed, but it might already do this)
             Destroy(o);

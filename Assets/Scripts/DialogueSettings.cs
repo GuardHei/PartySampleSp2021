@@ -12,27 +12,30 @@ public class DialogueSettings : MonoBehaviour
     [Range(0.0f, 10.0f)] public float textDisplayTime;
     public UnityEvent onOpen;
     public UnityEvent onClose;
+    public DialogueSettings nextDialogue;
     
     public void setSpeaker(Text speaker)
     {
         speaker.text = this.speaker;
+        speaker.enabled = true;
     }
     
     public int setText(Text text, float currTime)
     {
-        int endIndex = (int) Math.Min(this.text.Length * (currTime / textDisplayTime), this.text.Length);
+        int endIndex = textDisplayTime == 0 ? this.text.Length : 
+            (int) Math.Min(this.text.Length * (currTime / textDisplayTime), this.text.Length);
         string currString = this.text.Substring(0, endIndex);
         text.text = currString;
+        text.enabled = true;
         return currString.Length;
     }
     
     public void setImage(Image image)
     {
-        if (sprite != null) image.sprite = sprite;
-    }
-    
-    public void OpenDialogue(DialogueSettings dialogue) // (This method exists for convenience in the inspector.)
-    {
-        DialogueManager.Instance.Open(dialogue);
+        if (sprite != null)
+        {
+            image.sprite = sprite;
+            image.enabled = true;
+        }
     }
 }
