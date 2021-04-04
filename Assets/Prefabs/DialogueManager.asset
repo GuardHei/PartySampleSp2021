@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8fb4113a0cd4a5bbd4d43078ff4bb8c, type: 3}
   m_Name: DialogueManager
   m_EditorClassIdentifier: 
-  dialoguePrefab: {fileID: 0}
+  dialoguePrefab: {fileID: 965164987385706033, guid: 5af8709f464c44f5abd2e91d1e005946,
+    type: 3}
