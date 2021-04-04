@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour {
 	public KeyCode rightKey = KeyCode.D;
 	public KeyCode attackKey = KeyCode.J;
 	public KeyCode itemKey = KeyCode.K;
-	public KeyCode warpCentricKey = KeyCode.Q;
+	public KeyCode warpCentricKey = KeyCode.X;
 	public KeyCode warpExteriorKey = KeyCode.Z;
 	public KeyCode mapViewKey = KeyCode.M;
 	public KeyCode replayKey = KeyCode.R;
@@ -75,10 +75,10 @@ public class PlayerController : MonoBehaviour {
 			if (WarpManager.Instance != null) // code specific to the warp part of game
 			{
 				if (canWarp) {
-					if (Input.GetKeyDown(warpCentricKey)) {
+					if (Input.GetKeyDown(warpCentricKey) && !Input.GetKey(mapViewKey)) {
 						WarpManager.Instance.WarpCentricAll();
 					}
-					if (Input.GetKeyDown(warpExteriorKey)) {
+					if (Input.GetKeyDown(warpExteriorKey) && !Input.GetKey(mapViewKey)) {
 						WarpManager.Instance.WarpExteriorAll();
 					}
 				}
