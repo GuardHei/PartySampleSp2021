@@ -33,4 +33,4 @@ There are two special folders, one is **Tests** folder. It is a folder that will
 
 ### Submissions Folder
 
-Another speical folder is **Submissions** folder, where you put the work that you want to submit to the whole project (for example, the level you create). Name the level file in the form of "[Your Name] [Level Number]", eg. "William Level 1". Please do not put these level files under **Scenes** folder, because that may casue conflicts if other people are modifying the same level.
+Another speical folder is **Submissions** folder, where you put the work that you want to submit to the whole project (for example, the level you create). Name the level file in the form of "[Your Name] [Level Number]", eg. "William Level 1". Please do not put these level files under **Scenes** folder, because that may casue conflicts if other people are modifying the same level. You can put scripts in under **Scripts** folder, if you are confident that no one else will have a script of the same name.
