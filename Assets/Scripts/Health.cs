@@ -2,9 +2,10 @@
 using UnityEngine.Events;
 
 public class Health : MonoBehaviour {
-
-	public bool invincible;
 	
+	public bool invincible;
+	public bool armored;
+
 	public int maxHealth;
 	public int health;
 
@@ -12,8 +13,9 @@ public class Health : MonoBehaviour {
 	public UnityEvent onRecover;
 	public UnityEvent onDeath;
 
-	public void Hit(int damage) {
+	public void Hit(int damage, bool ignoreArmor = false) {
 		if (invincible) return;
+		if (armored && !ignoreArmor) return;
 		health -= damage;
 		health = Mathf.Max(health, 0);
 		onHit?.Invoke();

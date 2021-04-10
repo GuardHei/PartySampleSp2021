@@ -5,7 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CollisionEventTrigger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CollisionEventTrigger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/99258562-0D64-4271-98DD-F3A0E1467733/cd/b1d0e795/LinkedList`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HitboxController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F4C8E1C5-291E-4EF9-B18C-5BD800856C80/db/ff64df2f/SpriteMask.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/83FB2797-B55E-4383-AAE9-E15220A067E6/9c/7e238b29/Component.cs" root0="SKIP_HIGHLIGHTING" />
@@ -36,6 +39,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WarpPuzzle/Door.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WarpPuzzle/TurretBullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../SRP/Assets/Scripts/OldSRPAsset.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StandardEnemyMovementAI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WarpPuzzle/Key.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial/CoroutineTutorial.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/83FB2797-B55E-4383-AAE9-E15220A067E6/35/7b48d596/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
@@ -53,7 +57,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/StupidAIMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BaseWeaponController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HitboxController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CullingReferences.cs" />
         <option value="$PROJECT_DIR$/Assets/Shaders/CameraEffectShader.shader" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WarpPuzzle/TurretBullet.cs" />
@@ -62,6 +65,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/WarpComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tutorial/CoroutineTutorial.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StandardEnemyMovementAI.cs" />
       </list>
     </option>
   </component>
@@ -137,6 +142,7 @@
       <workItem from="1616935945474" duration="3352000" />
       <workItem from="1616983096713" duration="984000" />
       <workItem from="1617504964208" duration="3056000" />
+      <workItem from="1618038303611" duration="2289000" />
     </task>
     <servers />
   </component>
