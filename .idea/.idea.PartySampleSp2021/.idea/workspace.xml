@@ -5,14 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EnemyMovementTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EnemyMovementTest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Submissions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/RangedAttack.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/RangedAttack.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/RangedAttacker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/RangedAttacker.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/RangedAttacker.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/RangedAttacker.prefab.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +82,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/StandardEnemyMovementAI.cs" />
         <option value="$PROJECT_DIR$/Assets/Submissions/RangedAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RangedAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Submissions/Teleport.cs" />
       </list>
     </option>
   </component>
@@ -166,6 +161,7 @@
       <workItem from="1618038303611" duration="2289000" />
       <workItem from="1618040965946" duration="10433000" />
       <workItem from="1618062904918" duration="1076000" />
+      <workItem from="1618064363549" duration="442000" />
     </task>
     <servers />
   </component>
@@ -179,7 +175,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

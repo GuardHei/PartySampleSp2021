@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class teleport : MonoBehaviour
+public class Teleport : MonoBehaviour
 {
     public GameObject teleportTo;
     private GameObject other;
@@ -30,18 +30,18 @@ public class teleport : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collision.tag == "Player")
+        if (collider.CompareTag("Player"))
         {
-            other = collision.gameObject;
+            other = collider.gameObject;
             teleportbool = true;
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D collider)
     {
-        if (collision.tag == "Player")
+        if (collider.CompareTag("Player"))
         {
             other = null;
             teleportbool = false;
