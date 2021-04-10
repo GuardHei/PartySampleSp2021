@@ -99,6 +99,7 @@ public class PlayerController : MonoBehaviour {
 	public void Turn(Direction direction) {
 		if (direction == facing) return;
 		facing = direction;
+		/*
 		Vector3 eulerAngle = Vector3.one;
 		switch (direction) {
 			case Direction.UP: eulerAngle = new Vector3(0, 0, 0); break;
@@ -108,6 +109,7 @@ public class PlayerController : MonoBehaviour {
 		}
 		
 		transform.rotation = Quaternion.Euler(eulerAngle);
+		*/
 	}
 }
 
