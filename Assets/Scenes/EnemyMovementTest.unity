@@ -283,6 +283,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88c0a218711134935b0cee021d16d6df, type: 3}
+--- !u!1 &311280890 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6069560532309513527, guid: 88c0a218711134935b0cee021d16d6df,
+    type: 3}
+  m_PrefabInstance: {fileID: 311280889}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &311280891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311280890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c064fadf447f7b4da267138d7ede14a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rangedAttackerPrefab: {fileID: 4063218249767843426, guid: 2c5a03d1d1474f94a86e15c264aeb035,
+    type: 3}
+  markerPrefab: {fileID: 3848625248194119568, guid: 3274bf6302063455eb7e604c628c8f8f,
+    type: 3}
+  damage: 10
+  paintCost: 0
+  attackRadius: 1
+  attackDelay: 2
+  range: 10
+  cooldownLength: 2.5
+  attackButton: 324
 --- !u!1 &469627815
 GameObject:
   m_ObjectHideFlags: 0
@@ -672,6 +701,7 @@ GameObject:
   - component: {fileID: 2025208989}
   - component: {fileID: 2025208988}
   - component: {fileID: 2025208987}
+  - component: {fileID: 2025208990}
   m_Layer: 8
   m_Name: Standard Enemy
   m_TagString: Enemy
@@ -835,6 +865,42 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2025208990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025208984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f66822af7cb4fa8ab05fb3016ae436, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  invincible: 0
+  armored: 0
+  maxHealth: 10
+  health: 10
+  onHit:
+    m_PersistentCalls:
+      m_Calls: []
+  onRecover:
+    m_PersistentCalls:
+      m_Calls: []
+  onDeath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2025208990}
+        m_MethodName: SelfDestroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!1 &2032443615
 GameObject:
   m_ObjectHideFlags: 0

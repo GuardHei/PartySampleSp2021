@@ -7,6 +7,7 @@ using UnityEngine.SocialPlatforms.GameCenter;
 public class RangedAttack : MonoBehaviour
 {
     public GameObject rangedAttackerPrefab; // unit that spawns and looks like it attacks
+    public GameObject markerPrefab;
     public int damage;
     public int paintCost; // not checked for as of yet
     public int attackRadius; // radius of the attack.
@@ -22,7 +23,7 @@ public class RangedAttack : MonoBehaviour
     {
         if (Input.GetKeyDown(attackButton))
         {
-            attackPoint = GETCoordinatesFromMouse();
+            attackPoint = GetCoordinatesFromMouse();
             if (!TargetIsInRange(attackPoint))
             {
                 Debug.Log("Target out of range.");
@@ -35,7 +36,7 @@ public class RangedAttack : MonoBehaviour
             {
                 Debug.Log("Attack start.");
                 cd = cooldownLength;
-                screenBounds = GETScreenBounds();
+                screenBounds = GetScreenBounds();
                 SpawnAttacker();
                 StartCoroutine(DelayedAttackRoutine());
             }
@@ -69,8 +70,12 @@ public class RangedAttack : MonoBehaviour
      */
     private void SpawnAttacker()
     {
-        GameObject a = Instantiate(rangedAttackerPrefab) as GameObject;
+        GameObject a = Instantiate(rangedAttackerPrefab);
+        GameObject b = Instantiate(markerPrefab);
         a.transform.position = new Vector2(screenBounds.x - 1, screenBounds.y - 1);
+        a.GetComponent<RangedAttacker>().lifespan = attackDelay;
+        b.transform.position = new Vector3(attackPoint.x, attackPoint.y, b.transform.position.z);
+        b.GetComponent<RangedAttacker>().lifespan = attackDelay;
     }
 
     /**
@@ -91,7 +96,7 @@ public class RangedAttack : MonoBehaviour
      * 
      * @source https://stackoverflow.com/questions/46998241/getting-mouse-position-in-unity
      */
-    private static Vector2 GETCoordinatesFromMouse()
+    private static Vector2 GetCoordinatesFromMouse()
     {
         Vector3 mousePos = Input.mousePosition; // mouse position in pixels
         Vector2 screenPos = new Vector2(mousePos.x, mousePos.y);
@@ -99,11 +104,7 @@ public class RangedAttack : MonoBehaviour
         return worldPos;
     }
 
-    private static Vector2 GETScreenBounds()
-    {
-        return
-            Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
-    }
+    private static Vector2 GetScreenBounds() => Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
 
     /**
      * Copy pasted from HitBoxController.cs since I didn't see a way to get a transform
