@@ -35,6 +35,9 @@ public class FlipSensor : MonoBehaviour
             point1hit = true;
             point2hit = false;
             sensor.GetComponent<Transform>().RotateAround(transform.position, axis, 180);
+            Vector3 corrected = sensor.GetComponent<Transform>().position;
+            corrected[2] = 0;
+            sensor.GetComponent<Transform>().position = corrected;
         }
         if (transform.position == point2.position && point2hit == false)
         {
@@ -42,6 +45,9 @@ public class FlipSensor : MonoBehaviour
             point2hit = true;
             point1hit = false;
             sensor.GetComponent<Transform>().RotateAround(transform.position, axis, 180);
+            Vector3 corrected = sensor.GetComponent<Transform>().position;
+            corrected[2] = 0;
+            sensor.GetComponent<Transform>().position = corrected;
         }
 
     }

@@ -5,6 +5,7 @@ using UnityEngine.Events;
 
 public class Detection : MonoBehaviour {
 
+
     public UnityEvent onDetected;
 
     private void OnTriggerEnter2D(Collider2D collider) {
