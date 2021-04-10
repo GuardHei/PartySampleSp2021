@@ -7,29 +7,21 @@ using UnityEngine.SocialPlatforms.GameCenter;
 public class RangedAttack : MonoBehaviour
 {
     public GameObject rangedAttackerPrefab; // unit that spawns and looks like it attacks
-    public bool isAttacking;
     public int damage;
     public int paintCost; // not checked for as of yet
     public int attackRadius; // radius of the attack.
     public int attackDelay;
     public int attackRange; // a valid attack must be within this distance
     public float cooldownLength;
-    public float cd = 0;
     public KeyCode attackButton = KeyCode.Mouse0; // Currently left mouse button
+    private float cd = 0; // time left until ability is ready for use
     private Vector2 markerCoordinates; // holds the coordinates to strike
     private Vector2 screenBounds; // so that we can spawn this attacker to a side of the screen
-
-    private void Start()
-    {
-        screenBounds =
-            Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
-    }
 
     void Update()
     {
         if (Input.GetKeyDown(attackButton))
         {
-            isAttacking = false;
             markerCoordinates = getCoordinatesFromMouse();
             if (!targetIsInRange(markerCoordinates))
             {
@@ -42,16 +34,11 @@ public class RangedAttack : MonoBehaviour
             else
             {
                 Debug.Log("Attack start.");
-                isAttacking = true;
                 cd = cooldownLength;
+                screenBounds = getScreenBounds();
+                spawnAttacker();
+                StartCoroutine(delayedAttackRoutine());
             }
-        }
-
-        if (isAttacking)
-        {
-            spawnAttacker();
-            StartCoroutine(delayedAttackRoutine());
-            isAttacking = false;
         }
 
         if (cd > 0)
@@ -120,5 +107,11 @@ public class RangedAttack : MonoBehaviour
         Vector2 screenPos = new Vector2(mousePos.x, mousePos.y);
         Vector2 worldPos = Camera.main.ScreenToWorldPoint(screenPos);
         return worldPos;
+    }
+
+    private Vector2 getScreenBounds()
+    {
+        return
+            Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
     }
 }
