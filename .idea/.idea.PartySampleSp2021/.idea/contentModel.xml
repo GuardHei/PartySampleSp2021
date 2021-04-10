@@ -21,6 +21,8 @@
           <e p="HitboxController.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="PlayerInventory.cs" t="Include" />
+          <e p="RangedAttack.cs" t="Include" />
+          <e p="RangedAttacker.cs" t="Include" />
           <e p="StandardEnemyMovementAI.cs" t="Include" />
           <e p="StupidAIMovement.cs" t="Include" />
           <e p="Tutorial" t="Include">

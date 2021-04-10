@@ -7,23 +7,24 @@ using UnityEngine.SocialPlatforms.GameCenter;
 public class RangedAttack : MonoBehaviour
 {
     public GameObject rangedAttackerPrefab; // unit that spawns and looks like it attacks
+    public GameObject markerPrefab;
     public int damage;
     public int paintCost; // not checked for as of yet
     public int attackRadius; // radius of the attack.
     public int attackDelay;
-    public int attackRange; // a valid attack must be within this distance
+    public int range; // a valid attack must be within this distance
     public float cooldownLength;
-    public KeyCode attackButton = KeyCode.Mouse0; // Currently left mouse button
+    public KeyCode attackButton = KeyCode.Mouse1; // Currently Right Mouse Button
+    private Vector2 attackPoint; // holds the coordinates to strike
     private float cd = 0; // time left until ability is ready for use
-    private Vector2 markerCoordinates; // holds the coordinates to strike
     private Vector2 screenBounds; // so that we can spawn this attacker to a side of the screen
 
     void Update()
     {
         if (Input.GetKeyDown(attackButton))
         {
-            markerCoordinates = getCoordinatesFromMouse();
-            if (!targetIsInRange(markerCoordinates))
+            attackPoint = GetCoordinatesFromMouse();
+            if (!TargetIsInRange(attackPoint))
             {
                 Debug.Log("Target out of range.");
             }
@@ -35,9 +36,9 @@ public class RangedAttack : MonoBehaviour
             {
                 Debug.Log("Attack start.");
                 cd = cooldownLength;
-                screenBounds = getScreenBounds();
-                spawnAttacker();
-                StartCoroutine(delayedAttackRoutine());
+                screenBounds = GetScreenBounds();
+                SpawnAttacker();
+                StartCoroutine(DelayedAttackRoutine());
             }
         }
 
@@ -48,39 +49,33 @@ public class RangedAttack : MonoBehaviour
     }
 
     /**
-     * After the delay, spawn a regional attack on the location.
-     * Currently, it would also damage the player.
-     * TODO: need to test this overlap sphere method. Seems like it should do the job but something is off.
-     *
-     * @source https://docs.unity3d.com/ScriptReference/Physics.OverlapSphere.html
-     * @source https://answers.unity.com/questions/454590/c-how-to-check-if-a-gameobject-contains-a-certain.html
+     * After the delay, spawn a regional attack on the location. Currently,
+     * it should also damage the player.
+     * 
+     * TODO: need a telegraph to show the player will the attack will land.
      */
-    IEnumerator delayedAttackRoutine()
+    private IEnumerator DelayedAttackRoutine()
     {
         yield return new WaitForSeconds(attackDelay);
         Debug.Log("The attack now lands!");
-        Collider[] hitColliders = Physics.OverlapSphere(markerCoordinates, attackRadius);
-        foreach (var hitCollider in hitColliders)
-        {
-            Debug.Log("This guy is doomed: " + hitCollider.name + " takes " + damage + " damage.");
-            Health hp = hitCollider.GetComponent<Health>();
-            if (hp != null)
-            {
-                hp.Hit(damage);
-            }
-        }
+        Attack();
     }
 
     /**
-     * Spawns a unit to the right of the screen.
+     * Spawns a unit and places it on the right side of the screen.
      * The unit itself determines when it is deleted. It is not based off of the delay time here.
+     * Can mess around with the transform.position as desired.
      * 
      * @source https://youtu.be/E7gmylDS1C4?t=434
      */
-    private void spawnAttacker()
+    private void SpawnAttacker()
     {
-        GameObject a = Instantiate(rangedAttackerPrefab) as GameObject;
+        GameObject a = Instantiate(rangedAttackerPrefab);
+        GameObject b = Instantiate(markerPrefab);
         a.transform.position = new Vector2(screenBounds.x - 1, screenBounds.y - 1);
+        a.GetComponent<RangedAttacker>().lifespan = attackDelay;
+        b.transform.position = new Vector3(attackPoint.x, attackPoint.y, b.transform.position.z);
+        b.GetComponent<RangedAttacker>().lifespan = attackDelay;
     }
 
     /**
@@ -89,11 +84,11 @@ public class RangedAttack : MonoBehaviour
      * @source https://www.codegrepper.com/code-examples/csharp/
      * unity+how+to+check+if+a+game+object+if+with+in+a+radius
      */
-    private bool targetIsInRange(Vector2 targetCoords)
+    private bool TargetIsInRange(Vector2 targetCoords)
     {
         Vector2 playerCoords = transform.position;
         float distance = Vector2.Distance(playerCoords, targetCoords);
-        return (distance <= attackRange);
+        return (distance <= range);
     }
 
     /**
@@ -101,7 +96,7 @@ public class RangedAttack : MonoBehaviour
      * 
      * @source https://stackoverflow.com/questions/46998241/getting-mouse-position-in-unity
      */
-    private Vector2 getCoordinatesFromMouse()
+    private static Vector2 GetCoordinatesFromMouse()
     {
         Vector3 mousePos = Input.mousePosition; // mouse position in pixels
         Vector2 screenPos = new Vector2(mousePos.x, mousePos.y);
@@ -109,9 +104,20 @@ public class RangedAttack : MonoBehaviour
         return worldPos;
     }
 
-    private Vector2 getScreenBounds()
+    private static Vector2 GetScreenBounds() => Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
+
+    /**
+     * Copy pasted from HitBoxController.cs since I didn't see a way to get a transform
+     * object given a Vector2D. Also thought it would be too hacky to somehow make a copy of
+     * the current transform, modify it, then pass it in.
+     */
+    private void Attack()
     {
-        return
-            Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
+        Collider2D[] hits = Physics2D.OverlapCircleAll(attackPoint, attackRadius);
+        foreach (var hit in hits)
+        {
+            if (hit == null) break;
+            if (hit.TryGetComponent(out Health health)) health.Hit(damage);
+        }
     }
 }
