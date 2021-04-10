@@ -1,0 +1,4052 @@
+fileFormatVersion: 2
+guid: 1e4b1323336c10543984711326e8f4ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1048038108276504887
+    second: ASSET SHEET_0
+  - first:
+      213: 2232457382906691349
+    second: ASSET SHEET_1
+  - first:
+      213: 1452695839042699581
+    second: ASSET SHEET_2
+  - first:
+      213: -3772049139498458656
+    second: ASSET SHEET_3
+  - first:
+      213: -2979392969172285149
+    second: ASSET SHEET_4
+  - first:
+      213: -3222061195424195670
+    second: ASSET SHEET_5
+  - first:
+      213: 4672682659299829919
+    second: ASSET SHEET_6
+  - first:
+      213: -8419170609232536320
+    second: ASSET SHEET_7
+  - first:
+      213: 2068519777270643307
+    second: ASSET SHEET_8
+  - first:
+      213: 4752612780341191632
+    second: ASSET SHEET_9
+  - first:
+      213: 3497548666120521687
+    second: ASSET SHEET_10
+  - first:
+      213: 6146253052602666149
+    second: ASSET SHEET_11
+  - first:
+      213: 4699021789132563397
+    second: ASSET SHEET_12
+  - first:
+      213: 2644650760768637625
+    second: ASSET SHEET_13
+  - first:
+      213: -7727229142556349967
+    second: ASSET SHEET_14
+  - first:
+      213: -8593264554718324514
+    second: ASSET SHEET_15
+  - first:
+      213: 8730679392889704807
+    second: ASSET SHEET_16
+  - first:
+      213: 9092653110169086864
+    second: ASSET SHEET_17
+  - first:
+      213: 5804282357595726043
+    second: ASSET SHEET_18
+  - first:
+      213: -6366966823868420398
+    second: ASSET SHEET_19
+  - first:
+      213: 5429077012780300499
+    second: ASSET SHEET_20
+  - first:
+      213: 1228852106609950500
+    second: ASSET SHEET_21
+  - first:
+      213: 8061094691934427101
+    second: ASSET SHEET_22
+  - first:
+      213: -3765437090478313343
+    second: ASSET SHEET_23
+  - first:
+      213: -6412875475788305938
+    second: ASSET SHEET_24
+  - first:
+      213: 3965698080880194358
+    second: ASSET SHEET_25
+  - first:
+      213: 3494466940972683539
+    second: ASSET SHEET_26
+  - first:
+      213: 4041569102883530278
+    second: ASSET SHEET_27
+  - first:
+      213: -6078684237716548030
+    second: ASSET SHEET_28
+  - first:
+      213: -3928143694284788061
+    second: ASSET SHEET_29
+  - first:
+      213: -988947130565302396
+    second: ASSET SHEET_30
+  - first:
+      213: 2080873888644159696
+    second: ASSET SHEET_31
+  - first:
+      213: 6662201936767247690
+    second: ASSET SHEET_32
+  - first:
+      213: 2187335341089132859
+    second: ASSET SHEET_33
+  - first:
+      213: -4990952936926747669
+    second: ASSET SHEET_34
+  - first:
+      213: -6270622720728865142
+    second: ASSET SHEET_35
+  - first:
+      213: 3441544510464775046
+    second: ASSET SHEET_36
+  - first:
+      213: 5716108905491087247
+    second: ASSET SHEET_37
+  - first:
+      213: -7255026010762219752
+    second: ASSET SHEET_38
+  - first:
+      213: -8453319195365741840
+    second: ASSET SHEET_39
+  - first:
+      213: 9080972119234303740
+    second: ASSET SHEET_40
+  - first:
+      213: -1375164898132353927
+    second: ASSET SHEET_41
+  - first:
+      213: 8783896800954742820
+    second: ASSET SHEET_42
+  - first:
+      213: 2328322784485875681
+    second: ASSET SHEET_43
+  - first:
+      213: -2026171960936171160
+    second: ASSET SHEET_44
+  - first:
+      213: -4523411731805038958
+    second: ASSET SHEET_45
+  - first:
+      213: 3439833293584473037
+    second: ASSET SHEET_46
+  - first:
+      213: 8268848121456966596
+    second: ASSET SHEET_47
+  - first:
+      213: -5185770924664577356
+    second: ASSET SHEET_48
+  - first:
+      213: -5974809291113508675
+    second: ASSET SHEET_49
+  - first:
+      213: -8053968983972335754
+    second: ASSET SHEET_50
+  - first:
+      213: 5149836212121945709
+    second: ASSET SHEET_51
+  - first:
+      213: 7104651161453767782
+    second: ASSET SHEET_52
+  - first:
+      213: 350849079534933395
+    second: ASSET SHEET_53
+  - first:
+      213: -5255882924578802824
+    second: ASSET SHEET_54
+  - first:
+      213: 3231933584113498464
+    second: ASSET SHEET_55
+  - first:
+      213: 5724402217365871754
+    second: ASSET SHEET_56
+  - first:
+      213: -2119914534491430043
+    second: ASSET SHEET_57
+  - first:
+      213: 7491248060848585468
+    second: ASSET SHEET_58
+  - first:
+      213: 3003052631242553811
+    second: ASSET SHEET_59
+  - first:
+      213: -6703396855223623131
+    second: ASSET SHEET_60
+  - first:
+      213: -6582387477764299586
+    second: ASSET SHEET_61
+  - first:
+      213: 4548496048392697804
+    second: ASSET SHEET_62
+  - first:
+      213: -4687317245501433703
+    second: ASSET SHEET_63
+  - first:
+      213: 1708614035765870027
+    second: ASSET SHEET_64
+  - first:
+      213: -6797661491555451539
+    second: ASSET SHEET_65
+  - first:
+      213: 7504417106663553289
+    second: ASSET SHEET_66
+  - first:
+      213: 8815463937205414531
+    second: ASSET SHEET_67
+  - first:
+      213: -3455288442696997925
+    second: ASSET SHEET_68
+  - first:
+      213: 5585878042717318912
+    second: ASSET SHEET_69
+  - first:
+      213: 2457231683074138363
+    second: ASSET SHEET_70
+  - first:
+      213: 5139387779521719350
+    second: ASSET SHEET_71
+  - first:
+      213: -3908601750611052399
+    second: ASSET SHEET_72
+  - first:
+      213: 5694515107885630071
+    second: ASSET SHEET_73
+  - first:
+      213: -3960904777980222015
+    second: ASSET SHEET_74
+  - first:
+      213: -2616816853769878479
+    second: ASSET SHEET_75
+  - first:
+      213: 6111478956343203705
+    second: ASSET SHEET_76
+  - first:
+      213: 5905368526401336479
+    second: ASSET SHEET_77
+  - first:
+      213: 4316560214634762880
+    second: ASSET SHEET_78
+  - first:
+      213: -5715799044942213995
+    second: ASSET SHEET_79
+  - first:
+      213: -3753025277303992683
+    second: ASSET SHEET_80
+  - first:
+      213: -828463893856633050
+    second: ASSET SHEET_81
+  - first:
+      213: 2179706631613073632
+    second: ASSET SHEET_82
+  - first:
+      213: 7848771197382154895
+    second: ASSET SHEET_83
+  - first:
+      213: -4234053327024879378
+    second: ASSET SHEET_84
+  - first:
+      213: 8631043545852407625
+    second: ASSET SHEET_85
+  - first:
+      213: 5223034888239070163
+    second: ASSET SHEET_86
+  - first:
+      213: 9085818807327572290
+    second: ASSET SHEET_87
+  - first:
+      213: -5797741639643396255
+    second: ASSET SHEET_88
+  - first:
+      213: 253658592013246250
+    second: ASSET SHEET_89
+  - first:
+      213: 1453345821473275303
+    second: ASSET SHEET_90
+  - first:
+      213: -4366763911207894730
+    second: ASSET SHEET_91
+  - first:
+      213: -6266406286473782589
+    second: ASSET SHEET_92
+  - first:
+      213: 8435826272618001200
+    second: ASSET SHEET_93
+  - first:
+      213: 7836338184453820567
+    second: ASSET SHEET_94
+  - first:
+      213: 3419872195302837595
+    second: ASSET SHEET_95
+  - first:
+      213: 4879454151816002470
+    second: ASSET SHEET_96
+  - first:
+      213: -2472065577616688545
+    second: ASSET SHEET_97
+  - first:
+      213: -2900435770386546537
+    second: ASSET SHEET_98
+  - first:
+      213: -2370773832188420824
+    second: ASSET SHEET_99
+  - first:
+      213: -5820477712575703087
+    second: ASSET SHEET_100
+  - first:
+      213: -7752927712074881543
+    second: ASSET SHEET_101
+  - first:
+      213: -1657573358209903681
+    second: ASSET SHEET_102
+  - first:
+      213: -2270296320283005843
+    second: ASSET SHEET_103
+  - first:
+      213: -5435792080146658500
+    second: ASSET SHEET_104
+  - first:
+      213: -6231139869162361527
+    second: ASSET SHEET_105
+  - first:
+      213: 4630761912879122211
+    second: ASSET SHEET_106
+  - first:
+      213: 6421803979346296027
+    second: ASSET SHEET_107
+  - first:
+      213: 3301669376659851308
+    second: ASSET SHEET_108
+  - first:
+      213: 6040805649534472605
+    second: ASSET SHEET_109
+  - first:
+      213: -2603490433449589547
+    second: ASSET SHEET_110
+  - first:
+      213: -2062744815155690800
+    second: ASSET SHEET_111
+  - first:
+      213: -2538696605117301471
+    second: ASSET SHEET_112
+  - first:
+      213: 884680856639356066
+    second: ASSET SHEET_113
+  - first:
+      213: -3894830350581199042
+    second: ASSET SHEET_114
+  - first:
+      213: -1867887251212696449
+    second: ASSET SHEET_115
+  - first:
+      213: -6059657225706563725
+    second: ASSET SHEET_116
+  - first:
+      213: -5188472583366727907
+    second: ASSET SHEET_117
+  - first:
+      213: -4839392282301199669
+    second: ASSET SHEET_118
+  - first:
+      213: 4285133354219288106
+    second: ASSET SHEET_119
+  - first:
+      213: -861354954994026710
+    second: ASSET SHEET_120
+  - first:
+      213: -1688989102284174221
+    second: ASSET SHEET_121
+  - first:
+      213: -9017703827078736707
+    second: ASSET SHEET_122
+  - first:
+      213: -8611203546172727439
+    second: ASSET SHEET_123
+  - first:
+      213: -1072943852892419764
+    second: ASSET SHEET_124
+  - first:
+      213: -1425225512712792568
+    second: ASSET SHEET_125
+  - first:
+      213: 8931652012992182415
+    second: ASSET SHEET_126
+  - first:
+      213: 2554671329377694553
+    second: ASSET SHEET_127
+  - first:
+      213: -8091833496520068651
+    second: ASSET SHEET_128
+  - first:
+      213: -9013849023462076932
+    second: ASSET SHEET_129
+  - first:
+      213: -7680269714252327895
+    second: ASSET SHEET_130
+  - first:
+      213: -5553649531459794027
+    second: ASSET SHEET_131
+  - first:
+      213: -784809451555207055
+    second: ASSET SHEET_132
+  - first:
+      213: -5449373197513690375
+    second: ASSET SHEET_133
+  - first:
+      213: 6227615745042560202
+    second: ASSET SHEET_134
+  - first:
+      213: -3795245588691945159
+    second: ASSET SHEET_135
+  - first:
+      213: -4527573193462657838
+    second: ASSET SHEET_136
+  - first:
+      213: -6868401995405440585
+    second: ASSET SHEET_137
+  - first:
+      213: 6000574698767330560
+    second: ASSET SHEET_138
+  - first:
+      213: 6110483189413815279
+    second: ASSET SHEET_139
+  - first:
+      213: -1919943011071078926
+    second: ASSET SHEET_140
+  - first:
+      213: -3538194698620529796
+    second: ASSET SHEET_141
+  - first:
+      213: 1228626354659426461
+    second: ASSET SHEET_142
+  - first:
+      213: 5213982776465743635
+    second: ASSET SHEET_143
+  - first:
+      213: 5360937703809738089
+    second: ASSET SHEET_144
+  - first:
+      213: -403917456703313512
+    second: ASSET SHEET_145
+  - first:
+      213: -2875480158059092732
+    second: ASSET SHEET_146
+  - first:
+      213: -3858480186272285943
+    second: ASSET SHEET_147
+  - first:
+      213: 6470897266523863381
+    second: ASSET SHEET_148
+  - first:
+      213: -6931814172476074362
+    second: ASSET SHEET_149
+  - first:
+      213: -1013841655552039599
+    second: ASSET SHEET_150
+  - first:
+      213: -4249832315239420965
+    second: ASSET SHEET_151
+  - first:
+      213: -4701292199154504949
+    second: ASSET SHEET_152
+  - first:
+      213: -5160751276011775101
+    second: ASSET SHEET_153
+  - first:
+      213: 4447201231938406820
+    second: ASSET SHEET_154
+  - first:
+      213: -8687731168194159108
+    second: ASSET SHEET_155
+  - first:
+      213: 146844543612410637
+    second: ASSET SHEET_156
+  - first:
+      213: -3081724445762760889
+    second: ASSET SHEET_157
+  - first:
+      213: -1878013078379171077
+    second: ASSET SHEET_158
+  - first:
+      213: 8842789079375380806
+    second: ASSET SHEET_159
+  - first:
+      213: 5993110444356498635
+    second: ASSET SHEET_160
+  - first:
+      213: 5326515382809489966
+    second: ASSET SHEET_161
+  - first:
+      213: 2921098973208814527
+    second: ASSET SHEET_162
+  - first:
+      213: -4566760190844047430
+    second: ASSET SHEET_163
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ASSET SHEET_0
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 515
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739b4e25b116b8e00800000000000000
+      internalID: 1048038108276504887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_1
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 517
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ff95469284bfe10800000000000000
+      internalID: 2232457382906691349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 516
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3104dc3b23092410800000000000000
+      internalID: 1452695839042699581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 517
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e160e4fa4df6abc0800000000000000
+      internalID: -3772049139498458656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_4
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 517
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329803a41e117a6d0800000000000000
+      internalID: -2979392969172285149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_5
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 498
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab9b2af960f843d0800000000000000
+      internalID: -3222061195424195670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_6
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 520
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98a1b72f14b8d040800000000000000
+      internalID: 4672682659299829919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_7
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 522
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d194500f8192b80800000000000000
+      internalID: -8419170609232536320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_8
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 522
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a361727cbd4bc10800000000000000
+      internalID: 2068519777270643307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_9
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 522
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3e73fa42ca4f140800000000000000
+      internalID: 4752612780341191632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_10
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 498
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d741c42bf9c98030800000000000000
+      internalID: 3497548666120521687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_11
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 498
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5acca0c4690eb4550800000000000000
+      internalID: 6146253052602666149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_12
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 502
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c32115bb67463140800000000000000
+      internalID: 4699021789132563397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_13
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 498
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bac49edadfa3b420800000000000000
+      internalID: 2644650760768637625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_14
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 498
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9e1e3190e53c490800000000000000
+      internalID: -7727229142556349967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_15
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 499
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed81f03aa679eb880800000000000000
+      internalID: -8593264554718324514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_16
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 499
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761930596aa992970800000000000000
+      internalID: 8730679392889704807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_17
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 500
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09baa7924d79f2e70800000000000000
+      internalID: 9092653110169086864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_18
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 499
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd06f844d04fc8050800000000000000
+      internalID: 5804282357595726043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_19
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 482
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de20a6486df3a7a0800000000000000
+      internalID: -6366966823868420398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_20
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 487
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8320557c4f75b40800000000000000
+      internalID: 5429077012780300499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_21
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 486
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ff9ffea72cd0110800000000000000
+      internalID: 1228852106609950500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_22
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 488
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7d98da9e2cedf60800000000000000
+      internalID: 8061094691934427101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_23
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 471
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180b5f59aea7ebbc0800000000000000
+      internalID: -3765437090478313343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_24
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 471
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9e2dc4bb3e007a0800000000000000
+      internalID: -6412875475788305938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_25
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 471
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633ff45b46df80730800000000000000
+      internalID: 3965698080880194358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_26
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 458
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311d5081b27de7030800000000000000
+      internalID: 3494466940972683539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_27
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 458
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62621989fa9861830800000000000000
+      internalID: 4041569102883530278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_28
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 458
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246932d54ec24aba0800000000000000
+      internalID: -6078684237716548030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_29
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 458
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aee67b4f1e6c79c0800000000000000
+      internalID: -3928143694284788061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_30
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 458
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487630d03dd8642f0800000000000000
+      internalID: -988947130565302396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_31
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 430
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8550bd6cfb0ec10800000000000000
+      internalID: 2080873888644159696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_32
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 476
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a456ee61d55e47c50800000000000000
+      internalID: 6662201936767247690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_33
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 477
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31964a57e9fa5e10800000000000000
+      internalID: 2187335341089132859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_34
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 476
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3e9cf3fb29cbab0800000000000000
+      internalID: -4990952936926747669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_35
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 476
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a866672dbd54af8a0800000000000000
+      internalID: -6270622720728865142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_36
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 439
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683d2f88f72d2cf20800000000000000
+      internalID: 3441544510464775046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_37
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 439
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f3e39a3c2b35f40800000000000000
+      internalID: 5716108905491087247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_38
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 439
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f6c403848f05b90800000000000000
+      internalID: -7255026010762219752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_39
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 439
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0faeb3bbaf6cfaa80800000000000000
+      internalID: -8453319195365741840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_40
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 430
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6df268708160e70800000000000000
+      internalID: 9080972119234303740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_41
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 442
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c1c33afce6aece0800000000000000
+      internalID: -1375164898132353927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_42
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 442
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428f894f99ba6e970800000000000000
+      internalID: 8783896800954742820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_43
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 442
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef9abb8c3ddf4020800000000000000
+      internalID: 2328322784485875681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_44
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 420
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869fa8e265791e3e0800000000000000
+      internalID: -2026171960936171160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_45
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 420
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2961de8fefc9931c0800000000000000
+      internalID: -4523411731805038958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_46
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 407
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb1aaec72ebcbf20800000000000000
+      internalID: 3439833293584473037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_47
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 407
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb39156e89d0c270800000000000000
+      internalID: 8268848121456966596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_48
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 407
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2a1d4c1d07808b0800000000000000
+      internalID: -5185770924664577356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_49
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 418
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0d97a0b96351da0800000000000000
+      internalID: -5974809291113508675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_50
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 419
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fa05e71ed8a3090800000000000000
+      internalID: -8053968983972335754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_51
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 366
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66c8faffb4e77740800000000000000
+      internalID: 5149836212121945709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_52
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 388
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ca48bd69ac89260800000000000000
+      internalID: 7104651161453767782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_53
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 367
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395d37301677ed400800000000000000
+      internalID: 350849079534933395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_54
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 389
+        width: 40
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8737073b35a5f07b0800000000000000
+      internalID: -5255882924578802824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_55
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 366
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0697db2a8722adc20800000000000000
+      internalID: 3231933584113498464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_56
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 390
+        width: 33
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c1d8dcc79217f40800000000000000
+      internalID: 5724402217365871754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_57
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 369
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563637176fc8492e0800000000000000
+      internalID: -2119914534491430043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_58
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 391
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfab637cb6246f760800000000000000
+      internalID: 7491248060848585468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_59
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 369
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9b30f057cfca920800000000000000
+      internalID: 3003052631242553811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_60
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 391
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522ece78310c8f2a0800000000000000
+      internalID: -6703396855223623131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_61
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 366
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb421e5c679a6a4a0800000000000000
+      internalID: -6582387477764299586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_62
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 366
+        width: 35
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7f6ba9e018f1f30800000000000000
+      internalID: 4548496048392697804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_63
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 366
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9981358bccd43feb0800000000000000
+      internalID: -4687317245501433703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_64
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 369
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd3214b96736b710800000000000000
+      internalID: 1708614035765870027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_65
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 369
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d3c7493ead9a1a0800000000000000
+      internalID: -6797661491555451539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_66
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 326
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909bb01399b052860800000000000000
+      internalID: 7504417106663553289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_67
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 326
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a256b9eb1d65a70800000000000000
+      internalID: 8815463937205414531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_68
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 326
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd36880e7795c00d0800000000000000
+      internalID: -3455288442696997925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_69
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 327
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fe1de0c76058d40800000000000000
+      internalID: 5585878042717318912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_70
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 327
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf028706237d91220800000000000000
+      internalID: 2457231683074138363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_71
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 327
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c2061b4f5c25740800000000000000
+      internalID: 5139387779521719350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_72
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 328
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198bb5e9a6bd1c9c0800000000000000
+      internalID: -3908601750611052399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_73
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 328
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7724e9dd15bf60f40800000000000000
+      internalID: 5694515107885630071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_74
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 328
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c56757171a0809c0800000000000000
+      internalID: -3960904777980222015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_75
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 329
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1348acc9fe23fabd0800000000000000
+      internalID: -2616816853769878479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_76
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 329
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9779c151bb550d450800000000000000
+      internalID: 6111478956343203705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_77
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 329
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f947ce3036514f150800000000000000
+      internalID: 5905368526401336479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_78
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 329
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08293e425a087eb30800000000000000
+      internalID: 4316560214634762880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_79
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 329
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cc3be5d076da0b0800000000000000
+      internalID: -5715799044942213995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_80
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 329
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ecb3905639aebc0800000000000000
+      internalID: -3753025277303992683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_81
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 294
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f30795a74b084f0800000000000000
+      internalID: -828463893856633050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_82
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 288
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e84cd302afdf3e10800000000000000
+      internalID: 2179706631613073632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_83
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 288
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ad747c1df6cec60800000000000000
+      internalID: 7848771197382154895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_84
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 292
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee80f9a9eee9d35c0800000000000000
+      internalID: -4234053327024879378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_85
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 289
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fe57f2060a7c770800000000000000
+      internalID: 8631043545852407625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_86
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 289
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db36fade82fb7840800000000000000
+      internalID: 5223034888239070163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_87
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 293
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241c2580110571e70800000000000000
+      internalID: 9085818807327572290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_88
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 290
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167809d42b84a8fa0800000000000000
+      internalID: -5797741639643396255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_89
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 290
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fdc2f352d258300800000000000000
+      internalID: 253658592013246250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_90
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 294
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad76b013525b2410800000000000000
+      internalID: 1453345821473275303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_91
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 291
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631457edb532663c0800000000000000
+      internalID: -4366763911207894730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_92
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 291
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca947ceea04909a0800000000000000
+      internalID: -6266406286473782589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_93
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 294
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033bd4ecc43121570800000000000000
+      internalID: 8435826272618001200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_94
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 291
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79013306f0440cc60800000000000000
+      internalID: 7836338184453820567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_95
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 291
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5dc24274a3d57f20800000000000000
+      internalID: 3419872195302837595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_96
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 245
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab3cc8d2bd47b340800000000000000
+      internalID: 4879454151816002470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_97
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 267
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5abfa8647571bdd0800000000000000
+      internalID: -2472065577616688545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_98
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 247
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7900644b8059fb7d0800000000000000
+      internalID: -2900435770386546537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_99
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 269
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d1e91b2c1591fd0800000000000000
+      internalID: -2370773832188420824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_100
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 248
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7d8decb52893fa0800000000000000
+      internalID: -5820477712575703087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_101
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 270
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5ae789251186490800000000000000
+      internalID: -7752927712074881543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_102
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 251
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb35fba10dd1ff8e0800000000000000
+      internalID: -1657573358209903681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_103
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 273
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ca7a676894e70e0800000000000000
+      internalID: -2270296320283005843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_104
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 252
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b0af537ef2094b0800000000000000
+      internalID: -5435792080146658500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_105
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 274
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94dadc09d4b8689a0800000000000000
+      internalID: -6231139869162361527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_106
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 245
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3278198cc65c34040800000000000000
+      internalID: 4630761912879122211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_107
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 247
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc302ee1b4de1950800000000000000
+      internalID: 6421803979346296027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_108
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 248
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2888991ec2e1dd20800000000000000
+      internalID: 3301669376659851308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_109
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 251
+        width: 33
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91dca19bb045d350800000000000000
+      internalID: 6040805649534472605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_110
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 252
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d40c12ae3b8edbd0800000000000000
+      internalID: -2603490433449589547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_111
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 205
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2cd5ef488af53e0800000000000000
+      internalID: -2062744815155690800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_112
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 205
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d3e7363ecb4ccd0800000000000000
+      internalID: -2538696605117301471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_113
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 205
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acb3974d84074c00800000000000000
+      internalID: 884680856639356066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_114
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 207
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f823d8e68c2f9c0800000000000000
+      internalID: -3894830350581199042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_115
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 207
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f748cf6017ee316e0800000000000000
+      internalID: -1867887251212696449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_116
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 207
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3779121dbd5c7eba0800000000000000
+      internalID: -6059657225706563725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_117
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 208
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17a295dca7def7b0800000000000000
+      internalID: -5188472583366727907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_118
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 208
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca8ba40c5607dcb0800000000000000
+      internalID: -4839392282301199669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_119
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 208
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a263b61051ad77b30800000000000000
+      internalID: 4285133354219288106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_120
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 211
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27fe0a6b3adb04f0800000000000000
+      internalID: -861354954994026710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_121
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 211
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c88d03c518f88e0800000000000000
+      internalID: -1688989102284174221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_122
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 211
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db49a49a52eaad280800000000000000
+      internalID: -9017703827078736707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_123
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 212
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f5ac5bffbde7880800000000000000
+      internalID: -8611203546172727439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_124
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 212
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49886020432c11f0800000000000000
+      internalID: -1072943852892419764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_125
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 212
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8061ee582f4983ce0800000000000000
+      internalID: -1425225512712792568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_126
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 173
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f883dc31f2a93fb70800000000000000
+      internalID: 8931652012992182415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_127
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 167
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953be61f904047320800000000000000
+      internalID: 2554671329377694553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_128
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 167
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1705aae4804bf80800000000000000
+      internalID: -8091833496520068651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_129
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 175
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd8a81121068e280800000000000000
+      internalID: -9013849023462076932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_130
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 169
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9249ccef2633a6590800000000000000
+      internalID: -7680269714252327895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_131
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 169
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b0356fc297de2b0800000000000000
+      internalID: -5553649531459794027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_132
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 173
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178ceaf36fbcb15f0800000000000000
+      internalID: -784809451555207055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_133
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 170
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f279a9e2ffef54b0800000000000000
+      internalID: -5449373197513690375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_134
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 170
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac434e8568fec6650800000000000000
+      internalID: 6227615745042560202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_135
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 174
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939f5a2ce34945bc0800000000000000
+      internalID: -3795245588691945159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_136
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 173
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcc31d2b24da21c0800000000000000
+      internalID: -4527573193462657838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_137
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 173
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9464986c88ea0a0800000000000000
+      internalID: -6868401995405440585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_138
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 175
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d293865e2564350800000000000000
+      internalID: 6000574698767330560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_139
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 174
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3a107061cccc450800000000000000
+      internalID: 6110483189413815279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_140
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 174
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd4d14f00efa55e0800000000000000
+      internalID: -1919943011071078926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_141
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 147
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c739d82faaec5eec0800000000000000
+      internalID: -3538194698620529796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_142
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 147
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d908827f825fc0110800000000000000
+      internalID: 1228626354659426461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_143
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 147
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fde38d5b9cb5840800000000000000
+      internalID: 5213982776465743635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_144
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 147
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965e39a2070e56a40800000000000000
+      internalID: 5360937703809738089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_145
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 147
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899ae92963ff46af0800000000000000
+      internalID: -403917456703313512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_146
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405243cf70e3818d0800000000000000
+      internalID: -2875480158059092732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_147
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b7b54b6bce37ac0800000000000000
+      internalID: -3858480186272285943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_148
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 110
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559733597ce3dc950800000000000000
+      internalID: 6470897266523863381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_149
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 126
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6869b888cbf3dcf90800000000000000
+      internalID: -6931814172476074362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_150
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 126
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155a356c26c1ee1f0800000000000000
+      internalID: -1013841655552039599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_151
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 126
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbad2f96009505c0800000000000000
+      internalID: -4249832315239420965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_152
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 122
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ba41447a7a1ceb0800000000000000
+      internalID: -4701292199154504949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_153
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 126
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b9c2bae045168b0800000000000000
+      internalID: -5160751276011775101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_154
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 126
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a94e5a45f1a7bd30800000000000000
+      internalID: 4447201231938406820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_155
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 125
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd92b7388afe6780800000000000000
+      internalID: -8687731168194159108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_156
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 94
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0bd83b9552b90200800000000000000
+      internalID: 146844543612410637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_157
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 94
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f4caab1f38b35d0800000000000000
+      internalID: -3081724445762760889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_158
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 94
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2fbab2e05ffe5e0800000000000000
+      internalID: -1878013078379171077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_159
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 94
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6418fdb01d5e7ba70800000000000000
+      internalID: 8842789079375380806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_160
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 13
+        width: 128
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc47d8f323ecb2350800000000000000
+      internalID: 5993110444356498635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_161
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 55
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22730305859be940800000000000000
+      internalID: 5326515382809489966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_162
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 55
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3aedb1a04d98820800000000000000
+      internalID: 2921098973208814527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASSET SHEET_163
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 16
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf685a5dcb9f90c0800000000000000
+      internalID: -4566760190844047430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

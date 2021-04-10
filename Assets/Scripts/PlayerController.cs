@@ -52,7 +52,7 @@ public class PlayerController : MonoBehaviour {
 			if (horizontal > 0) curr = Direction.RIGHT;
 			else if (horizontal < 0) curr = Direction.LEFT;
 			
-			Turn(curr);
+			//Turn(curr);
 			
 			velocity = new Vector2(horizontal, vertical).normalized * speed;
 
