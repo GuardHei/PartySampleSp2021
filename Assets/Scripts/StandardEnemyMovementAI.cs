@@ -22,7 +22,6 @@ public class StandardEnemyMovementAI : MonoBehaviour {
 	public Transform right;
 	public Transform up;
 	public Transform down;
-	public Vector2 faceOffset;
 	public Vector2 velocity;
 
 	[Conditional("UNITY_EDITOR")]

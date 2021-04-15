@@ -816,7 +816,6 @@ MonoBehaviour:
   right: {fileID: 0}
   up: {fileID: 0}
   down: {fileID: 0}
-  faceOffset: {x: 0, y: 0}
   velocity: {x: 0, y: 0}
 --- !u!50 &2025208988
 Rigidbody2D:

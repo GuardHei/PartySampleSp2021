@@ -19,10 +19,16 @@ public class PlayerController : MonoBehaviour {
 	public KeyCode mapViewKey = KeyCode.M;
 	public KeyCode replayKey = KeyCode.R;
 	public KeyCode quitKey = KeyCode.Q;
-	
+
+	public Animator animator;
 	public Rigidbody2D rigidbody2D;
 	public BaseWeaponController currentWeapon;
 	public BaseItemController currentItem;
+	public Transform face;
+	public Transform left;
+	public Transform right;
+	public Transform up;
+	public Transform down;
 
 	public Direction facing;
 	public Vector2 velocity;
@@ -52,7 +58,7 @@ public class PlayerController : MonoBehaviour {
 			if (horizontal > 0) curr = Direction.RIGHT;
 			else if (horizontal < 0) curr = Direction.LEFT;
 			
-			//Turn(curr);
+			Turn(curr);
 			
 			velocity = new Vector2(horizontal, vertical).normalized * speed;
 
@@ -95,27 +101,41 @@ public class PlayerController : MonoBehaviour {
 
 		rigidbody2D.velocity = velocity;
 	}
-
+	
 	public void Turn(Direction direction) {
 		if (direction == facing) return;
 		facing = direction;
-		/*
-		Vector3 eulerAngle = Vector3.one;
-		switch (direction) {
-			case Direction.UP: eulerAngle = new Vector3(0, 0, 0); break;
-			case Direction.DOWN: eulerAngle = new Vector3(0, 0, 180); break;
-			case Direction.LEFT: eulerAngle = new Vector3(0, 0, 90); break;
-			case Direction.RIGHT: eulerAngle = new Vector3(0, 0, -90); break;
+		if (face != null) {
+			Vector3 localPos = Vector3.zero;
+			Vector3 eulerAngle = Vector3.one;
+			switch (direction) {
+				case Direction.UP:
+					if (up != null) localPos = up.localPosition;
+					eulerAngle = new Vector3(0, 0, 0);
+					break;
+				case Direction.DOWN:
+					if (down != null) localPos = down.localPosition;
+					eulerAngle = new Vector3(0, 0, 180);
+					break;
+				case Direction.LEFT:
+					if (left != null) localPos = left.localPosition;
+					eulerAngle = new Vector3(0, 0, 90);
+					break;
+				case Direction.RIGHT:
+					if (right != null) localPos = right.localPosition;
+					eulerAngle = new Vector3(0, 0, -90);
+					break;
+			}
+
+			face.localPosition = localPos;
+			face.rotation = Quaternion.Euler(eulerAngle);
 		}
-		
-		transform.rotation = Quaternion.Euler(eulerAngle);
-		*/
 	}
 }
 
 public enum Direction {
-	UP,
-	DOWN,
-	LEFT,
-	RIGHT
+	UP, // 0
+	DOWN, // 1
+	LEFT, // 2
+	RIGHT // 3
 }
