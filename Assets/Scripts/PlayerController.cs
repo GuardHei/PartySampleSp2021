@@ -32,6 +32,9 @@ public class PlayerController : MonoBehaviour {
 
 	public Direction facing;
 	public Vector2 velocity;
+	
+	private static readonly int ParamIsWalking = Animator.StringToHash("IsWalking");
+	private static readonly int ParamDirection = Animator.StringToHash("Direction");
 
 	public void Update() {
 
@@ -100,11 +103,15 @@ public class PlayerController : MonoBehaviour {
 		}
 
 		rigidbody2D.velocity = velocity;
+
+		if (velocity.sqrMagnitude > 0) animator.SetBool(ParamIsWalking, true);
+		else animator.SetBool(ParamIsWalking, false);
 	}
 	
 	public void Turn(Direction direction) {
 		if (direction == facing) return;
 		facing = direction;
+		animator.SetInteger(ParamDirection, (int) facing);
 		if (face != null) {
 			Vector3 localPos = Vector3.zero;
 			Vector3 eulerAngle = Vector3.one;

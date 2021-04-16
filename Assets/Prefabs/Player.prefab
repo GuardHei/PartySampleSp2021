@@ -502,7 +502,7 @@ MonoBehaviour:
   mapViewKey: 109
   replayKey: 114
   quitKey: 113
-  animator: {fileID: 0}
+  animator: {fileID: 3102436236076972262}
   rigidbody2D: {fileID: 6069560532309513521}
   currentWeapon: {fileID: 0}
   currentItem: {fileID: 0}

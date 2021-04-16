@@ -19,6 +19,10 @@
           <e p="FlipSensor.cs" t="Include" />
           <e p="Health.cs" t="Include" />
           <e p="HitboxController.cs" t="Include" />
+          <e p="PaintDisplay.cs" t="Include" />
+          <e p="PaintPickup.cs" t="Include" />
+          <e p="PaintResource.cs" t="Include" />
+          <e p="PaintSpawn.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="PlayerInventory.cs" t="Include" />
           <e p="RangedAttack.cs" t="Include" />
