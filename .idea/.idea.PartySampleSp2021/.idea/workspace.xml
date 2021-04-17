@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb465b6c-2361-4be5-a108-c3ab29b44a5b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PaintScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PaintScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Marker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Marker.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/RangedAttacker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/RangedAttacker.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/RangedAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RangedAttack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RangedAttacker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RangedAttacker.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +53,9 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/RangedAttack.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PaintResource.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/RangedAttack.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/RangedAttacker.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mW7RNbbxJVT3wTLNMuFyrJQE3p" />
@@ -145,7 +145,7 @@
       <workItem from="1618495115319" duration="3090000" />
       <workItem from="1618533567312" duration="775000" />
       <workItem from="1618641986178" duration="43000" />
-      <workItem from="1618642127976" duration="1962000" />
+      <workItem from="1618642127976" duration="10495000" />
     </task>
     <servers />
   </component>
