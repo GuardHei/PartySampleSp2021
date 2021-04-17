@@ -9,7 +9,7 @@ public class RangedAttack : MonoBehaviour
     public GameObject rangedAttackerPrefab; // unit that spawns and looks like it attacks
     public GameObject markerPrefab;
     public int damage;
-    public int paintCost; // not checked for as of yet
+    public int paintCost; // if the user uses paint, subtracts this value from their paint total
     public int attackRadius; // radius of the attack.
     public int attackDelay;
     public int range; // a valid attack must be within this distance
@@ -18,6 +18,17 @@ public class RangedAttack : MonoBehaviour
     private Vector2 attackPoint; // holds the coordinates to strike
     private float cd = 0; // time left until ability is ready for use
     private Vector2 screenBounds; // so that we can spawn this attacker to a side of the screen
+    private bool usesPaint; // tracks if the user uses paint, if not they can attack for free
+    private PaintResource paintResource; // if the user uses paint, holds the paint resource for quick accessing
+
+    private void Start()
+    {
+        usesPaint = TryGetComponent(out PaintResource pr);
+        if (usesPaint)
+        {
+            paintResource = pr;
+        }
+    }
 
     void Update()
     {
@@ -31,6 +42,10 @@ public class RangedAttack : MonoBehaviour
             else if (cd > 0)
             {
                 Debug.Log("Ranged attack on cooldown.");
+            }
+            else if (usesPaint && (paintResource.paint < paintCost))
+            {
+                Debug.Log("RANGED_ATTACK: Not enough paint.");
             }
             else
             {
@@ -104,12 +119,16 @@ public class RangedAttack : MonoBehaviour
         return worldPos;
     }
 
-    private static Vector2 GetScreenBounds() => Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
+    private static Vector2 GetScreenBounds() =>
+        Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
 
     /**
      * Copy pasted from HitBoxController.cs since I didn't see a way to get a transform
      * object given a Vector2D. Also thought it would be too hacky to somehow make a copy of
      * the current transform, modify it, then pass it in.
+     *
+     * If the user of this script keeps track of a paint cost, then it'll deduct the paint cost from the user's
+     * total paint. If the user does not care about paint or paint costs, they can attack for free.
      */
     private void Attack()
     {
@@ -118,6 +137,12 @@ public class RangedAttack : MonoBehaviour
         {
             if (hit == null) break;
             if (hit.TryGetComponent(out Health health)) health.Hit(damage);
+        }
+
+        // subtract paint
+        if (usesPaint)
+        {
+            paintResource.SubPaint(paintCost);
         }
     }
 }

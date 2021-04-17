@@ -1812,7 +1812,7 @@ MonoBehaviour:
   markerPrefab: {fileID: 3848625248194119568, guid: 3274bf6302063455eb7e604c628c8f8f,
     type: 3}
   damage: 10
-  paintCost: 0
+  paintCost: 5
   attackRadius: 1
   attackDelay: 2
   range: 10
