@@ -257,6 +257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   invincible: 0
+  armored: 0
   maxHealth: 3
   health: 3
   onHit:
@@ -1902,9 +1903,15 @@ MonoBehaviour:
   mapViewKey: 109
   replayKey: 114
   quitKey: 113
+  animator: {fileID: 0}
   rigidbody2D: {fileID: 1174134430}
   currentWeapon: {fileID: 0}
   currentItem: {fileID: 1855980425}
+  face: {fileID: 0}
+  left: {fileID: 0}
+  right: {fileID: 0}
+  up: {fileID: 0}
+  down: {fileID: 0}
   facing: 0
   velocity: {x: 0, y: 0}
 --- !u!1 &1361038168
@@ -1999,6 +2006,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   invincible: 0
+  armored: 0
   maxHealth: 3
   health: 3
   onHit:
@@ -2334,6 +2342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   invincible: 0
+  armored: 0
   maxHealth: 3
   health: 3
   onHit:

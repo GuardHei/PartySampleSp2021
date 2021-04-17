@@ -9,7 +9,7 @@ public class RangedAttack : MonoBehaviour
     public GameObject rangedAttackerPrefab; // unit that spawns and looks like it attacks
     public GameObject markerPrefab;
     public int damage;
-    public int paintCost; // not checked for as of yet
+    public int paintCost; // if the user uses paint, subtracts this value from their paint total
     public int attackRadius; // radius of the attack.
     public int attackDelay;
     public int range; // a valid attack must be within this distance
@@ -18,6 +18,19 @@ public class RangedAttack : MonoBehaviour
     private Vector2 attackPoint; // holds the coordinates to strike
     private float cd = 0; // time left until ability is ready for use
     private Vector2 screenBounds; // so that we can spawn this attacker to a side of the screen
+    private bool usesPaint; // tracks if the user uses paint, if not they can attack for free
+    private PaintResource paintResource; // if the user uses paint, holds the paint resource for quick accessing
+    private RangedAttacker activeTarget;
+    private RangedAttacker activeAttacker;
+
+    private void Start()
+    {
+        usesPaint = TryGetComponent(out PaintResource pr);
+        if (usesPaint)
+        {
+            paintResource = pr;
+        }
+    }
 
     void Update()
     {
@@ -32,6 +45,10 @@ public class RangedAttack : MonoBehaviour
             {
                 Debug.Log("Ranged attack on cooldown.");
             }
+            else if (usesPaint && (paintResource.paint < paintCost))
+            {
+                Debug.Log("RANGED_ATTACK: Not enough paint.");
+            }
             else
             {
                 Debug.Log("Attack start.");
@@ -39,6 +56,16 @@ public class RangedAttack : MonoBehaviour
                 screenBounds = GetScreenBounds();
                 SpawnAttacker();
                 StartCoroutine(DelayedAttackRoutine());
+            }
+        }
+
+        /* Delete this if we don't want to do rotation */
+        if (activeAttacker != null && activeTarget != null)
+        {
+            // an attacker has spawned, check to see if we want it to face its target.
+            if (activeAttacker.facesTarget)
+            {
+                activeAttacker.faceTarget(activeTarget.gameObject, activeAttacker.RotationSpeed);
             }
         }
 
@@ -65,17 +92,35 @@ public class RangedAttack : MonoBehaviour
      * Spawns a unit and places it on the right side of the screen.
      * The unit itself determines when it is deleted. It is not based off of the delay time here.
      * Can mess around with the transform.position as desired.
+     *
+     * Note: for funny 3d way of facing target, use:
+     * attackerObject.transform.LookAt(targetObject.transform);
      * 
      * @source https://youtu.be/E7gmylDS1C4?t=434
      */
     private void SpawnAttacker()
     {
-        GameObject a = Instantiate(rangedAttackerPrefab);
-        GameObject b = Instantiate(markerPrefab);
-        a.transform.position = new Vector2(screenBounds.x - 1, screenBounds.y - 1);
-        a.GetComponent<RangedAttacker>().lifespan = attackDelay;
-        b.transform.position = new Vector3(attackPoint.x, attackPoint.y, b.transform.position.z);
-        b.GetComponent<RangedAttacker>().lifespan = attackDelay;
+        GameObject attackerObject = Instantiate(rangedAttackerPrefab);
+        GameObject targetObject = Instantiate(markerPrefab);
+        activeAttacker = attackerObject.GetComponent<RangedAttacker>();
+        activeTarget = targetObject.GetComponent<RangedAttacker>();
+        attackerObject.transform.position = new Vector2(screenBounds.x - 1, screenBounds.y - 1);
+        activeAttacker.lifespan = attackDelay;
+        targetObject.transform.position = new Vector3(attackPoint.x, attackPoint.y, targetObject.transform.position.z);
+        activeTarget.lifespan = attackDelay;
+        // check if this attacker wants to align horizontally with its target
+        if (activeAttacker.alignsWithTargetHorizontally)
+        {
+            attackerObject.transform.position =
+                new Vector2(attackerObject.transform.position.x, targetObject.transform.position.y);
+        }
+
+        // check if this attacker wants to align vertically with its target
+        if (activeAttacker.alignsWithTargetVertically)
+        {
+            attackerObject.transform.position =
+                new Vector2(targetObject.transform.position.x, attackerObject.transform.position.y);
+        }
     }
 
     /**
@@ -104,12 +149,16 @@ public class RangedAttack : MonoBehaviour
         return worldPos;
     }
 
-    private static Vector2 GetScreenBounds() => Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
+    private static Vector2 GetScreenBounds() =>
+        Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
 
     /**
      * Copy pasted from HitBoxController.cs since I didn't see a way to get a transform
      * object given a Vector2D. Also thought it would be too hacky to somehow make a copy of
      * the current transform, modify it, then pass it in.
+     *
+     * If the user of this script keeps track of a paint cost, then it'll deduct the paint cost from the user's
+     * total paint. If the user does not care about paint or paint costs, they can attack for free.
      */
     private void Attack()
     {
@@ -118,6 +167,12 @@ public class RangedAttack : MonoBehaviour
         {
             if (hit == null) break;
             if (hit.TryGetComponent(out Health health)) health.Hit(damage);
+        }
+
+        // subtract paint
+        if (usesPaint)
+        {
+            paintResource.SubPaint(paintCost);
         }
     }
 }
