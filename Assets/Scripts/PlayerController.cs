@@ -119,18 +119,22 @@ public class PlayerController : MonoBehaviour {
 				case Direction.UP:
 					if (up != null) localPos = up.localPosition;
 					eulerAngle = new Vector3(0, 0, 0);
+					localPos.z = -1;
 					break;
 				case Direction.DOWN:
 					if (down != null) localPos = down.localPosition;
 					eulerAngle = new Vector3(0, 0, 180);
+					localPos.z = 1;
 					break;
 				case Direction.LEFT:
 					if (left != null) localPos = left.localPosition;
 					eulerAngle = new Vector3(0, 0, 90);
+					localPos.z = -1;
 					break;
 				case Direction.RIGHT:
 					if (right != null) localPos = right.localPosition;
 					eulerAngle = new Vector3(0, 0, -90);
+					localPos.z = -1;
 					break;
 			}
 

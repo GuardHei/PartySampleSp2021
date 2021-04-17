@@ -23,7 +23,7 @@ public class Teleport : MonoBehaviour
         if (Input.GetKeyDown(keyToPress) && teleportbool)
         {
             Vector3 playernew = teleportTo.transform.position;
-            playernew[2] = 0;
+            playernew[2] = other.transform.position.z;
             Vector3 camnew = teleportTo.transform.position;
             camnew[2] = -10;
             other.transform.position = playernew;

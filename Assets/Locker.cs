@@ -21,24 +21,24 @@ public class Locker : MonoBehaviour
     {
         if (Input.GetKeyDown(keyToPress) && lockerbool && !inLocker)
         {
-            other.GetComponent<SpriteRenderer>().enabled = false;
+            other.GetComponentInChildren<SpriteRenderer>().enabled = false;
             other.GetComponent<PlayerController>().inControl = false;
-            other.GetComponent<BoxCollider2D>().enabled = false;
+            other.GetComponent<Collider2D>().enabled = false;
             inLocker = true;
         }
 
         else if (Input.GetKeyDown(keyToPress) && inLocker)
         {
-            other.GetComponent<SpriteRenderer>().enabled = true;
+            other.GetComponentInChildren<SpriteRenderer>().enabled = true;
             other.GetComponent<PlayerController>().inControl = true;
-            other.GetComponent<BoxCollider2D>().enabled = true;
+            other.GetComponent<Collider2D>().enabled = true;
             inLocker = false;
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.CompareTag("Player"))
         {
             other = collision.gameObject;
             lockerbool = true;
@@ -47,7 +47,7 @@ public class Locker : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.CompareTag("Player"))
         {
             //other = null;
             lockerbool = false;
