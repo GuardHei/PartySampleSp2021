@@ -8,12 +8,12 @@ public class HitboxController : MonoBehaviour {
 	public Transform attackPoint;
 	public float range;
 
-	public void Attack() {
+	public void Attack(bool ignoreArmor = false) {
 		Vector3 position = attackPoint == null ? transform.position : attackPoint.position;
 		Collider2D[] hits = Physics2D.OverlapCircleAll(position, range, enemyLayers);
 		foreach (var hit in hits) {
 			if (hit == null) break;
-			if (hit.TryGetComponent(out Health health)) health.Hit(damage);
+			if (hit.TryGetComponent(out Health health)) health.Hit(damage, ignoreArmor);
 		}
 	}
 

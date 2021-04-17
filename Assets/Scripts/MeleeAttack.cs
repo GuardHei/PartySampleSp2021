@@ -7,6 +7,7 @@ public class MeleeAttack : MonoBehaviour
     public int delayLength;
     public int frameLength;
     public int cooldownLength;
+    public bool ignoreArmor = false;
     private bool cooldown = false;
 
     public void Attack() {
@@ -22,7 +23,7 @@ public class MeleeAttack : MonoBehaviour
         }
         GetComponent<SpriteRenderer>().enabled = true;
         for (int f = 0; f < frameLength; f += 1) {
-            GetComponent<HitboxController>().Attack();
+            GetComponent<HitboxController>().Attack(ignoreArmor);
             yield return null;
         }
         GetComponent<SpriteRenderer>().enabled = false;

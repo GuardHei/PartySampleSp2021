@@ -116,6 +116,7 @@ MonoBehaviour:
   delayLength: 200
   frameLength: 30
   cooldownLength: 300
+  ignoreArmor: 1
   attackButton: 324
   paintCost: 20
   player: {fileID: 0}

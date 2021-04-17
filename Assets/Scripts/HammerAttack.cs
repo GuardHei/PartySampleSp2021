@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class HammerAttack : MeleeAttack
 {
-    public KeyCode attackButton = KeyCode.Mouse1;
     public int paintCost;
+    public KeyCode attackButton = KeyCode.Mouse1;
     public GameObject player;
     private PlayerController playerController;
     private Transform playerTransform;
