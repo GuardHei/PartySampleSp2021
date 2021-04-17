@@ -5,6 +5,7 @@ using UnityEngine;
 public class teleport : MonoBehaviour
 {
     public GameObject teleportTo;
+    public KeyCode keyToPress = KeyCode.E;
     private GameObject other;
     private Camera cam;
     private bool teleportbool;
@@ -19,7 +20,7 @@ public class teleport : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && teleportbool)
+        if (Input.GetKeyDown(keyToPress) && teleportbool)
         {
             Vector3 playernew = teleportTo.transform.position;
             playernew[2] = 0;

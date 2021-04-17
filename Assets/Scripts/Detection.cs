@@ -8,7 +8,7 @@ public class Detection : MonoBehaviour {
 
     public UnityEvent onDetected;
 
-    private void OnTriggerEnter2D(Collider2D collider) {
+    private void OnTriggerStay2D(Collider2D collider) {
         if (collider.CompareTag("Player")) {
             GameObject other = collider.gameObject;
             /* Raycast check */
