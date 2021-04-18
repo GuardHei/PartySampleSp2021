@@ -8,8 +8,7 @@ public class PaintDisplay : MonoBehaviour
     public Text paintText;
     public GameObject player;
 
-    void Update()
-    {
+    void Update() {
         paintText.text = "Paint: " + player.GetComponent<PaintResource>().paint;
     }
 }

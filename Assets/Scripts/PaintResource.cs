@@ -10,11 +10,6 @@ public class PaintResource : MonoBehaviour {
     // Start is called before the first frame update
     void Start() {
         paint = startingPaint;
-        PaintUpdate();
-    }
-
-    private void PaintUpdate() {
-        
     }
 
     public void AddPaint(int paintValue) {
@@ -25,21 +20,17 @@ public class PaintResource : MonoBehaviour {
         } else {
             paint = maxPaint;
         }
-        PaintUpdate();
     }
 
-    public int SubPaint(int paintValue) {
-        // Returns 1 if successful, 0 if not enough paint
+    public bool SubPaint(int paintValue) {
+        // Returns true if successful, false if not enough paint
 
-        if (paint - paintValue <= 0) {
-
+        if (paint - paintValue < 0) {
             Debug.Log("Not enough Paint");
-
-            return 0;
+            return false;
         } else {
             paint -= paintValue;
-            PaintUpdate();
-            return 1;
+            return true;
         }
     }
 }
