@@ -2,39 +2,37 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MeleeAttack : MonoBehaviour
-{
-    public int delayLength;
-    public int frameLength;
-    public int cooldownLength;
-    public bool ignoreArmor = false;
-    private bool cooldown = false;
+public class MeleeAttack : MonoBehaviour {
+    public int attackType;
+    public float delay;
+    public float attackLength;
+    public float cooldownLength;
+    public bool ignoreArmor;
+    private bool cooldown;
+    
+    protected static readonly int ParamAttackType = Animator.StringToHash("AttackType");
 
     public void Attack() {
         if (!cooldown) {
-            StartCoroutine("AttackCoroutine");
-            StartCoroutine("CooldownCoroutine");
+            StartCoroutine(AttackCoroutine());
+            StartCoroutine(CooldownCoroutine());
         }
     }
     
     public IEnumerator AttackCoroutine() {
-        for (int f = 0; f < delayLength; f += 1) {
-            yield return null;
-        }
+        yield return new WaitForSeconds(delay);
         GetComponent<SpriteRenderer>().enabled = true;
-        for (int f = 0; f < frameLength; f += 1) {
-            GetComponent<HitboxController>().Attack(ignoreArmor);
-            yield return null;
-        }
+        GetComponent<Animator>().SetInteger(ParamAttackType, attackType);
+        GetComponent<HitboxController>().Attack(ignoreArmor);
+        yield return new WaitForSeconds(attackLength);
         GetComponent<SpriteRenderer>().enabled = false;
+        GetComponent<Animator>().SetInteger(ParamAttackType, 0);
         onAttackCompletion();
     }
 
     public IEnumerator CooldownCoroutine() {
         cooldown = true;
-        for (int f = 0; f < cooldownLength; f += 1) {
-            yield return null;
-        }
+        yield return new WaitForSeconds(cooldownLength);
         onCooldownCompletion();
         cooldown = false;
     }
