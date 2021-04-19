@@ -36,8 +36,8 @@ public class RangedAttack : MonoBehaviour
     {
         if (Input.GetKeyDown(attackButton))
         {
-            attackPoint = GetCoordinatesFromMouse();
-            if (!TargetIsInRange(attackPoint))
+            var point = GetCoordinatesFromMouse();
+            if (!TargetIsInRange(point))
             {
                 Debug.Log("Target out of range.");
             }
@@ -52,6 +52,7 @@ public class RangedAttack : MonoBehaviour
             else
             {
                 Debug.Log("Attack start.");
+                attackPoint = point;
                 cd = cooldownLength;
                 screenBounds = GetScreenBounds();
                 SpawnAttacker();

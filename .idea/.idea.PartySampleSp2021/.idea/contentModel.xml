@@ -4,11 +4,17 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Locker.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AudioManager.cs" t="Include" />
           <e p="BaseItemController.cs" t="Include" />
           <e p="BaseWeaponController.cs" t="Include" />
+          <e p="BossFightScripts" t="Include">
+            <e p="BossPowerSourceMonoBehaviour.cs" t="Include" />
+            <e p="DodgeballMonoBehaviour.cs" t="Include" />
+            <e p="FirewallMonoBehaviour.cs" t="Include" />
+            <e p="GymBossMonoBehaviour.cs" t="Include" />
+            <e p="SmashMonoBehaviour.cs" t="Include" />
+          </e>
           <e p="BrushAttack.cs" t="Include" />
           <e p="CameraEffectController.cs" t="Include" />
           <e p="CameraFollower.cs" t="Include" />
@@ -18,8 +24,11 @@
           <e p="DialogueMonoBehaviour.cs" t="Include" />
           <e p="DialogueSettings.cs" t="Include" />
           <e p="FlipSensor.cs" t="Include" />
+          <e p="HammerAttack.cs" t="Include" />
           <e p="Health.cs" t="Include" />
           <e p="HitboxController.cs" t="Include" />
+          <e p="Locker.cs" t="Include" />
+          <e p="MeleeAttack.cs" t="Include" />
           <e p="PaintDisplay.cs" t="Include" />
           <e p="PaintPickup.cs" t="Include" />
           <e p="PaintResource.cs" t="Include" />

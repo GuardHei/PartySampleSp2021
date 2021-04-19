@@ -95,4 +95,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifespan: 0
+  alignsWithTargetHorizontally: 0
+  alignsWithTargetVertically: 0
   facesTarget: 0
+  rotatesInstantly: 0
