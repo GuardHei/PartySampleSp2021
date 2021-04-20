@@ -8,11 +8,11 @@ public class MeleeAttack : MonoBehaviour {
     public float attackLength;
     public float cooldownLength;
     public bool ignoreArmor;
-    private bool cooldown;
+    protected bool cooldown;
     
     protected static readonly int ParamAttackType = Animator.StringToHash("AttackType");
 
-    public void Attack() {
+    public virtual void Attack() {
         if (!cooldown) {
             StartCoroutine(AttackCoroutine());
             StartCoroutine(CooldownCoroutine());
@@ -43,5 +43,16 @@ public class MeleeAttack : MonoBehaviour {
 
     public virtual void onCooldownCompletion() {
         //Optionally, override in child. Executes after cooldown frames finish.
+    }
+    
+    /**
+     * Returns the position in the world where the player's mouse is hovering over.
+     * Copied from RangedAttack.cs.
+     */
+    public static Vector2 GetCoordinatesFromMouse() {
+        Vector3 mousePos = Input.mousePosition; // mouse position in pixels
+        Vector2 screenPos = new Vector2(mousePos.x, mousePos.y);
+        Vector2 worldPos = Camera.main.ScreenToWorldPoint(screenPos);
+        return worldPos;
     }
 }

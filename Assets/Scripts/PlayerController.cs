@@ -22,8 +22,8 @@ public class PlayerController : MonoBehaviour {
 
 	public Animator animator;
 	public Rigidbody2D rigidbody2D;
-	public BaseWeaponController currentWeapon;
-	public BaseItemController currentItem;
+	// public BaseWeaponController currentWeapon;
+	// public BaseItemController currentItem;
 	public Transform face;
 	public Transform left;
 	public Transform right;
@@ -65,6 +65,7 @@ public class PlayerController : MonoBehaviour {
 			
 			velocity = new Vector2(horizontal, vertical).normalized * speed;
 
+			/*
 			if (currentWeapon && currentWeapon.isAttacking) {
 				if (Input.GetKeyUp(attackKey)) {
 					if (currentWeapon != null) currentWeapon.OnRelease();
@@ -80,6 +81,7 @@ public class PlayerController : MonoBehaviour {
 					if (currentItem != null) currentItem.OnPress();
 				}
 			}
+			*/
 
 			if (WarpManager.Instance != null) // code specific to the warp part of game
 			{

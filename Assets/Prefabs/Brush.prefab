@@ -117,10 +117,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackType: 1
   delay: 0
-  attackLength: 0.6
+  attackLength: 0.3
   cooldownLength: 0.05
   ignoreArmor: 0
   attackButton: 323
+  player: {fileID: 0}
 --- !u!95 &4654589917009903960
 Animator:
   serializedVersion: 3

@@ -14,8 +14,8 @@ public class HammerAttack : MeleeAttack
     private bool usesPaint;
     private PaintResource paintResource;
 
-    void Start() {
-        playerTransform = player.GetComponent<Transform>();
+    void Awake() {
+        playerTransform = player.transform;
         playerController = player.GetComponent<PlayerController>();
         usesPaint = player.TryGetComponent(out PaintResource pr);
         if (usesPaint) {
@@ -24,12 +24,12 @@ public class HammerAttack : MeleeAttack
     }
 
     void Update() {
-        if (Input.GetKeyDown(attackButton)) {
-            SpecialAttack();
-        }
+        if (Input.GetKeyDown(attackButton)) SpecialAttack();
     }
 
     public void SpecialAttack() {
+        if (!playerController.inControl) return;
+        if (cooldown) return;
         bool enoughPaint = true;
         if (usesPaint) {
             enoughPaint = paintResource.SubPaint(paintCost);
@@ -55,17 +55,6 @@ public class HammerAttack : MeleeAttack
             }
             Attack();
         }
-    }
-
-    /**
-     * Returns the position in the world where the player's mouse is hovering over.
-     * Copied from RangedAttack.cs.
-     */
-    public static Vector2 GetCoordinatesFromMouse() {
-        Vector3 mousePos = Input.mousePosition; // mouse position in pixels
-        Vector2 screenPos = new Vector2(mousePos.x, mousePos.y);
-        Vector2 worldPos = Camera.main.ScreenToWorldPoint(screenPos);
-        return worldPos;
     }
 
     public override void onAttackCompletion() {
