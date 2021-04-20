@@ -14,14 +14,19 @@ public class StandardEnemyMovementAI : MonoBehaviour {
 	public bool inPath;
 	public List<PathPoint> pathPoints = new List<PathPoint>();
 	public int currentPathPoint;
+
+	public Sprite upSprite;
+	public Sprite downSprite;
+	public Sprite leftSprite;
+	public Sprite rightSprite;
 	
 	public Rigidbody2D rigidbody2D;
 	public Transform face;
 	public Direction facing;
-	public Transform left;
-	public Transform right;
 	public Transform up;
 	public Transform down;
+	public Transform left;
+	public Transform right;
 	public Vector2 velocity;
 
 	[Conditional("UNITY_EDITOR")]
@@ -41,6 +46,7 @@ public class StandardEnemyMovementAI : MonoBehaviour {
 	}
 
 	public void Awake() {
+		currentTarget = GameObject.FindWithTag("Player").transform;
 		if (pathPoints != null && pathPoints.Count > 0) currentPathPoint = 0;
 		Turn(Direction.DOWN);
 	}
@@ -66,7 +72,8 @@ public class StandardEnemyMovementAI : MonoBehaviour {
 	}
 
 	public void MoveTowardsPathPoint() {
-		var pathPoint = pathPoints[currentPathPoint];
+		if (currentPathPoint < 0 || currentPathPoint >= pathPoints.Count) return;
+		var pathPoint = pathPoints?[currentPathPoint];
 		if (pathPoint == null) return;
 		var distance = pathPoint.target.position - transform.position;
 		if (ReachCurrentPathPoint(distance)) {
@@ -99,18 +106,22 @@ public class StandardEnemyMovementAI : MonoBehaviour {
 				case Direction.UP:
 					if (up != null) localPos = up.localPosition;
 					eulerAngle = new Vector3(0, 0, 0);
+					GetComponent<SpriteRenderer>().sprite = upSprite;
 					break;
 				case Direction.DOWN:
 					if (down != null) localPos = down.localPosition;
 					eulerAngle = new Vector3(0, 0, 180);
+					GetComponent<SpriteRenderer>().sprite = downSprite;
 					break;
 				case Direction.LEFT:
 					if (left != null) localPos = left.localPosition;
 					eulerAngle = new Vector3(0, 0, 90);
+					GetComponent<SpriteRenderer>().sprite = leftSprite;
 					break;
 				case Direction.RIGHT:
 					if (right != null) localPos = right.localPosition;
 					eulerAngle = new Vector3(0, 0, -90);
+					GetComponent<SpriteRenderer>().sprite = rightSprite;
 					break;
 			}
 

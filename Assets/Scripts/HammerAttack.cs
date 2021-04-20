@@ -61,7 +61,7 @@ public class HammerAttack : MeleeAttack
      * Returns the position in the world where the player's mouse is hovering over.
      * Copied from RangedAttack.cs.
      */
-    private static Vector2 GetCoordinatesFromMouse() {
+    public static Vector2 GetCoordinatesFromMouse() {
         Vector3 mousePos = Input.mousePosition; // mouse position in pixels
         Vector2 screenPos = new Vector2(mousePos.x, mousePos.y);
         Vector2 worldPos = Camera.main.ScreenToWorldPoint(screenPos);

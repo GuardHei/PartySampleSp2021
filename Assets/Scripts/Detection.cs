@@ -20,9 +20,8 @@ public class Detection : MonoBehaviour {
             int layerMask = 1 << LayerMask.NameToLayer("Enemy");
             layerMask = ~layerMask;
             RaycastHit2D hit = Physics2D.Raycast(origin, direction, Mathf.Infinity, layerMask);
-            Debug.DrawRay(origin, direction * 1000, Color.red);
+            // Debug.DrawRay(origin, direction * 1000, Color.red);
             if (hit.collider.CompareTag("Player")) {
-                print("Detected");
                 onDetected?.Invoke();
             }
         }
