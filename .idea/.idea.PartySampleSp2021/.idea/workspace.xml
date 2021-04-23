@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="eb465b6c-2361-4be5-a108-c3ab29b44a5b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Door.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Door.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Submissions/LevelLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Submissions/LevelLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Submissions/LevelLoadingDoor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Submissions/LevelLoadingDoor.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +41,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WarpPuzzle/Door.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Brush.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WarpManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WarpComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerInventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlipSensor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelReset.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/CameraEffectShader.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraEffectController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StandardEnemyMovementAI.cs" root0="FORCE_HIGHLIGHTING" />
@@ -67,6 +61,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelReset.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelChangeDetector.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" />
+      <option value="$PROJECT_DIR$/Assets/Submissions/LevelLoader.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mW7RNbbxJVT3wTLNMuFyrJQE3p" />
@@ -163,6 +158,7 @@
       <workItem from="1618904263970" duration="5691000" />
       <workItem from="1619154254475" duration="5665000" />
       <workItem from="1619160979858" duration="644000" />
+      <workItem from="1619162523171" duration="179000" />
     </task>
     <servers />
   </component>

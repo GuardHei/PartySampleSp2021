@@ -6,7 +6,10 @@ using UnityEngine.SceneManagement;
 public class LevelLoader : MonoBehaviour
 {
     public string destinationSceneName;
-    public KeyCode transitionKey; // can make private when we are sure what this key will be
+
+    public KeyCode
+        keyToPress = KeyCode.Space; // could also change this to have it retrieve a keycode from playerController
+
     public bool letPlayerThrough = true; // set to false if you are waiting for an event to finish first
     private bool inRange = false;
 
@@ -15,7 +18,7 @@ public class LevelLoader : MonoBehaviour
      */
     void Start()
     {
-        transitionKey = GetComponent<PlayerController>().warpExteriorKey;
+        // keyToPress = GetComponent<PlayerController>().warpExteriorKey;
     }
 
     /**
@@ -26,7 +29,7 @@ public class LevelLoader : MonoBehaviour
     {
         if (letPlayerThrough)
         {
-            if (Input.GetKeyDown(transitionKey) && inRange)
+            if (Input.GetKeyDown(keyToPress) && inRange)
             {
                 Debug.Log("Scene transition to: " + destinationSceneName);
                 SceneManager.LoadScene(destinationSceneName); // change scene
@@ -37,9 +40,9 @@ public class LevelLoader : MonoBehaviour
     /**
      * If the player collides with this object, they're in range.
      */
-    private void OnTriggerEnter(Collider coll)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (coll.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
             Debug.Log("Player in range of door.");
             inRange = true;
@@ -49,9 +52,9 @@ public class LevelLoader : MonoBehaviour
     /**
      * When the player is no longer colliding with this object, they're not in range.
      */
-    private void OnTriggerExit(Collider coll)
+    private void OnTriggerExit2D(Collider2D other)
     {
-        if (coll.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
             Debug.Log("Player left door range.");
             inRange = false;
