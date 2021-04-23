@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+    <e p="C:\Users\Chayan\AppData\local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Chayan\AppData\local\JetBrains\Rider2020.3\resharper-host\local\Transient\Rider\v203\SolutionCaches\_PartySampleSp2021.-1423936604.00" t="ExcludeRecursive" />
+    <e p="D:\OneDrive\repos\Games\PartySampleSp2021" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
@@ -27,6 +29,8 @@
           <e p="HammerAttack.cs" t="Include" />
           <e p="Health.cs" t="Include" />
           <e p="HitboxController.cs" t="Include" />
+          <e p="LevelLoader.cs" t="Include" />
+          <e p="LevelReset.cs" t="Include" />
           <e p="Locker.cs" t="Include" />
           <e p="MeleeAttack.cs" t="Include" />
           <e p="PaintDisplay.cs" t="Include" />
@@ -133,9 +137,7 @@
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="PartySampleSp2021.sln" t="IncludeFlat" />
-      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_PartySampleSp2021.556184114.00" t="ExcludeRecursive" />
   </component>
 </project>
