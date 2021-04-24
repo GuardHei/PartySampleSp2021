@@ -6,12 +6,14 @@ using UnityEngine.SceneManagement;
 public class LevelLoader : MonoBehaviour
 {
     public string destinationSceneName;
-
+    public Color inRangeColor = Color.green;
     public KeyCode
         keyToPress = KeyCode.Space; // could also change this to have it retrieve a keycode from playerController
 
     public bool letPlayerThrough = true; // set to false if you are waiting for an event to finish first
     private bool inRange = false;
+    private Color originalColor;
+    private SpriteRenderer renderer;
 
     /**
      * Get the key from Player Controller.
@@ -19,6 +21,11 @@ public class LevelLoader : MonoBehaviour
     void Start()
     {
         // keyToPress = GetComponent<PlayerController>().warpExteriorKey;
+    }
+
+    void Awake() {
+        renderer = GetComponentInChildren<SpriteRenderer>();
+        originalColor = renderer.color;
     }
 
     /**
@@ -46,6 +53,7 @@ public class LevelLoader : MonoBehaviour
         {
             Debug.Log("Player in range of door.");
             inRange = true;
+            renderer.color = inRangeColor;
         }
     }
 
@@ -58,6 +66,7 @@ public class LevelLoader : MonoBehaviour
         {
             Debug.Log("Player left door range.");
             inRange = false;
+            renderer.color = originalColor;
         }
     }
 }
