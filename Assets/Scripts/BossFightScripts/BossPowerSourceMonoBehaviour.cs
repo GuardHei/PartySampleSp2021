@@ -6,13 +6,17 @@ public class BossPowerSourceMonoBehaviour : MonoBehaviour
 {
 
 
+    public Sprite respawnSprite;
     public GymBossMonoBehaviour boss;
-    public float respawnTime = 60.0f;
+    public float respawnTime = 120.0f;
+    public DialogueSettings onRespawnDialogue;
     protected Health health;
-    
+    protected SpriteRenderer spriteRenderer;
+
     protected void Start()
     {
         health = GetComponent<Health>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         boss.powerSources += 1;
         UpdateBossVincibility();
     }
@@ -38,6 +42,8 @@ public class BossPowerSourceMonoBehaviour : MonoBehaviour
         UpdateBossVincibility();
         health.health = health.maxHealth;
         health.invincible = false;
+        spriteRenderer.sprite = respawnSprite;
+        DialogueManager.Instance.Open(onRespawnDialogue);
     }
 
     protected void UpdateBossVincibility()

@@ -30,14 +30,17 @@ public class SmashMonoBehaviour : MonoBehaviour
                 {
                     if (otherCollider.CompareTag("Player"))
                     {
-                        otherCollider.GetComponent<Health>().Hit(damage);
+                        if (otherCollider.TryGetComponent(out Health health))
+                        {
+                            health.Hit(damage);
+                        }
                     }
                 }
             }
             gameObject.SetActive(false);
             Destroy(gameObject);
         }
-        spriteRenderer.color = spriteRenderer.color + new Color(30 * Time.deltaTime, 0, 0);
+        spriteRenderer.color = spriteRenderer.color + new Color(0.5f * Time.deltaTime, 0, 0, 1.0f * Time.deltaTime);
         countdownTimer -= Time.deltaTime;
     }
 }
