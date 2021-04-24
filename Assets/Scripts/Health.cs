@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Events;
 
 public class Health : MonoBehaviour {
@@ -12,6 +13,8 @@ public class Health : MonoBehaviour {
 	public UnityEvent onHit;
 	public UnityEvent onRecover;
 	public UnityEvent onDeath;
+
+	private void Awake() => health = maxHealth;
 
 	public void Hit(int damage, bool ignoreArmor = false) {
 		if (invincible) return;
