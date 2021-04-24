@@ -35000,6 +35000,8 @@ GameObject:
   - component: {fileID: 1269626425}
   - component: {fileID: 1269626414}
   - component: {fileID: 1269626415}
+  - component: {fileID: 1269626417}
+  - component: {fileID: 1269626416}
   m_Layer: 0
   m_Name: StartDialogue
   m_TagString: Untagged
@@ -35053,8 +35055,69 @@ MonoBehaviour:
       m_Calls: []
   onClose:
     m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1269626417}
+        m_MethodName: DelayBy
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 6
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  nextDialogue: {fileID: 0}
+--- !u!114 &1269626416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269626413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9053928787d402ea064069dd4e8e144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speaker: Narrator Pal
+  text: Lost and confused, our hero walked towards the left of the screen.
+  letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  sprite: {fileID: -3938264301126351701, guid: 29b786006db094e09b9b74dc75ebf88c, type: 3}
+  textDisplayTime: 2.7
+  onOpen:
+    m_PersistentCalls:
+      m_Calls: []
+  onClose:
+    m_PersistentCalls:
       m_Calls: []
   nextDialogue: {fileID: 0}
+--- !u!114 &1269626417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269626413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0797cad04a81945ce971fac0ba1ce56a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: e240c6af091564992a4158515def0291, type: 2}
+        m_MethodName: Open
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1269626416}
+          m_ObjectArgumentAssemblyTypeName: DialogueSettings, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1269626425
 MonoBehaviour:
   m_ObjectHideFlags: 0
