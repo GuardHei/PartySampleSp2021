@@ -29,6 +29,7 @@
           <e p="HammerAttack.cs" t="Include" />
           <e p="Health.cs" t="Include" />
           <e p="HitboxController.cs" t="Include" />
+          <e p="InfoDisplay.cs" t="Include" />
           <e p="Locker.cs" t="Include" />
           <e p="MeleeAttack.cs" t="Include" />
           <e p="PaintDisplay.cs" t="Include" />
