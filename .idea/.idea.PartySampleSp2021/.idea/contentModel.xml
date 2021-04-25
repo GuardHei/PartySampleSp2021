@@ -19,6 +19,7 @@
           <e p="CameraEffectController.cs" t="Include" />
           <e p="CameraFollower.cs" t="Include" />
           <e p="CollisionEventTrigger.cs" t="Include" />
+          <e p="DelayedAction.cs" t="Include" />
           <e p="Detection.cs" t="Include" />
           <e p="DialogueManager.cs" t="Include" />
           <e p="DialogueMonoBehaviour.cs" t="Include" />
@@ -30,8 +31,11 @@
           <e p="InfoDisplay.cs" t="Include" />
           <e p="LevelLoader.cs" t="Include" />
           <e p="LevelReset.cs" t="Include" />
+          <e p="LoadSceneMonobehaviour.cs" t="Include" />
           <e p="Locker.cs" t="Include" />
           <e p="MeleeAttack.cs" t="Include" />
+          <e p="OnPlayerEnterTrigger.cs" t="Include" />
+          <e p="OnSceneStart.cs" t="Include" />
           <e p="PaintDisplay.cs" t="Include" />
           <e p="PaintPickup.cs" t="Include" />
           <e p="PaintResource.cs" t="Include" />
@@ -61,12 +65,6 @@
         </e>
         <e p="Shaders" t="Include">
           <e p="CameraEffectShader.shader" t="Include" />
-        </e>
-        <e p="Submissions" t="Include">
-          <e p="DelayedAction.cs" t="Include" />
-          <e p="LoadSceneMonobehaviour.cs" t="Include" />
-          <e p="OnPlayerEnterTrigger.cs" t="Include" />
-          <e p="OnSceneStart.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Examples &amp; Extras" t="Include">

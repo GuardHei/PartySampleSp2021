@@ -8,7 +8,8 @@ public class MeleeAttack : MonoBehaviour {
     public float attackLength;
     public float cooldownLength;
     public bool ignoreArmor;
-    protected bool cooldown;
+    [HideInInspector]
+    public bool cooldown;
     
     protected static readonly int ParamAttackType = Animator.StringToHash("AttackType");
 

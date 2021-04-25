@@ -3,10 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="eb465b6c-2361-4be5-a108-c3ab29b44a5b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/CameraEffectMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/CameraEffectMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BossFightScripts/GymBossMonoBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BossFightScripts/GymBossMonoBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hammer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Hammer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Key.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Key.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BossFight.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BossFight.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PaintScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PaintScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WarpCameraLevels/WCScene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WarpCameraLevels/WCScene1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WarpCameraLevels/WCScene2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WarpCameraLevels/WCScene2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WarpCameraLevels/WCScene3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WarpCameraLevels/WCScene3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BossFightScripts/BossPowerSourceMonoBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BossFightScripts/BossPowerSourceMonoBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BrushAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BrushAttack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HammerAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HammerAttack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InfoDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InfoDisplay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MeleeAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MeleeAttack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RangedAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RangedAttack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/hammer assets.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/hammer assets.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Submissions.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +89,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Locker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BossFightScripts/GymBossMonoBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HammerAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BossFightScripts/BossPowerSourceMonoBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BrushAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MeleeAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RangedAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InfoDisplay.cs" />
       </list>
     </option>
   </component>
@@ -170,7 +190,8 @@
       <workItem from="1619269036655" duration="394000" />
       <workItem from="1619318302750" duration="4867000" />
       <workItem from="1619326633934" duration="538000" />
-      <workItem from="1619329024032" duration="592000" />
+      <workItem from="1619329024032" duration="4830000" />
+      <workItem from="1619334319539" duration="1000" />
     </task>
     <servers />
   </component>

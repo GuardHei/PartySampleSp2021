@@ -16,7 +16,8 @@ public class RangedAttack : MonoBehaviour
     public float cooldownLength;
     public KeyCode attackButton = KeyCode.Mouse1; // Currently Right Mouse Button
     private Vector2 attackPoint; // holds the coordinates to strike
-    private float cd = 0; // time left until ability is ready for use
+    [HideInInspector]
+    public float cd = 0; // time left until ability is ready for use
     private Vector2 screenBounds; // so that we can spawn this attacker to a side of the screen
     private bool usesPaint; // tracks if the user uses paint, if not they can attack for free
     private PaintResource paintResource; // if the user uses paint, holds the paint resource for quick accessing

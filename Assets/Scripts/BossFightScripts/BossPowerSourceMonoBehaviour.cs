@@ -51,10 +51,12 @@ public class BossPowerSourceMonoBehaviour : MonoBehaviour
         if (boss.powerSources > 0)
         {
             boss.health.invincible = true;
+            boss.GetComponent<SpriteRenderer>().color = Color.red;
         }
         else
         {
             boss.health.invincible = false;
+            boss.GetComponent<SpriteRenderer>().color = Color.white;
         }
     }
 }

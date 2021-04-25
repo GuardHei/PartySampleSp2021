@@ -36,6 +36,7 @@ public class HammerAttack : MeleeAttack
         }
         if (enoughPaint) {
             playerController.inControl = false;
+            playerController.GetComponent<Health>().invincible = true;
             playerPoint = playerTransform.position;
             mousePoint = GetCoordinatesFromMouse();
             float xdiff = mousePoint.x - playerPoint.x;
@@ -59,5 +60,6 @@ public class HammerAttack : MeleeAttack
 
     public override void onAttackCompletion() {
         playerController.inControl = true;
+        playerController.GetComponent<Health>().invincible = false;
     }
 }

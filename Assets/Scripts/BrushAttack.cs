@@ -21,6 +21,7 @@ public class BrushAttack : MeleeAttack
             if (!playerController.inControl) return;
             if (cooldown) return;
             playerController.inControl = false;
+            playerController.GetComponent<Health>().invincible = true;
             playerPoint = playerTransform.position;
             mousePoint = GetCoordinatesFromMouse();
             float xdiff = mousePoint.x - playerPoint.x;
@@ -44,6 +45,7 @@ public class BrushAttack : MeleeAttack
     
     public override void onAttackCompletion() {
         playerController.inControl = true;
+        playerController.GetComponent<Health>().invincible = false;
     }
 }
 

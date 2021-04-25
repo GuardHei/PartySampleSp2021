@@ -367,7 +367,7 @@ MonoBehaviour:
     type: 3}
   markerPrefab: {fileID: 3848625248194119568, guid: 3274bf6302063455eb7e604c628c8f8f,
     type: 3}
-  damage: 10
+  damage: 20
   paintCost: 5
   attackRadius: 1
   attackDelay: 2
@@ -545,13 +545,28 @@ PrefabInstance:
       objectReference: {fileID: 6069560532309513527}
     - target: {fileID: -3349557536197108823, guid: 25df07f5b462bc94880f18150ea33a11,
         type: 3}
-      propertyPath: m_Enabled
-      value: 1
+      propertyPath: cooldownLength
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -3349557536197108823, guid: 25df07f5b462bc94880f18150ea33a11,
+        type: 3}
+      propertyPath: delay
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -3349557536197108823, guid: 25df07f5b462bc94880f18150ea33a11,
+        type: 3}
+      propertyPath: paintCost
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 9135560674130578885, guid: 25df07f5b462bc94880f18150ea33a11,
         type: 3}
       propertyPath: m_Name
       value: Hammer
+      objectReference: {fileID: 0}
+    - target: {fileID: 9135560674130578936, guid: 25df07f5b462bc94880f18150ea33a11,
+        type: 3}
+      propertyPath: damage
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 9135560674130578938, guid: 25df07f5b462bc94880f18150ea33a11,
         type: 3}
@@ -561,7 +576,7 @@ PrefabInstance:
     - target: {fileID: 9135560674130578938, guid: 25df07f5b462bc94880f18150ea33a11,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7631
+      value: -0.3
       objectReference: {fileID: 0}
     - target: {fileID: 9135560674130578938, guid: 25df07f5b462bc94880f18150ea33a11,
         type: 3}
