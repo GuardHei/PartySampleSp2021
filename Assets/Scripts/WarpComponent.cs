@@ -44,7 +44,7 @@ public class WarpComponent : MonoBehaviour
     
     public void WarpExterior() // (this is the game mechanic!!!)
     {
-        if (!_warpable) return;
+        if (_spriteRenderer.isVisible || !_warpable) return;
         Vector3 pos = transform.position;
         WarpManager wm = WarpManager.Instance;
         Vector2 camPos = wm._mainCamera.transform.position;

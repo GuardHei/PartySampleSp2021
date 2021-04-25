@@ -5,12 +5,12 @@ public class TurretBullet : MonoBehaviour
 {
 
     public int _damage = int.MaxValue;
-    public float _movespeed = 0.3f;
+    public float _movespeed = 10f;
 
     void Update()
     {
         Transform trns = transform;
-        trns.position += trns.up * _movespeed;
+        trns.position += Time.deltaTime * _movespeed * trns.up;
     }
 
     private void OnTriggerEnter2D(Collider2D target)

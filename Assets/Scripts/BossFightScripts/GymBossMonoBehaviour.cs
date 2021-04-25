@@ -57,6 +57,15 @@ public class GymBossMonoBehaviour : MonoBehaviour
     protected Collider2D targetCollider;
     protected Health targetHealth;
     protected Rigidbody2D rigidBody;
+    protected Animator animator;
+    protected int actionState = Animator.StringToHash("ActionState");
+    protected int horizontalVelocity = Animator.StringToHash("HorizontalVelocity");
+
+    protected enum ActionState
+    {
+        IDLE = 0, WALKING = 1, CHARGING = 2, SMASHING = 3, FIREWALL = 4, SPINNING = 5, DODGEBALL_AP = 6,
+        DODGEBALL_ATTACK = 7, DODGEBALL_BACKSWING = 8
+    }
 
     protected enum DistanceLevel
     {
@@ -79,6 +88,9 @@ public class GymBossMonoBehaviour : MonoBehaviour
         targetHealth = target.GetComponent<Health>();
         health = GetComponent<Health>();
         rigidBody = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        animator.SetInteger(actionState, (int) ActionState.IDLE);
+        animator.SetFloat(horizontalVelocity, 0);
     }
     protected void Start()
     {
@@ -90,14 +102,14 @@ public class GymBossMonoBehaviour : MonoBehaviour
         bool unreachable = false;
         foreach (Collider2D unreachableArea in unreachableAreas)
         {
-            if (targetCollider.IsTouching(unreachableArea))
+            if (unreachableArea.bounds.Contains(target.transform.position))
             {
                 unreachable = true;
             }
         }
         if (unreachable)
         {
-            FirewallAttack();
+            Delayed(1.0f, FirewallAttackCoroutine());
             return;
         }
         switch (GetDistanceLevel())
@@ -247,17 +259,22 @@ public class GymBossMonoBehaviour : MonoBehaviour
     {
         StopAllCoroutines();
         rigidBody.velocity = Vector2.zero;
+        animator.SetFloat(horizontalVelocity, rigidBody.velocity.x);
         StartCoroutine(NavigateTowardsTargetCoroutine());
     }
 
     public IEnumerator NavigateTowardsTargetCoroutine()
     {
+        
+        animator.SetInteger(actionState, (int) ActionState.WALKING);
+        
         DistanceLevel originalDistanceLevel = GetDistanceLevel();
         float addedMoveSpeed = 0.0f;
         while (GetDistanceLevel() == originalDistanceLevel && Random.Range(0.0f, 1.0f) < 0.99f)
         {
             Vector2 displacement = target.transform.position - transform.position;
             rigidBody.velocity = (moveSpeed + addedMoveSpeed) * displacement.normalized;
+            animator.SetFloat(horizontalVelocity, rigidBody.velocity.x);
             addedMoveSpeed += Time.deltaTime * moveSpeed;
             yield return null;
         }
@@ -273,6 +290,9 @@ public class GymBossMonoBehaviour : MonoBehaviour
 
     public IEnumerator SmashAttackCoroutine()
     {
+        
+        animator.SetInteger(actionState, (int) ActionState.SMASHING);
+        
         // PARAMS
         float attackPointCountdown = 0.8f;
         float backswingCountdown = 0.2f;
@@ -309,6 +329,7 @@ public class GymBossMonoBehaviour : MonoBehaviour
     {
         StopAllCoroutines();
         rigidBody.velocity = Vector2.zero;
+        animator.SetFloat(horizontalVelocity, rigidBody.velocity.x);
         StartCoroutine(DodgeballAttackCoroutine());
     }
 
@@ -322,8 +343,10 @@ public class GymBossMonoBehaviour : MonoBehaviour
         float backswingCountdown = 0.4f;
         
         // ATTACK POINT
+        animator.SetInteger(actionState, (int) ActionState.DODGEBALL_AP);
         Vector2 displacement_direction = (target.transform.position - transform.position).normalized;
         rigidBody.velocity = -chargeSpeed * displacement_direction;
+        animator.SetFloat(horizontalVelocity, rigidBody.velocity.x);
         while (attackPointCountdown > 0.0f)
         {
             attackPointCountdown -= Time.deltaTime;
@@ -331,6 +354,7 @@ public class GymBossMonoBehaviour : MonoBehaviour
         }
         
         // ATTACK
+        animator.SetInteger(actionState, (int) ActionState.DODGEBALL_ATTACK);
         while (numToThrow > 0)
         {
             for (int spawn = 0; spawn < 1; spawn += 1)
@@ -350,6 +374,7 @@ public class GymBossMonoBehaviour : MonoBehaviour
         }
         
         // BACKSWING
+        animator.SetInteger(actionState, (int) ActionState.DODGEBALL_BACKSWING);
         while (backswingCountdown > 0.0f)
         {
             backswingCountdown -= Time.deltaTime;
@@ -368,6 +393,7 @@ public class GymBossMonoBehaviour : MonoBehaviour
     
     public IEnumerator ChargeAttackCoroutine()
     {
+        animator.SetInteger(actionState, (int) ActionState.CHARGING);
         Vector3 displacement = target.transform.position - transform.position;
         float chargeCountdown = (displacement.magnitude / chargeSpeed) + 0.4f;
         displacement.Normalize();
@@ -376,8 +402,10 @@ public class GymBossMonoBehaviour : MonoBehaviour
             if (targetCollider.IsTouching(collider))
             {
                 targetHealth?.Hit(chargeDamage);
+                DetermineNextAction();
             }
             rigidBody.velocity = chargeSpeed * displacement.normalized;
+            animator.SetFloat(horizontalVelocity, rigidBody.velocity.x);
             chargeCountdown -= Time.deltaTime;
             yield return null;
         }
@@ -388,14 +416,20 @@ public class GymBossMonoBehaviour : MonoBehaviour
     {
         StopAllCoroutines();
         rigidBody.velocity = Vector2.zero;
+        animator.SetFloat(horizontalVelocity, rigidBody.velocity.x);
         StartCoroutine(FirewallAttackCoroutine());
     }
     
     public IEnumerator FirewallAttackCoroutine()
     {
+        
+        animator.SetInteger(actionState, (int) ActionState.FIREWALL);
+        
         // PARAMS
         float attackPointCountdown = 1.6f;
         float backswingCountdown = 0.2f;
+        
+        rigidBody.constraints = RigidbodyConstraints2D.FreezeAll;
         
         // ATTACK POINT
         while (attackPointCountdown > 0.0f)
@@ -415,18 +449,44 @@ public class GymBossMonoBehaviour : MonoBehaviour
             backswingCountdown -= Time.deltaTime;
             yield return null;
         }
+        
+        rigidBody.constraints = RigidbodyConstraints2D.FreezeRotation;
+        
         DetermineNextAction();
+    }
+
+    public void Delayed(float delay, IEnumerator routine)
+    {
+        StopAllCoroutines();
+        rigidBody.velocity = Vector2.zero;
+        animator.SetFloat(horizontalVelocity, rigidBody.velocity.x);
+        StartCoroutine(DelayedCoroutine(delay, routine));
+    }
+
+    public IEnumerator DelayedCoroutine(float delay, IEnumerator routine)
+    {
+        animator.SetInteger(actionState, (int) ActionState.IDLE);
+        rigidBody.constraints = RigidbodyConstraints2D.FreezeAll;
+        yield return new WaitForSeconds(delay);
+        rigidBody.constraints = RigidbodyConstraints2D.FreezeRotation;
+        rigidBody.velocity = Vector2.zero;
+        animator.SetFloat(horizontalVelocity, rigidBody.velocity.x);
+        StartCoroutine(routine);
     }
 
     public void SpinAttack()
     {
         StopAllCoroutines();
         rigidBody.velocity = Vector2.zero;
+        animator.SetFloat(horizontalVelocity, rigidBody.velocity.x);
         StartCoroutine(SpinAttackCoroutine());
     }
 
     public IEnumerator SpinAttackCoroutine()
     {
+        
+        animator.SetInteger(actionState, (int) ActionState.SPINNING);
+        
         // PARAMS
         float attackPointCountdown = 0.4f;
         int numToThrow = Random.Range(5, 10);
@@ -455,6 +515,7 @@ public class GymBossMonoBehaviour : MonoBehaviour
             }
             numToThrow -= 1;
             rigidBody.velocity = chargeSpeed * new Vector3(Random.Range(-1.0f, 1.0f), Random.Range(-1.0f, 1.0f)).normalized;
+            animator.SetFloat(horizontalVelocity, rigidBody.velocity.x);
             yield return new WaitForSeconds(throwInterval);
         }
         
