@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 //[CreateAssetMenu(fileName = "DialogueManager")] // (uncomment if you ever need to remake this asset)
 public class DialogueManager : ScriptableObject
