@@ -22,13 +22,17 @@ public class InfoDisplay : MonoBehaviour {
 		sb.Append("\nPlayer Paint: ");
 		if (playerPaint) sb.Append(playerPaint.paint);
 		if (playerHammer) {
-			sb.Append("\nHammer ATK: ");
-			sb.Append(playerHammer.cooldown ? "Cooling" : "Ready");
+			sb.Append("\nHammer: ");
+			if (playerHammer.cooldown) sb.Append("Cooling");
+			else if (playerHammer.paintCost > playerPaint.paint) sb.Append("Paint Out!");
+			else sb.Append("Ready");
 		}
 
 		if (playerRanged) {
-			sb.Append("\nSniper ATK: ");
-			sb.Append(playerRanged.cd > 0 ? "Cooling" : "Ready");
+			sb.Append("\nSniper: ");
+			if (playerRanged.cd > 0) sb.Append("Cooling");
+			else if (playerRanged.paintCost > playerPaint.paint) sb.Append("Paint Out!");
+			else sb.Append("Ready");
 		}
 		
 		display.text = sb.ToString();
