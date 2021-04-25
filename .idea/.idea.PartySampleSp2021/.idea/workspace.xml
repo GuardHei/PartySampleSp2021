@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb465b6c-2361-4be5-a108-c3ab29b44a5b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Basic Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Basic Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/LevelLoader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/LevelLoader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/LevelLoadingDoor.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/LevelLoadingDoor.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/LevelReset.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/LevelReset.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/Path Point.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/Path Point.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/StartingLevel.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/StartingLevel.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/StealthLevel1.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/StealthLevel1.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/StealthLevel2.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/StealthLevel2.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PaintScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PaintScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Stealth Levels/StartingLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Stealth Levels/StartingLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Stealth Levels/StealthLevel1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Stealth Levels/StealthLevel1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Stealth Levels/StealthLevel2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Stealth Levels/StealthLevel2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Locker.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +44,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PaintDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BrushAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PaintPickup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Locker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WarpPuzzle/UnfocusedTurret.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PaintResource.cs" root0="FORCE_HIGHLIGHTING" />
@@ -83,6 +69,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locker.cs" />
       </list>
     </option>
   </component>
@@ -175,7 +163,8 @@
       <workItem from="1619154254475" duration="5665000" />
       <workItem from="1619160979858" duration="644000" />
       <workItem from="1619162523171" duration="806000" />
-      <workItem from="1619269036655" duration="148000" />
+      <workItem from="1619269036655" duration="394000" />
+      <workItem from="1619318302750" duration="2396000" />
     </task>
     <servers />
   </component>

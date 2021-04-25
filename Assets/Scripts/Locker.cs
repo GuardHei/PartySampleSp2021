@@ -5,7 +5,7 @@ using UnityEngine;
 public class Locker : MonoBehaviour
 {
     public KeyCode keyToPress = KeyCode.E;
-    public GameObject other;
+    private GameObject other;
     private bool lockerbool;
     private bool inLocker;
 

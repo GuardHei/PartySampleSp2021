@@ -820,6 +820,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &922395676 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2157221041054834448, guid: eeb220cd20d96435da1738754ecf0e79,
+    type: 3}
+  m_PrefabInstance: {fileID: 2157221039460507930}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b7d8c2baa072488ea3376b9de471332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1006675279
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1838,6 +1850,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Basic Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 2157221041054834460, guid: eeb220cd20d96435da1738754ecf0e79,
+        type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2157221041054834460, guid: eeb220cd20d96435da1738754ecf0e79,
+        type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnNew
+      objectReference: {fileID: 0}
+    - target: {fileID: 2157221041054834460, guid: eeb220cd20d96435da1738754ecf0e79,
+        type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2157221041054834460, guid: eeb220cd20d96435da1738754ecf0e79,
+        type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2157221041054834460, guid: eeb220cd20d96435da1738754ecf0e79,
+        type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 922395676}
+    - target: {fileID: 2157221041054834460, guid: eeb220cd20d96435da1738754ecf0e79,
+        type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2157221041054834460, guid: eeb220cd20d96435da1738754ecf0e79,
+        type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eeb220cd20d96435da1738754ecf0e79, type: 3}
