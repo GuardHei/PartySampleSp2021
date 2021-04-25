@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
@@ -14,6 +15,14 @@ public class StandardEnemyMovementAI : MonoBehaviour {
 	public bool inPath;
 	public List<PathPoint> pathPoints = new List<PathPoint>();
 	public int currentPathPoint;
+
+	public bool canAttack;
+	private bool isAttacking = false;
+	public float attackingDistance;
+	public float attackWindup = 0.8f;
+	public float attackCooldown = 0.2f;
+	public GameObject hitboxPrefab;
+	public int attackDamage;
 
 	public Sprite upSprite;
 	public Sprite downSprite;
@@ -59,13 +68,18 @@ public class StandardEnemyMovementAI : MonoBehaviour {
 
 	public void MoveTowardsPlayer() {
 		if (currentTarget == null) return;
+		if (isAttacking) return;
 		var distance = currentTarget.position - transform.position;
 		var mag = distance.magnitude;
+		if (canAttack && mag <= attackingDistance) {
+			velocity = Vector2.zero;
+			Attack();
+			return;
+		}
 		if (mag <= stoppingDistance) {
 			velocity = Vector2.zero;
 			return;
 		}
-		
 		var dir = ChooseDirection(distance);
 		Turn(dir);
 		velocity = speed * distance / mag;
@@ -140,6 +154,28 @@ public class StandardEnemyMovementAI : MonoBehaviour {
 	public bool ReachCurrentPathPoint(Vector2 distance, float threshold = .05f) {
 		if (pathPoints[currentPathPoint] == null) return false;
 		return distance.magnitude <= threshold;
+	}
+
+	public void Attack() {
+		isAttacking = true;
+		StartCoroutine(AttackCoroutine());
+	}
+
+	public IEnumerator AttackCoroutine() {
+		GameObject hitbox = Instantiate(hitboxPrefab);
+        hitbox.transform.position = currentTarget.position;
+        SmashMonoBehaviour smb = hitbox.GetComponent<SmashMonoBehaviour>();
+        smb.damage = attackDamage;
+
+		smb.countdownTimer = attackWindup;
+		for (float i = attackWindup; i > 0.0f; i -= Time.deltaTime) {
+            yield return null;
+        }
+        
+        for (float i = attackCooldown; i > 0.0f; i -= Time.deltaTime) {
+            yield return null;
+        }
+		isAttacking = false;
 	}
 }
 

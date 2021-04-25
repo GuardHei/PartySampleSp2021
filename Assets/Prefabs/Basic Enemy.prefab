@@ -175,8 +175,8 @@ GameObject:
   - component: {fileID: 2157221041054834460}
   - component: {fileID: 2157221041054834463}
   - component: {fileID: 2157221041054834462}
-  - component: {fileID: 2157221041054834451}
   - component: {fileID: 2157221041054834448}
+  - component: {fileID: -8391400461560890414}
   m_Layer: 8
   m_Name: Basic Enemy
   m_TagString: Enemy
@@ -192,7 +192,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2157221041054834457}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.95, y: 2.71, z: -1}
+  m_LocalPosition: {x: 2.95, y: 2.71, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2157221041069479186}
@@ -275,8 +275,8 @@ MonoBehaviour:
   onDeath:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2157221041054834451}
-        m_MethodName: 
+      - m_Target: {fileID: -8391400461560890414}
+        m_MethodName: DropAll
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -334,20 +334,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &2157221041054834451
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2157221041054834457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fede2a4c713e0749a2c57bc692a928a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  paintObj: {fileID: 3630240892932594177, guid: ce6bb805acc9d5c44989cef14a16259e,
-    type: 3}
 --- !u!114 &2157221041054834448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -367,6 +353,13 @@ MonoBehaviour:
   inPath: 0
   pathPoints: []
   currentPathPoint: 0
+  canAttack: 1
+  attackingDistance: 2
+  attackWindup: 0.8
+  attackCooldown: 0.2
+  hitboxPrefab: {fileID: 8868318482043361641, guid: 6758d3e7e847cc644aaa5af8c124a490,
+    type: 3}
+  attackDamage: 2
   upSprite: {fileID: 8717839340260309707, guid: d483d86e656c54bc196639b371e8fa19,
     type: 3}
   downSprite: {fileID: -8338988178478854807, guid: d483d86e656c54bc196639b371e8fa19,
@@ -383,6 +376,20 @@ MonoBehaviour:
   left: {fileID: 2157221041069479186}
   right: {fileID: 2157221041069479186}
   velocity: {x: 0, y: 0}
+--- !u!114 &-8391400461560890414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2157221041054834457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf1a07d554901b42baf54a484c1445f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 3630240892932594177, guid: ce6bb805acc9d5c44989cef14a16259e, type: 3}
 --- !u!1 &2157221041069479197
 GameObject:
   m_ObjectHideFlags: 0
