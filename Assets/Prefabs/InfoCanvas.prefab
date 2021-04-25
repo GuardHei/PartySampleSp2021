@@ -11,8 +11,6 @@ GameObject:
   - component: {fileID: 4835294870820031777}
   - component: {fileID: 4835294870820031789}
   - component: {fileID: 4835294870820031788}
-  - component: {fileID: 4835294870820031791}
-  - component: {fileID: 4835294870820031790}
   m_Layer: 5
   m_Name: Boss Info
   m_TagString: Untagged
@@ -80,37 +78,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
---- !u!114 &4835294870820031791
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4835294870820031776}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2710367eafe2374f86cc6dcc99d3e03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  paintText: {fileID: 4835294870820031788}
-  player: {fileID: 0}
---- !u!114 &4835294870820031790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4835294870820031776}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207b7218c449843439117ff0f6058aad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  display: {fileID: 4835294870820031788}
-  playerHealth: {fileID: 0}
-  playerPaint: {fileID: 0}
-  bossInfoDisplay: {fileID: 0}
-  bossHealth: {fileID: 0}
 --- !u!1 &4835294871990271891
 GameObject:
   m_ObjectHideFlags: 0
@@ -320,5 +287,7 @@ MonoBehaviour:
   display: {fileID: 4835294872417944815}
   playerHealth: {fileID: 0}
   playerPaint: {fileID: 0}
+  playerHammer: {fileID: 0}
+  playerRanged: {fileID: 0}
   bossInfoDisplay: {fileID: 4835294870820031788}
   bossHealth: {fileID: 0}

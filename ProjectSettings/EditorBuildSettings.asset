@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Stealth Levels/StealthLevel2.unity
     guid: 24c14c77746ace640b7402fb1872d8d6
   - enabled: 1
+    path: Assets/Scenes/CombatLevel1.unity
+    guid: 5597f565241ae2f44a0bd0341f81c187
+  - enabled: 1
     path: Assets/Scenes/WarpCameraLevels/WCScene1.unity
     guid: bed8903511445406980ad68923fdb233
   - enabled: 1

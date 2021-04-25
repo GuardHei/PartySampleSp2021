@@ -24,16 +24,21 @@
           <e p="DialogueManager.cs" t="Include" />
           <e p="DialogueMonoBehaviour.cs" t="Include" />
           <e p="DialogueSettings.cs" t="Include" />
+          <e p="DoorObj.cs" t="Include" />
           <e p="FlipSensor.cs" t="Include" />
           <e p="HammerAttack.cs" t="Include" />
           <e p="Health.cs" t="Include" />
           <e p="HitboxController.cs" t="Include" />
           <e p="InfoDisplay.cs" t="Include" />
+          <e p="ItemDrop.cs" t="Include" />
+          <e p="KeyItem.cs" t="Include" />
           <e p="LevelLoader.cs" t="Include" />
           <e p="LevelReset.cs" t="Include" />
           <e p="LoadSceneMonobehaviour.cs" t="Include" />
           <e p="Locker.cs" t="Include" />
           <e p="MeleeAttack.cs" t="Include" />
+          <e p="NewBehaviourScript.cs" t="Include" />
+          <e p="OnAllDead.cs" t="Include" />
           <e p="OnPlayerEnterTrigger.cs" t="Include" />
           <e p="OnSceneStart.cs" t="Include" />
           <e p="PaintDisplay.cs" t="Include" />

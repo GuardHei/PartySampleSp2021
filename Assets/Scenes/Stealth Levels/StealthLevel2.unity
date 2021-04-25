@@ -196,7 +196,7 @@ PrefabInstance:
     - target: {fileID: 3705197235286561598, guid: 594a77b8f3be6004caa756a6f3dc011c,
         type: 3}
       propertyPath: destinationSceneName
-      value: WCScene1
+      value: CombatLevel1
       objectReference: {fileID: 0}
     - target: {fileID: 7445642849125251041, guid: 594a77b8f3be6004caa756a6f3dc011c,
         type: 3}

@@ -2699,6 +2699,10 @@ PrefabInstance:
       propertyPath: startingPaint
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1782592428, guid: 88c0a218711134935b0cee021d16d6df, type: 3}
+      propertyPath: paint
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6069560532309513522, guid: 88c0a218711134935b0cee021d16d6df,
         type: 3}
       propertyPath: canWarp

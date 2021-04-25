@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb465b6c-2361-4be5-a108-c3ab29b44a5b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/CameraEffectMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/CameraEffectMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BulletPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BulletPrefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Stealth Levels/StartingLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Stealth Levels/StartingLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/InfoCanvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/InfoCanvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BossFight.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BossFight.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CombatLevel1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CombatLevel1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Stealth Levels/StealthLevel2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Stealth Levels/StealthLevel2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WarpCameraLevels/WCScene3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WarpCameraLevels/WCScene3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/WarpCameraLevels.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/WarpCameraLevels/WCScene4.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Submissions/WarpCameraLevels/WCScene4.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,11 +49,15 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PaintPickup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/83FB2797-B55E-4383-AAE9-E15220A067E6/c9/9e78322e/Camera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Locker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OnAllDead.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WarpPuzzle/UnfocusedTurret.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WarpManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WarpPuzzle/TurretBullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WarpPuzzle/Key.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MeleeAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorial/CoroutineTutorial.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/83FB2797-B55E-4383-AAE9-E15220A067E6/e3/fe9d55bc/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HammerAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18296D29-697F-423C-917B-EC027CBA889E/b0/a5704e44/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoadSceneMonobehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -72,9 +74,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/BossFightScripts/GymBossMonoBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HammerAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BossFightScripts/BossPowerSourceMonoBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MeleeAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RangedAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InfoDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MeleeAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BrushAttack.cs" />
       </list>
     </option>
@@ -174,6 +176,7 @@
       <workItem from="1619329024032" duration="4830000" />
       <workItem from="1619334319539" duration="1000" />
       <workItem from="1619334369681" duration="1769000" />
+      <workItem from="1619353278980" duration="4257000" />
     </task>
     <servers />
   </component>
