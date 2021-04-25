@@ -196,6 +196,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaintObj (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3630240892932594179, guid: ce6bb805acc9d5c44989cef14a16259e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3695421030737995989, guid: 07489bb1383ff4b68be64c8c4df8d24a,
+        type: 3}
     - target: {fileID: 3630240892932594180, guid: ce6bb805acc9d5c44989cef14a16259e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1406,6 +1412,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaintObj (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3630240892932594179, guid: ce6bb805acc9d5c44989cef14a16259e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3695421030737995989, guid: 07489bb1383ff4b68be64c8c4df8d24a,
+        type: 3}
     - target: {fileID: 3630240892932594180, guid: ce6bb805acc9d5c44989cef14a16259e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1481,6 +1493,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaintObj (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3630240892932594179, guid: ce6bb805acc9d5c44989cef14a16259e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3695421030737995989, guid: 07489bb1383ff4b68be64c8c4df8d24a,
+        type: 3}
     - target: {fileID: 3630240892932594180, guid: ce6bb805acc9d5c44989cef14a16259e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1556,6 +1574,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaintObj (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 3630240892932594179, guid: ce6bb805acc9d5c44989cef14a16259e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3943550541402848944, guid: 07489bb1383ff4b68be64c8c4df8d24a,
+        type: 3}
     - target: {fileID: 3630240892932594180, guid: ce6bb805acc9d5c44989cef14a16259e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2754,6 +2778,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaintObj (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 3630240892932594179, guid: ce6bb805acc9d5c44989cef14a16259e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3695421030737995989, guid: 07489bb1383ff4b68be64c8c4df8d24a,
+        type: 3}
     - target: {fileID: 3630240892932594180, guid: ce6bb805acc9d5c44989cef14a16259e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2829,6 +2859,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaintObj (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3630240892932594179, guid: ce6bb805acc9d5c44989cef14a16259e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3943550541402848944, guid: 07489bb1383ff4b68be64c8c4df8d24a,
+        type: 3}
     - target: {fileID: 3630240892932594180, guid: ce6bb805acc9d5c44989cef14a16259e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3326,6 +3362,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaintObj (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3630240892932594179, guid: ce6bb805acc9d5c44989cef14a16259e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3695421030737995989, guid: 07489bb1383ff4b68be64c8c4df8d24a,
+        type: 3}
     - target: {fileID: 3630240892932594180, guid: ce6bb805acc9d5c44989cef14a16259e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31235,6 +31277,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaintObj (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3630240892932594179, guid: ce6bb805acc9d5c44989cef14a16259e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3943550541402848944, guid: 07489bb1383ff4b68be64c8c4df8d24a,
+        type: 3}
     - target: {fileID: 3630240892932594180, guid: ce6bb805acc9d5c44989cef14a16259e,
         type: 3}
       propertyPath: m_LocalPosition.x

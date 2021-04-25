@@ -109,7 +109,7 @@ public class GymBossMonoBehaviour : MonoBehaviour
         }
         if (unreachable)
         {
-            Delayed(1.0f, FirewallAttackCoroutine());
+            Delayed(1.2f, FirewallAttackCoroutine());
             return;
         }
         switch (GetDistanceLevel())
