@@ -402,6 +402,7 @@ public class GymBossMonoBehaviour : MonoBehaviour
             if (targetCollider.IsTouching(collider))
             {
                 targetHealth?.Hit(chargeDamage);
+                DetermineNextAction();
             }
             rigidBody.velocity = chargeSpeed * displacement.normalized;
             animator.SetFloat(horizontalVelocity, rigidBody.velocity.x);
