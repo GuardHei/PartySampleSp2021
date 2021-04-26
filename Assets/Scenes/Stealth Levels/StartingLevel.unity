@@ -2824,6 +2824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bgm: {fileID: 8300000, guid: 1989da7a30bce474db0a015feb3387fe, type: 3}
+  bgm2: {fileID: 8300000, guid: 06715af07ca164da09bd4ac12f62a3a0, type: 3}
   bossBgm: {fileID: 8300000, guid: bcc72689ce7364d07a285f5b35c8619d, type: 3}
   source: {fileID: 1847418605}
 --- !u!4 &1847418607

@@ -8,7 +8,6 @@ public class DialogueMonoBehaviour : MonoBehaviour
     public Text speaker;
     public Text text;
     public Image image;
-    public Button button;
     public AudioSource audioSource;
     private float currTime;
     private int lastTextLength;
@@ -34,11 +33,14 @@ public class DialogueMonoBehaviour : MonoBehaviour
             audioSource.Play();
             lastTextLength = currTextLength;
         }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Close();
+        }
     }
 
     public void Close()
     {
-        print("Close()");
         if (currTime < settings.textDisplayTime) // complete text message
         {
             currTime = settings.textDisplayTime;
@@ -47,7 +49,6 @@ public class DialogueMonoBehaviour : MonoBehaviour
         {
             Time.timeScale = 1.0f; // (would need to cache old value if we ever try to mutate this elsewhere)
             settings.onClose.Invoke();
-            print("Settings.nextDialogue is null: " + (settings.nextDialogue == null));
             if (settings.nextDialogue) DialogueManager.Instance.Open(settings.nextDialogue);
             GameObject o = gameObject;
             o.SetActive(false); // unsure if needed (I know destroy can be delayed, but it might already do this)
