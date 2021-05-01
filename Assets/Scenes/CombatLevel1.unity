@@ -230,6 +230,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd8e524ab5e66434b9d82bef6024ec63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &40198918 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -2493604545081909356, guid: 88c0a218711134935b0cee021d16d6df,
+    type: 3}
+  m_PrefabInstance: {fileID: 40198914}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785955039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08574a0d390521a4580d36bd7ec2aece, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &50421126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -347,6 +359,7 @@ MonoBehaviour:
   speaker: 
   text: Now, give the guy over there a bunny execution!
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: -8338988178478854807, guid: d483d86e656c54bc196639b371e8fa19, type: 3}
   textDisplayTime: 2
   onOpen:
@@ -382,6 +395,7 @@ MonoBehaviour:
   speaker: Bunny Narrator
   text: After 2s, the bunny sniper will shot at the marker. And you'll pay in paint.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: -5876770535298123720, guid: 07489bb1383ff4b68be64c8c4df8d24a, type: 3}
   textDisplayTime: 3
   onOpen:
@@ -406,6 +420,7 @@ MonoBehaviour:
   speaker: Sniper Narrator
   text: Click the middle button will place a rabbit marker on the ground.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 21300000, guid: 60c1d01d74a874df4917d7be0dcd03b4, type: 3}
   textDisplayTime: 1.5
   onOpen:
@@ -430,6 +445,7 @@ MonoBehaviour:
   speaker: Narrator
   text: No worries! We have the bunny sniper for you!
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: -5876770535298123720, guid: 07489bb1383ff4b68be64c8c4df8d24a, type: 3}
   textDisplayTime: 1
   onOpen:
@@ -454,6 +470,7 @@ MonoBehaviour:
   speaker: Narrator Bro
   text: Hmmm, can't reach the other side because of the door?
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 0}
   textDisplayTime: 2
   onOpen:
@@ -6436,6 +6453,7 @@ MonoBehaviour:
   speaker: Sniper Narrator
   text: Click the middle button will place a rabbit marker on the ground.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 21300000, guid: 60c1d01d74a874df4917d7be0dcd03b4, type: 3}
   textDisplayTime: 1.5
   onOpen:
@@ -6460,6 +6478,7 @@ MonoBehaviour:
   speaker: Narrator
   text: No worries! We have the bunny sniper for you!
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: -5876770535298123720, guid: 07489bb1383ff4b68be64c8c4df8d24a, type: 3}
   textDisplayTime: 1
   onOpen:
@@ -6484,6 +6503,7 @@ MonoBehaviour:
   speaker: Narrator Bro
   text: Hmmm, can't reach the other side because of the holes on the ground?
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 0}
   textDisplayTime: 2
   onOpen:
@@ -6588,6 +6608,7 @@ MonoBehaviour:
   speaker: Bunny Narrator
   text: After 2s, the bunny sniper will shot at the marker. And you'll pay in paint.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: -5876770535298123720, guid: 07489bb1383ff4b68be64c8c4df8d24a, type: 3}
   textDisplayTime: 3
   onOpen:
@@ -6612,6 +6633,7 @@ MonoBehaviour:
   speaker: 
   text: Now, give the guy over there a bunny execution!
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: -8338988178478854807, guid: d483d86e656c54bc196639b371e8fa19, type: 3}
   textDisplayTime: 2
   onOpen:
@@ -21272,6 +21294,7 @@ MonoBehaviour:
   speaker: Narrator Bro
   text: Our hero gets a weapon -- a paint brush! Left click to perform a swipe attack.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 2489947976036240076, guid: 063941cce4bf24a86850317c2dadfd13, type: 3}
   textDisplayTime: 2
   onOpen:
@@ -21296,6 +21319,7 @@ MonoBehaviour:
   speaker: Narrator
   text: Our hero cannot move while attack. So don't put yourself into trouble!
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 0}
   textDisplayTime: 2
   onOpen:
@@ -21320,6 +21344,7 @@ MonoBehaviour:
   speaker: Narrator
   text: Sneak or Fight? It's your choice!
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 2080873888644159696, guid: 1e4b1323336c10543984711326e8f4ef, type: 3}
   textDisplayTime: 1.5
   onOpen:
@@ -21821,6 +21846,7 @@ MonoBehaviour:
   text: Some enemy will drop paints on death. You can spend paints to perform special
     attacks.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: -6996101955693968462, guid: 07489bb1383ff4b68be64c8c4df8d24a, type: 3}
   textDisplayTime: 3.5
   onOpen:
@@ -21845,6 +21871,7 @@ MonoBehaviour:
   speaker: 
   text: If you run out of paint, you can press R to restart the level.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 0}
   textDisplayTime: 2
   onOpen:
@@ -22412,6 +22439,7 @@ MonoBehaviour:
   speaker: Narrator
   text: Don't forget your hammer move!
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: -1749323835701813880, guid: 07489bb1383ff4b68be64c8c4df8d24a, type: 3}
   textDisplayTime: 1.5
   onOpen:
@@ -22447,6 +22475,7 @@ MonoBehaviour:
   speaker: Narrator Dude
   text: Whoops, trapped!
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 0}
   textDisplayTime: 0.5
   onOpen:
@@ -22636,6 +22665,7 @@ MonoBehaviour:
   speaker: Narrator
   text: Forget to tell you before. You can teleport between certain toilets.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: -5223163663871736524, guid: 29b786006db094e09b9b74dc75ebf88c, type: 3}
   textDisplayTime: 2
   onOpen:
@@ -22660,6 +22690,7 @@ MonoBehaviour:
   speaker: Narrator Bro
   text: Ah, restroom... Such a special place.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 0}
   textDisplayTime: 0.5
   onOpen:
@@ -22753,6 +22784,7 @@ MonoBehaviour:
   speaker: 
   text: Press E to flush, and you are off to another toilet!
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 0}
   textDisplayTime: 1.5
   onOpen:
@@ -23357,7 +23389,18 @@ MonoBehaviour:
       m_Calls: []
   onDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 40198918}
+        m_MethodName: ResetLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!1001 &1821807889
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23889,6 +23932,7 @@ MonoBehaviour:
   speaker: Narrator
   text: There is another enemy ahead, and I'll teach you the first special move.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 0}
   textDisplayTime: 2
   onOpen:
@@ -23982,6 +24026,7 @@ MonoBehaviour:
   speaker: 
   text: It takes time to charge, but our hero is invincible during this time period!
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 0}
   textDisplayTime: 2
   onOpen:
@@ -24017,6 +24062,7 @@ MonoBehaviour:
   speaker: Narrator
   text: Right click to perform a powerful hammer smash!
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: -1749323835701813880, guid: 07489bb1383ff4b68be64c8c4df8d24a, type: 3}
   textDisplayTime: 1.5
   onOpen:
