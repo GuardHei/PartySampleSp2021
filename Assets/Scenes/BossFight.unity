@@ -309,6 +309,7 @@ MonoBehaviour:
   speaker: 
   text: Farewell...
   letterSound: {fileID: 0}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 0}
   textDisplayTime: 2.07
   onOpen:
@@ -366,6 +367,7 @@ MonoBehaviour:
   speaker: Gym Teacher
   text: Simply leave us all behind.
   letterSound: {fileID: 0}
+  speakerSound: {fileID: 0}
   sprite: {fileID: -3588229512158965765, guid: dfbc9fcd839dc4aa68a3c5c6655cff83, type: 3}
   textDisplayTime: 1.55
   onOpen:
@@ -390,6 +392,7 @@ MonoBehaviour:
   speaker: Gym Teacher
   text: I will not stop you. Simply press 'Q'.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: -3588229512158965765, guid: dfbc9fcd839dc4aa68a3c5c6655cff83, type: 3}
   textDisplayTime: 2.88
   onOpen:
@@ -414,6 +417,7 @@ MonoBehaviour:
   speaker: Gym Teacher
   text: If you truly want to wake up, go ahead.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: -2424553518018739129, guid: dfbc9fcd839dc4aa68a3c5c6655cff83, type: 3}
   textDisplayTime: 1.66
   onOpen:
@@ -438,6 +442,7 @@ MonoBehaviour:
   speaker: Gym Teacher
   text: I give up.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 7801903984715115176, guid: dfbc9fcd839dc4aa68a3c5c6655cff83, type: 3}
   textDisplayTime: 0
   onOpen:
@@ -462,6 +467,7 @@ MonoBehaviour:
   speaker: Gym Teacher
   text: You win...
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: -5888845342232556802, guid: dfbc9fcd839dc4aa68a3c5c6655cff83, type: 3}
   textDisplayTime: 1.5
   onOpen:
@@ -486,6 +492,7 @@ MonoBehaviour:
   speaker: Gym Teacher
   text: I cannot take anymore of this.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 8300000, guid: 43d2bebc4b1e44f2b9f03f44ed26786a, type: 3}
   sprite: {fileID: 7801903984715115176, guid: dfbc9fcd839dc4aa68a3c5c6655cff83, type: 3}
   textDisplayTime: 2.25
   onOpen:
@@ -701,6 +708,7 @@ MonoBehaviour:
   speaker: Gym Teacher
   text: MUHHAHAA!!! My left power source has replenished. I am invincible!!
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: -7366506907712603825, guid: dfbc9fcd839dc4aa68a3c5c6655cff83, type: 3}
   textDisplayTime: 2.9
   onOpen:
@@ -2120,6 +2128,7 @@ MonoBehaviour:
   speaker: Gym Teacher
   text: MUHHAHA!!! My right power source has replenished myself. I am invincible!
   letterSound: {fileID: 0}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 7801903984715115176, guid: dfbc9fcd839dc4aa68a3c5c6655cff83, type: 3}
   textDisplayTime: 3.2
   onOpen:
@@ -2396,6 +2405,7 @@ MonoBehaviour:
   speaker: Narrator Bro
   text: GOOD LUCK KIDDO!
   letterSound: {fileID: 0}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 0}
   textDisplayTime: 1.22
   onOpen:
@@ -2420,6 +2430,7 @@ MonoBehaviour:
   speaker: Narrator
   text: NOW AINT THAT SOME SCARY, DANK BOSS?
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 0}
   textDisplayTime: 2.25
   onOpen:
@@ -2444,6 +2455,7 @@ MonoBehaviour:
   speaker: Gym Teacher
   text: MWUHHHAHAHAHAHA!!!
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: -7366506907712603825, guid: dfbc9fcd839dc4aa68a3c5c6655cff83, type: 3}
   textDisplayTime: 3
   onOpen:
@@ -2468,6 +2480,7 @@ MonoBehaviour:
   speaker: Gym Teacher?
   text: So you will never learn that my 2 power generators respawn every 2 minutes!
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: -8990159373727262165, guid: 07489bb1383ff4b68be64c8c4df8d24a, type: 3}
   textDisplayTime: 3
   onOpen:
@@ -2492,6 +2505,7 @@ MonoBehaviour:
   speaker: Gym Teacher
   text: That last dialogue was too long for you to read!!!!
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 7801903984715115176, guid: dfbc9fcd839dc4aa68a3c5c6655cff83, type: 3}
   textDisplayTime: 2.36
   onOpen:
@@ -2518,6 +2532,7 @@ MonoBehaviour:
     generators in each of the adjacent rooms!!!! And these two generators respawn
     every 2 minutes!!!!
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: -2424553518018739129, guid: dfbc9fcd839dc4aa68a3c5c6655cff83, type: 3}
   textDisplayTime: 3.37
   onOpen:
@@ -2543,6 +2558,7 @@ MonoBehaviour:
   text: You'd best be ready! Because I am literally invincible. You cannot defeat
     me.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: -3588229512158965765, guid: dfbc9fcd839dc4aa68a3c5c6655cff83, type: 3}
   textDisplayTime: 4.05
   onOpen:
@@ -2567,6 +2583,7 @@ MonoBehaviour:
   speaker: Gym Teacher
   text: I'm going to keep you from leaving the dream, punk!
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: -2424553518018739129, guid: dfbc9fcd839dc4aa68a3c5c6655cff83, type: 3}
   textDisplayTime: 2.39
   onOpen:
@@ -2591,6 +2608,7 @@ MonoBehaviour:
   speaker: Narrator Dude
   text: COME TO STOP YOU FROM LEAVING THE DREAM!!!!
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 0}
   textDisplayTime: 2.09
   onOpen:
@@ -2615,6 +2633,7 @@ MonoBehaviour:
   speaker: Narrator
   text: IT IS THE GYM TEACHER!!!
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 0}
   textDisplayTime: 2.02
   onOpen:
@@ -2639,6 +2658,7 @@ MonoBehaviour:
   speaker: Narrator
   text: BEHOLD!!!!
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 8300000, guid: 72c1ecdb85cfa42cb89d19951d267d4a, type: 3}
   sprite: {fileID: 0}
   textDisplayTime: 4.07
   onOpen:

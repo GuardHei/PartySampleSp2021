@@ -363,6 +363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c064fadf447f7b4da267138d7ede14a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sfx: {fileID: 8300000, guid: 5e854ff8b4cf440c3a2ae69c4a73a114, type: 3}
   rangedAttackerPrefab: {fileID: 4063218249767843426, guid: 2c5a03d1d1474f94a86e15c264aeb035,
     type: 3}
   markerPrefab: {fileID: 3848625248194119568, guid: 3274bf6302063455eb7e604c628c8f8f,
@@ -374,6 +375,7 @@ MonoBehaviour:
   range: 10
   cooldownLength: 2.5
   attackButton: 325
+  cd: 0
 --- !u!114 &1782592428
 MonoBehaviour:
   m_ObjectHideFlags: 0

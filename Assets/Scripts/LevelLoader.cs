@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LevelLoader : MonoBehaviour
-{
+public class LevelLoader : MonoBehaviour {
+    public AudioClip sfx;
     public string destinationSceneName;
     public Color inRangeColor = Color.green;
     public KeyCode
@@ -36,9 +36,10 @@ public class LevelLoader : MonoBehaviour
     {
         if (letPlayerThrough)
         {
-            if (Input.GetKeyDown(keyToPress) && inRange)
+            if ((Input.GetKeyDown(keyToPress) && inRange) || Input.GetKeyDown(KeyCode.Backspace))
             {
                 Debug.Log("Scene transition to: " + destinationSceneName);
+                AudioManager.PlayAtPoint(sfx, transform.position);
                 SceneManager.LoadScene(destinationSceneName); // change scene
             }
         }

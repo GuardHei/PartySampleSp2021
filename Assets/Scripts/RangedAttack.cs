@@ -3,8 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RangedAttack : MonoBehaviour
-{
+public class RangedAttack : MonoBehaviour {
+    public AudioClip sfx;
     public GameObject rangedAttackerPrefab; // unit that spawns and looks like it attacks
     public GameObject markerPrefab;
     public int damage;
@@ -52,6 +52,11 @@ public class RangedAttack : MonoBehaviour
             else
             {
                 Debug.Log("Attack start.");
+                // subtract paint
+                if (usesPaint)
+                {
+                    paintResource.SubPaint(paintCost);
+                }
                 attackPoint = point;
                 cd = cooldownLength;
                 screenBounds = GetScreenBounds();
@@ -163,17 +168,12 @@ public class RangedAttack : MonoBehaviour
      */
     private void Attack()
     {
+        if (sfx) AudioManager.PlayAtPoint(sfx, attackPoint);
         Collider2D[] hits = Physics2D.OverlapCircleAll(attackPoint, attackRadius);
         foreach (var hit in hits)
         {
             if (hit == null) break;
             if (hit.TryGetComponent(out Health health)) health.Hit(damage);
-        }
-
-        // subtract paint
-        if (usesPaint)
-        {
-            paintResource.SubPaint(paintCost);
         }
     }
 }

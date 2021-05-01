@@ -37,7 +37,6 @@
           <e p="LoadSceneMonobehaviour.cs" t="Include" />
           <e p="Locker.cs" t="Include" />
           <e p="MeleeAttack.cs" t="Include" />
-          <e p="NewBehaviourScript.cs" t="Include" />
           <e p="OnAllDead.cs" t="Include" />
           <e p="OnPlayerEnterTrigger.cs" t="Include" />
           <e p="OnSceneStart.cs" t="Include" />

@@ -8,6 +8,7 @@ public class DialogueSettings : MonoBehaviour
     public string speaker;
     [TextArea(6, 10)] public string text;
     public AudioClip letterSound;
+    public AudioClip speakerSound;
     public Sprite sprite;
     [Range(0.0f, 10.0f)] public float textDisplayTime;
     public UnityEvent onOpen;

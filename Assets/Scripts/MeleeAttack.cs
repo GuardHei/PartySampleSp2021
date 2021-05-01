@@ -8,6 +8,7 @@ public class MeleeAttack : MonoBehaviour {
     public float attackLength;
     public float cooldownLength;
     public bool ignoreArmor;
+    public AudioClip sfx;
     [HideInInspector]
     public bool cooldown;
     
@@ -22,6 +23,7 @@ public class MeleeAttack : MonoBehaviour {
     
     public IEnumerator AttackCoroutine() {
         yield return new WaitForSeconds(delay);
+        if (sfx) AudioManager.PlayAtPoint(sfx, transform.position);
         GetComponent<SpriteRenderer>().enabled = true;
         GetComponent<Animator>().SetInteger(ParamAttackType, attackType);
         GetComponent<HitboxController>().Attack(ignoreArmor);

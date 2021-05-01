@@ -335,7 +335,6 @@ MonoBehaviour:
   speaker: {fileID: 4380038567593962602}
   text: {fileID: 965164986916156658}
   image: {fileID: 965164986971552033}
-  button: {fileID: 0}
   audioSource: {fileID: 7177983498312761593}
 --- !u!1 &965164988058940823
 GameObject:
@@ -541,7 +540,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.05
   m_Pitch: 1
   Loop: 0
   Mute: 0

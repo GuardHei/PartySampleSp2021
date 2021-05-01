@@ -151,6 +151,8 @@ MonoBehaviour:
   attackLength: 0.75
   cooldownLength: 300
   ignoreArmor: 1
+  sfx: {fileID: 8300000, guid: 2e66798bfec764b909ff93a0fc3a7529, type: 3}
+  cooldown: 0
   paintCost: 20
   attackButton: 324
   player: {fileID: 0}

@@ -122,5 +122,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38c2457efb1b8924d9dab969b48b24d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sfx: {fileID: 8300000, guid: c084ace3eb1de4ecf9ab5e20fae01d95, type: 3}
   teleportTo: {fileID: 0}
   keyToPress: 101

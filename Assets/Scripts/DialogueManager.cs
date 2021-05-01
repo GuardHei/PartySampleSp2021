@@ -20,6 +20,7 @@ public class DialogueManager : ScriptableObject
         GameObject newDialogue = Instantiate(dialoguePrefab);
         DialogueMonoBehaviour dialogueMonoBehaviour = newDialogue.GetComponentInChildren<DialogueMonoBehaviour>();
         dialogueMonoBehaviour.settings = dialogue;
+        AudioManager.PlayAtPoint(dialogue.speakerSound, GameObject.FindWithTag("Player").transform.position);
         dialogueMonoBehaviour.Initialize();
     }
 }

@@ -120,6 +120,8 @@ MonoBehaviour:
   attackLength: 0.3
   cooldownLength: 0.05
   ignoreArmor: 0
+  sfx: {fileID: 8300000, guid: f91ea194000e946dab9f03df8eadafb7, type: 3}
+  cooldown: 0
   attackButton: 323
   player: {fileID: 0}
 --- !u!95 &4654589917009903960

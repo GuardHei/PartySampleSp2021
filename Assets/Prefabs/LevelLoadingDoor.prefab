@@ -121,6 +121,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca00eb23191d947428a4a5078fe84d0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sfx: {fileID: 8300000, guid: 3c2299c609d374532989e7dfa76843f4, type: 3}
   destinationSceneName: 
-  transitionKey: 0
+  inRangeColor: {r: 0, g: 1, b: 0, a: 1}
+  keyToPress: 32
   letPlayerThrough: 1

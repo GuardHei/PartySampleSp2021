@@ -4878,6 +4878,7 @@ MonoBehaviour:
   speaker: Narrator
   text: Try using 'M' to find an object to block the dodgeballs with.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 0}
   textDisplayTime: 2
   onOpen:
@@ -4913,6 +4914,7 @@ MonoBehaviour:
   speaker: Narrator
   text: If you could find something to block them with, you could pass.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 0}
   textDisplayTime: 1.6
   onOpen:
@@ -4937,6 +4939,7 @@ MonoBehaviour:
   speaker: Narrator
   text: Careful of those dodgeballs. If they touch you, you will have to restart.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 0}
   textDisplayTime: 2.3
   onOpen:
@@ -4982,6 +4985,7 @@ MonoBehaviour:
   speaker: Narrator
   text: Now try moving to the left of the room.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 2080873888644159696, guid: 1e4b1323336c10543984711326e8f4ef, type: 3}
   textDisplayTime: 1.5
   onOpen:
@@ -5043,6 +5047,7 @@ MonoBehaviour:
   speaker: Narrator
   text: Take a few seconds to appreciate how impossible this puzzle is.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 2080873888644159696, guid: 1e4b1323336c10543984711326e8f4ef, type: 3}
   textDisplayTime: 2.3
   onOpen:
@@ -5078,6 +5083,7 @@ MonoBehaviour:
   speaker: Narrator Bro
   text: Now we face a new kind of obstacle, with a new mechanic!
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 2080873888644159696, guid: 1e4b1323336c10543984711326e8f4ef, type: 3}
   textDisplayTime: 1.86
   onOpen:
@@ -5269,6 +5275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e1a30e8f124644e7bbc238615dd5249, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextScene: WCScene3
 --- !u!1001 &1187417814
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5445,6 +5452,7 @@ MonoBehaviour:
   speaker: Narrator
   text: Notice where the yellow wall would be if it were in your frame.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 0}
   textDisplayTime: 2.3
   onOpen:
@@ -5469,6 +5477,7 @@ MonoBehaviour:
   speaker: Narrator Bud
   text: Good Luck!
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 0}
   textDisplayTime: 1.7
   onOpen:
@@ -5504,6 +5513,7 @@ MonoBehaviour:
   speaker: Narrator
   text: This is pretty close to a functional inverse of the 'X' key.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 0}
   textDisplayTime: 2.3
   onOpen:
@@ -5528,6 +5538,7 @@ MonoBehaviour:
   speaker: Narrator
   text: Press 'Z' to move the yellow wall, outside of your view, onto this frame.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 0}
   textDisplayTime: 2.4
   onOpen:
@@ -5552,6 +5563,7 @@ MonoBehaviour:
   speaker: Narrator
   text: It would lie on the screen, where the right 'frame' is covering.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 0}
   textDisplayTime: 2.1
   onOpen:

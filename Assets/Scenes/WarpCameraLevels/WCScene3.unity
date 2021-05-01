@@ -885,6 +885,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e1a30e8f124644e7bbc238615dd5249, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextScene: WCScene4
 --- !u!1001 &933998982
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14259,6 +14260,7 @@ MonoBehaviour:
   speaker: Narrator
   text: Fueled by an unmentionable passion to venture on.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 0}
   textDisplayTime: 2.3
   onOpen:
@@ -14283,6 +14285,7 @@ MonoBehaviour:
   speaker: Narrator
   text: And so our hero continued their perilous journey through the dream.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
+  speakerSound: {fileID: 0}
   sprite: {fileID: 0}
   textDisplayTime: 2
   onOpen:
