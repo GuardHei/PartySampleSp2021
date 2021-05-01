@@ -21843,7 +21843,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speaker: Narrator
-  text: Some enemy will drop paints on death. You can spend paints to perform special
+  text: Some enemies will drop paints on death. You can spend paints to perform special
     attacks.
   letterSound: {fileID: 8300000, guid: 7a325db16b7914ab6b2ce83d364e1d6d, type: 3}
   speakerSound: {fileID: 0}
