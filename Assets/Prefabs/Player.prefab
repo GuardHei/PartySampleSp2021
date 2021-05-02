@@ -292,7 +292,7 @@ MonoBehaviour:
   warpExteriorKey: 122
   mapViewKey: 109
   replayKey: 114
-  quitKey: 113
+  quitKey: 112
   animator: {fileID: 3102436236076972262}
   rigidbody2D: {fileID: 6069560532309513521}
   face: {fileID: 2678930610395402761}

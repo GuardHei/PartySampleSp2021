@@ -2,32 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb465b6c-2361-4be5-a108-c3ab29b44a5b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PartySampleSp2021/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/CameraEffectMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/CameraEffectMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Brush.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Brush.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hammer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Hammer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelLoadingDoor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelLoadingDoor.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Toilet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Toilet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DialoguePrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DialoguePrefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/BossFight.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BossFight.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Stealth Levels/StartingLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Stealth Levels/StartingLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WarpCameraLevels/WCScene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WarpCameraLevels/WCScene1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WarpCameraLevels/WCScene2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WarpCameraLevels/WCScene2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WarpCameraLevels/WCScene3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WarpCameraLevels/WCScene3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WarpCameraLevels/WCScene4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WarpCameraLevels/WCScene4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CombatLevel1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CombatLevel1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadSceneMonobehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LoadSceneMonobehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MeleeAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MeleeAttack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RangedAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RangedAttack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Teleport.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Teleport.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +27,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RangedAttacker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/BossFight.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RangedAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Stealth Levels/StartingLevel.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Basic Enemy.prefab" root0="FORCE_HIGHLIGHTING" />
@@ -108,10 +89,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/RangedAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Teleport.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LoadSceneMonobehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DialogueMonoBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LoadSceneMonobehaviour.cs" />
       </list>
     </option>
   </component>
@@ -214,6 +195,7 @@
       <workItem from="1619361839651" duration="4334000" />
       <workItem from="1619366711883" duration="2137000" />
       <workItem from="1619858909983" duration="3051000" />
+      <workItem from="1619942971168" duration="160000" />
     </task>
     <servers />
   </component>
